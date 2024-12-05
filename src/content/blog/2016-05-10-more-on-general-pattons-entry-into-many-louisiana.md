@@ -1,0 +1,19 @@
+---
+author: "hallm"
+pubDatetime: 2016-05-10T00:00:00
+title: "More on General Pattons entry into Many Louisiana"
+ogImage: "../../assets/images/image-1-1024x778.jpeg"
+featured: true
+draft: false
+description: "More on General Pattons entry into Many Louisiana"
+---
+
+[](https://allthingssabine.com/wp-content/uploads/2016/05/image.jpeg)[![image](images/image-1-1024x778.jpeg)](https://allthingssabine.com/wp-content/uploads/2016/05/image-1.jpeg)​By ​​​​RICKEY ROBERTSON
+
+NOTE:  Rickey Robertson's previous article on General George Patton's entry into Many, Louisiana (Sabine Parish... During the World War II Maneuvers) was incredibly well received.  The article generated over 50 shares and was viewed by over 35,000 people.  Robertson is a local historian and collector of anything related to the military and has notably researched and reported on and shared information and photos from the World War II Maneuvers in Louisiana.  Here is a follow up from Robertson on his previous article (yay!)
+
+​In the April, 2016, (I had completed and published) an article named “Patton’s Entry into Many”. This told the story of General George Patton and his arrival at St. John’s Catholic Church in Many, La. to find a major traffic jam stopping his 2nd Armored Division from advancing south. Due to his disruption of services being held at the church, the Parish Priest had gone outside and called Patton down.
+
+Due to this story I have received so many favorable comments and phone calls on this vital part of Sabine Parish and Many, La. history that I had to share some information given me by some of the readers about the priest, the church, and the event. ​Betty Skinner of the Belmont Community has been a parishioner at St. John’s since she was a little girl living about 3 miles outside of Many on the Shuteye Road. She was thrilled to see a picture of her church just as it was in the 1940’s when General Patton came through in the maneuvers. She noticed that I did not have the name of the Parish Priest who encountered General Patton. Mrs. Skinner was able to provide information that the Priest at St. John’s was Father J. A. Benoit and he was the one who called down Patton as he ranted and raved at the traffic jam by the church. Father Benoit was the Parish Priest from 1935 to 1951 and he was originally from Canada. Father Benoit long remembered his encounter with General Patton and told his story many times during his tenure at St. John’s. ​Maud Evans Brown who lives in the Clearwater Community of Sabine Parish in Ward 2 also had remembrances of Father Benoit. Mrs. Brown and her first husband were married by Father Benoit at St. John’s Catholic Church in 1939. The story on Patton and the priest brought back memories for her also. ​And another reader from Leesville told me that during the maneuvers 3rd Street in Leesville was swamped with both civilian and military vehicles and parking spots were very hard to get. This readers grandfather and General Patton arrived at the only available parking spot at the same time. Neither would let the other park so they got out of their vehicles and Patton thrashed the man from Vernon Parish and he in turn thrashed Patton. Don’t know who got the parking spot but they put on a good show for everyone on 3rd Street! Patton was into something everywhere he went! ​And several people enquired about getting a historical marker. This will fall onto the Town of Many to possibly work with the State of Louisiana in having a marker placed at this historic site. It is a site that needs to be remembered for all generations and to let visitors learn of this historical site. Thank you so much for your great input on this story. May the stories and legends of General Patton in Sabine Parish never be forgotten !
+
+[![image](images/image-1024x728.jpeg)](https://allthingssabine.com/wp-content/uploads/2016/05/image.jpeg)
