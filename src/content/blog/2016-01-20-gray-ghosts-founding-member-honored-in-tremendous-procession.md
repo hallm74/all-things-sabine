@@ -4,6 +4,7 @@ pubDatetime: 2016-01-20T00:00:00
 title: "Gray Ghosts founding member honored in tremendous procession"
 featured: false
 draft: false
+ogImage: https://i.ytimg.com/vi/s1R26PI4TgM/maxresdefault.jpg
 description: "Gray Ghosts founding member honored in tremendous procession"
 ---
 
