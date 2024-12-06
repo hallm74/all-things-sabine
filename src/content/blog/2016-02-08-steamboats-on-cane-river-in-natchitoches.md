@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-08T00:00:00
 title: "Steamboats on Cane River in Natchitoches"
 ogImage: "../../assets/images/steamboat2-1024x744.jpg"

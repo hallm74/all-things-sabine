@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-28T00:00:00
 title: "A bridge going bye and directional disorientation adventure in Logansport Louisiana"
 ogImage: "../../assets/images/DJI_0028-1024x768.jpg"

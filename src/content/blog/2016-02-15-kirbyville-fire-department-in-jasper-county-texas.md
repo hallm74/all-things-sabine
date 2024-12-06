@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-15T00:00:00
 title: "Kirbyville Fire Department in Jasper County Texas"
 ogImage: "../../assets/images/ats-kirbyville-fire-1024x799.jpg"

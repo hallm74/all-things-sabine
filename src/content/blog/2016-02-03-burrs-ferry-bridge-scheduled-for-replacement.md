@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-03T00:00:00
 title: "Burrs Ferry Bridge over Sabine River scheduled for replacement"
 ogImage: "../../assets/images/YUN00006-1024x576.jpg"

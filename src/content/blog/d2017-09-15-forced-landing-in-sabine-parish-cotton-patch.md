@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-09-15T00:00:00
 title: "Forced landing in Sabine Parish cotton patch"
 ogImage: "../../assets/images/IMG_9280.jpg"

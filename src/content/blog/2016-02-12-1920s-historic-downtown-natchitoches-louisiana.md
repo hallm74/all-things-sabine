@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-12T00:00:00
 title: "1920s historic downtown Natchitoches Louisiana"
 ogImage: "../../assets/images/old-natchitoches-775x1024.jpg"

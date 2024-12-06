@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-04-05T00:00:00
 title: "Keep Hodges Gardens State Park open"
 ogImage: "../../assets/images/img338-1024x652.jpg"

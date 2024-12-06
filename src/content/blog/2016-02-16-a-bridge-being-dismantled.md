@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-16T00:00:00
 title: "A bridge being dismantled"
 ogImage: "../../assets/images/logansport-bridgenew4-1024x768.jpg"

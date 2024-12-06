@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-12T00:00:00
 title: "Kisatchie Bayou"
 ogImage: "../../assets/images/DJI_0032-1024x768.jpg"

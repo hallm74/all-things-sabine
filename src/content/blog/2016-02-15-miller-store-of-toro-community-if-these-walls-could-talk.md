@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-15T00:00:00
 title: "Miller Store of Toro Community  If these walls could talk"
 ogImage: "../../assets/images/YUN00001-1024x576.jpg"

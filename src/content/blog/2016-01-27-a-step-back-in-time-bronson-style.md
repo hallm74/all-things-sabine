@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-27T00:00:00
 title: "A step back in time Bronsonstyle"
 ogImage: "../../assets/images/ats-bronson2-1024x683.jpg"

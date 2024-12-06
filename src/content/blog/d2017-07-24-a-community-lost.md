@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-07-24T00:00:00
 title: "A Community Lost"
 ogImage: "../../assets/images/pineflat-school.jpg"

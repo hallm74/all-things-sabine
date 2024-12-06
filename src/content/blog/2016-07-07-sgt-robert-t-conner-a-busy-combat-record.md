@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-07-07T00:00:00
 title: "Sgt Robert T Conner  A busy combat record"
 ogImage: "../../assets/images/image-1024x768.png"

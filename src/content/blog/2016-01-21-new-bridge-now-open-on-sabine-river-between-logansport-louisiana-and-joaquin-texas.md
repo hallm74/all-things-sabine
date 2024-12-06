@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-21T00:00:00
 title: "New bridge now open over Sabine River between Logansport Louisiana and Joaquin Texas"
 ogImage: "../../assets/images/bridges-1024x878.jpg"

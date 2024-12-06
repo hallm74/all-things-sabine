@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-06-20T00:00:00
 title: "Louisiana Long Leaf Lumber Company in Fisher Louisiana"
 ogImage: "../../assets/images/fisher-mill-copy-1024x193.jpg"

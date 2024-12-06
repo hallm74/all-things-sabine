@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-06-24T00:00:00
 title: "A Desperate Affray  Handtohand duel in early Zwolle Louisiana"
 ogImage: "../../assets/images/The_Times_Fri__Jun_11__1948_-506x1024.jpg"

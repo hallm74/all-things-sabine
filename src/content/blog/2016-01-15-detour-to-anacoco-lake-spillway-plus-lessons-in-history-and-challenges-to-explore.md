@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-15T00:00:00
 title: "Fun detour to Anacoco Lake Spillway plus lessons in history and challenges to explore more"
 ogImage: "../../assets/images/Screenshot-2016-01-14-22.07.39.png"

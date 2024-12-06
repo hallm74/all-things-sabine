@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-09-12T00:00:00
 title: "Scanned slides of Hodges Gardens from 1970s"
 ogImage: "../../assets/images/img338-1024x652.jpg"

@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-05-03T00:00:00
 title: "The Home of the Woman Who Refused to Marry Ulysses S Grant"
 ogImage: "../../assets/images/ka.jpg"

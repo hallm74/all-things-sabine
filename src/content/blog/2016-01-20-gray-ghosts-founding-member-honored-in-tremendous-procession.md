@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-20T00:00:00
 title: "Gray Ghosts founding member honored in tremendous procession"
 featured: false

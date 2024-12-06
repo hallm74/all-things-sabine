@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-07-08T00:00:00
 title: "Peavy Wilson Lumber Company of Peason Louisiana"
 ogImage: "../../assets/images/IMG_4898-1024x603.jpg"

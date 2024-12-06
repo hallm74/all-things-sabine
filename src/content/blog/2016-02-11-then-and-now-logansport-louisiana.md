@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-11T00:00:00
 title: "Then and Now  Logansport Louisiana"
 ogImage: "../../assets/images/thenandnow-logansport.jpg"

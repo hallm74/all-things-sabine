@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-06T00:00:00
 title: "Bit by bit and piece by piece the Logansport bridge is coming down"
 ogImage: "../../assets/images/DJI_0022-1024x768.jpg"

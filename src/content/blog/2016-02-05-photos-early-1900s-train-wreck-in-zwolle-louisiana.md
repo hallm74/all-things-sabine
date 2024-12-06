@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-05T00:00:00
 title: "Photos  Early 1900s train wreck in Zwolle Louisiana"
 ogImage: "../../assets/images/train-wreck-on-logging-spur-from-zwolle-to-Blue-Lake165-1024x618.jpg"

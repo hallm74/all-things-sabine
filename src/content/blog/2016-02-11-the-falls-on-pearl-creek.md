@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-02-11T00:00:00
 title: "The Falls on Pearl Creek"
 ogImage: "../../assets/images/ats-thefallsnew.jpg"

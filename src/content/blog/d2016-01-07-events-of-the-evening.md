@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-07T00:00:00
 title: "Events of the Evening"
 featured: false

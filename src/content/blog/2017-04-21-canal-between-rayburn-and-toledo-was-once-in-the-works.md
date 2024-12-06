@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-04-21T00:00:00
 title: "Canal between Rayburn and Toledo was once in the works"
 ogImage: "../../assets/images/Longview_News_Journal_Thu__Sep_16__1965_-637x1024.jpg"

@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2016-01-05T00:00:00
 title: "The everelusive quickie detour to Toro Bayou"
 featured: false

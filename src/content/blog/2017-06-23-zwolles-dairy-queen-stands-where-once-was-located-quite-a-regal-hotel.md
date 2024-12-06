@@ -1,5 +1,5 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-06-23T00:00:00
 title: "Zwolles Dairy Queen stands where once was located quite a regal hotel"
 ogImage: "../../assets/images/Arlington-Hotel005-1024x682.jpg"
