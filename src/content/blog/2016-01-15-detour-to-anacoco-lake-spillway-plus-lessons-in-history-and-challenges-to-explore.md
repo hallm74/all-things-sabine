@@ -3,14 +3,13 @@ author: "hallm"
 pubDatetime: 2016-01-15T00:00:00
 title: "Fun detour to Anacoco Lake Spillway plus lessons in history and challenges to explore more"
 ogImage: "../../assets/images/Screenshot-2016-01-14-22.07.39.png"
-featured: true
+featured: false
 draft: false
 description: "Fun detour to Anacoco Lake Spillway plus lessons in history and challenges to explore more"
 ---
 
-![Cover Image](@assets/images/Screenshot-2016-01-14-22.07.39.png)
-
-\[wpdevart\_youtube\]xKroodgeCW8\[/wpdevart\_youtube\]For many years, the most I knew about Anacoco Lake was that I _thought_ could see it on the west side of U.S. Hwy. 171 during my many travels between Sabine Parish, Louisiana to Lake Charles, Louisiana.  I saw it as a scenic lake which appeared to reach many different levels... sometimes it was lush and high, other times it was low with plenty of exposed trees.  Much like a miniature version of Toledo Bend Lake.<!--more-->
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/xKroodgeCW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For many years, the most I knew about Anacoco Lake was that I _thought_ could see it on the west side of U.S. Hwy. 171 during my many travels between Sabine Parish, Louisiana to Lake Charles, Louisiana.  I saw it as a scenic lake which appeared to reach many different levels... sometimes it was lush and high, other times it was low with plenty of exposed trees.  Much like a miniature version of Toledo Bend Lake.<!--more-->
 
 Turns out what I was seeing was actually Anacoco Creek and Vernon Lake, so I have been made aware that I knew even less about this rather large lake than what I _thought_ I knew.
 
@@ -18,7 +17,7 @@ A few months ago, I came across a photo from the Vernon Parish Library which was
 
 Curiosity led to me find out a bit about the lake.  Anacoco Reservoir was formed in 1951 as a result of a State Legislative Act establishing the Anacoco Prairie Game and Fish Preserve and setting aside approximately 5,400 acres "for the construction of recreational waters and lands."
 
-[![anacoco lake](images/anacoco-lake.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/anacoco-lake.jpg)
+![anacoco lake](@assets/images/anacoco-lake.jpg)
 
 Anacoco Lake was created by the impoundment of Anacoco Creek, Caney Creek, Prairie Creek and Sandy Creek with an earthen dam approximately 4,700 feet in length with a 12 ft. crown at elevation 206 ft. mean sea level.  The maximum embankment height is about 37 feet and constructed of homogeneous earth fill with stone rip-rap shore protection.
 
@@ -44,4 +43,4 @@ This is indeed a _good_ thing.  For me and for those who check out All Things S
 
 And it is a good thing for my children... they are remarkable.  They accompany me on these explorations... and they truly enjoy it.  They really do... I'm not just saying this :)  They don't have to come with me... they choose to.  And they participate in so many ways.  I hope their generation can take just a few crumbs of the interest they have in history and what it means to us as humans and to the world around us.  For we could all be better for it.
 
-[![YUN00008](images/YUN00008-300x169.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/YUN00008.jpg)
+![YUN00008](@assets/images/YUN00008spillway.jpg)

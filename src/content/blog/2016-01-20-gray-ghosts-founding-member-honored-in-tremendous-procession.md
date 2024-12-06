@@ -2,13 +2,12 @@
 author: "hallm"
 pubDatetime: 2016-01-20T00:00:00
 title: "Gray Ghosts founding member honored in tremendous procession"
-ogImage: ""
-featured: true
+featured: false
 draft: false
 description: "Gray Ghosts founding member honored in tremendous procession"
 ---
 
-\[wpdevart\_youtube\]s1R26PI4TgM\[/wpdevart\_youtube\]
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/s1R26PI4TgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 We had the honor of capturing footage of the funeral procession of John Franklin Lewis, one of the founding members of the Gray Ghosts Motorcycle Club.  Lewis was laid to rest in Many, Louisiana on Saturday, Jan. 15.
 

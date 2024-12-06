@@ -3,14 +3,14 @@ author: "hallm"
 pubDatetime: 2016-01-21T00:00:00
 title: "New bridge now open over Sabine River between Logansport Louisiana and Joaquin Texas"
 ogImage: "../../assets/images/bridges-1024x878.jpg"
-featured: true
+featured: false
 draft: false
 description: "New bridge now open over Sabine River between Logansport Louisiana and Joaquin Texas"
 ---
 
-\[caption id="attachment\_187" align="aligncenter" width="840"\][![At left, the new bridge between Logansport, Louisiana and Joaquin, Texas is now open to traffic. It is shown at the far left. The old bridge, shown at center, is closed and will eventually be demolished.](images/bridges-1024x878.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/bridges.jpg) At left, the new bridge between Logansport, Louisiana and Joaquin, Texas is now open to traffic. It is shown at the far left. The old bridge, shown at center, is closed and will eventually be demolished.\[/caption\]
+![At left, the new bridge between Logansport, Louisiana and Joaquin, Texas is now open to traffic. It is shown at the far left. The old bridge, shown at center, is closed and will eventually be demolished.](@assets/images/bridges-1024x878.jpg) At left, the new bridge between Logansport, Louisiana and Joaquin, Texas is now open to traffic. It is shown at the far left. The old bridge, shown at center, is closed and will eventually be demolished.
 
-\[caption id="attachment\_188" align="aligncenter" width="840"\][![Photo taken Dec. 1, 2015 shows the new bridge under construction. This bridge is now fully complete](images/bridge4-copy-1024x768.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/bridge4-copy.jpg) Photo taken Dec. 1, 2015 shows the new bridge under construction. This bridge is now fully complete\[/caption\]
+![Photo taken Dec. 1, 2015 shows the new bridge under construction. This bridge is now fully complete](@assets/images/bridge4-copy-1024x768.jpg) Photo taken Dec. 1, 2015 shows the new bridge under construction. This bridge is now fully complete
 
 A brand new bridge which crosses the Sabine River from Logansport, Louisiana to Joaquin, Texas is now open to traffic.
 
@@ -32,4 +32,4 @@ Now that the new bridge is open, the existing bridge will soon be demolished to 
 
 I would love to see a drawing of how it will all come together.
 
-\[wpdevart\_youtube\]\_v9hKsA3tAA\[/wpdevart\_youtube\]
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/_v9hKsA3tAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

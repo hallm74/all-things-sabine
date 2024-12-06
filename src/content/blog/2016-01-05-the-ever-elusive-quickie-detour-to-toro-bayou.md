@@ -2,13 +2,12 @@
 author: "hallm"
 pubDatetime: 2016-01-05T00:00:00
 title: "The everelusive quickie detour to Toro Bayou"
-ogImage: ""
-featured: true
+featured: false
 draft: false
 description: "The everelusive quickie detour to Toro Bayou"
 ---
 
-\[wpdevart\_youtube\]AmkT3OY5nWw\[/wpdevart\_youtube\]
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/AmkT3OY5nWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Toro Bayou, aka Toro Creek, is one of my favorite places to chill and enjoy nature at its finest.  The bayou, or creek as most locals call it, meanders, twists, bends and curves quite a bit between Sabine and Vernon Parishes in West Central Louisiana.
 
