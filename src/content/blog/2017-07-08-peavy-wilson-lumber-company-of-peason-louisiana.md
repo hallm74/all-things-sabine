@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2017-07-08T00:00:00
 title: "Peavy Wilson Lumber Company of Peason Louisiana"
 ogImage: "../../assets/images/IMG_4898-1024x603.jpg"
-featured: true
+featured: false
 draft: false
 description: "Peavy Wilson Lumber Company of Peason Louisiana"
 ---
 
-\[caption id="attachment\_1643" align="aligncenter" width="840"\][![Peavy Wilson Lumber Company Commisary that was located at the Peason Mill. It was operated by the company and was open to everyone. (Robertson Collection)](images/IMG_4898-1024x603.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_4898.jpg) Peavy Wilson Lumber Company Commisary that was located at the Peason Mill. It was operated by the company and was open to everyone. (Robertson Collection)\[/caption\]
+![Peavy Wilson Lumber Company Commisary that was located at the Peason Mill. It was operated by the company and was open to everyone. (Robertson Collection)](@assets/images/IMG_4898-1024x603.jpg) Peavy Wilson Lumber Company Commisary that was located at the Peason Mill. It was operated by the company and was open to everyone. (Robertson Collection)
 
 BY RICKEY ROBERTSON
 
@@ -44,18 +44,18 @@ As you come to Peason on La. Hwy. 118, at the site of the old mill town, stop an
 
 Stop and trace your family tree to the workers and their families who worked and lived at this site. Many memories remain, and for many people, when they hear the words," Old Peason" and "Peavy Wilson Lumber Company", it brings back floods of memories of this former booming sawmill town and the lumber company that built it.
 
-\[caption id="attachment\_1641" align="aligncenter" width="840"\][![Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)](images/IMG_0595-1024x686.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0595.jpg) Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)\[/caption\]
+![Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)]@assets/images/IMG_0595-1024x686.jpg) Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1642" align="aligncenter" width="840"\][![Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)](images/IMG_0596-1024x678.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0596.jpg) Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)\[/caption\]
+![Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)](@assets/images/IMG_0596-1024x678.jpg) Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1644" align="aligncenter" width="840"\][![Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)](images/IMG_4899-1024x660.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_4899.jpg) Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)\[/caption\]
+![Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)](@assets/images/IMG_4899-1024x660.jpg) Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1645" align="aligncenter" width="826"\][![Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)](images/IMG_0599.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0599.jpg) Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)\[/caption\]
+![Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)](@assets/images/IMG_0599.jpg) Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1646" align="aligncenter" width="707"\][![The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)](images/IMG_0600.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0600.jpg) The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)\[/caption\]
+![The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)](@assets/images/IMG_0600.jpg) The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1647" align="aligncenter" width="840"\][![Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)](images/IMG_0601-1024x878.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0601.jpg) Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)\[/caption\]
+![Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)](@assets/images/IMG_0601-1024x878.jpg) Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)\[/caption\]
 
-\[caption id="attachment\_1648" align="aligncenter" width="840"\][![The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)](images/IMG_0602-1024x737.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0602.jpg) The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)\[/caption\]
+![The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)](@assets/images/IMG_0602-1024x737.jpg) The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)\[/caption\]
 
-\[caption id="attachment\_1649" align="aligncenter" width="840"\][![Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)](images/IMG_0603-1024x788.jpg)](https://allthingssabine.com/wp-content/uploads/2017/07/IMG_0603.jpg) Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)\[/caption\]
+![Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)](@assets/images/IMG_0603-1024x788.jpg)Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)\[/caption\]

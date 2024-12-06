@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2016-07-07T00:00:00
 title: "Sgt Robert T Conner  A busy combat record"
 ogImage: "../../assets/images/image-1024x768.png"
-featured: true
+featured: false
 draft: false
 description: "Sgt Robert T Conner  A busy combat record"
 ---
 
-[![image](images/image-1024x768.png)](https://allthingssabine.com/wp-content/uploads/2016/07/image.png)
+![image](@assets/images/image-1024x768.png)
 
 A photo kindly shared by Rickey Robertson, an avid military buff and historian from the Florien, Louisiana area (specifically, from Peason, a community east of Florien in Sabine Parish)... This photo has a neat story.
 
@@ -20,7 +20,7 @@ He was wounded in the First Battle of Manassas in Virginia in 1861 and four oth
 
 Pictured with Conner is his wife, Elizabeth.
 
-[![image](images/image.jpeg)](https://allthingssabine.com/wp-content/uploads/2016/07/image.jpeg)
+![image](@assets/images/image.jpeg)
 
 Sgt. Robert T. Conner was the last Confederate buried on Peason Ridge.
 

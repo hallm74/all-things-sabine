@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-04-20T00:00:00
 title: "The motor that makes it here can make it anywhere"
 ogImage: "../../assets/images/IMG_4326.jpg"
-featured: true
+featured: false
 draft: false
 description: "The motor that makes it here can make it anywhere"
 ---

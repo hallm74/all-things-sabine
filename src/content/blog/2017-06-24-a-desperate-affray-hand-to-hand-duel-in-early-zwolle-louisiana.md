@@ -3,22 +3,20 @@ author: "hallm"
 pubDatetime: 2017-06-24T00:00:00
 title: "A Desperate Affray  Handtohand duel in early Zwolle Louisiana"
 ogImage: "../../assets/images/The_Times_Fri__Jun_11__1948_-506x1024.jpg"
-featured: true
+featured: false
 draft: false
 description: "A Desperate Affray  Handtohand duel in early Zwolle Louisiana"
 ---
 
-[![the_times_fri__jun_11__1948_](images/The_Times_Fri__Jun_11__1948_-506x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/06/The_Times_Fri__Jun_11__1948_.jpg)
+![the_times_fri__jun_11__1948_](@assets/images/The_Times_Fri__Jun_11__1948_-506x1024.jpg)
 
 From The Shreveport Times, 1898
 
 **"A DESPERATE AFFRAY"** A Hand-to-Hand Duel in the Streets of Zwolle
 
-\-----
+`A Nervy Officer Kills his Assaillant After Being Mortally Wounded`
 
-A Nervy Officer Kills his Assaillant After Being Mortally Wounded
-
-\----- "From passengers who reached this city yesterday morning from Zwolle on the K. C. S. road, 62 miles south of this city. comes the particulars of the most desperate affray which occurred in that town Saturday afternoon between 5 and 6.
+"From passengers who reached this city yesterday morning from Zwolle on the K. C. S. road, 62 miles south of this city. comes the particulars of the most desperate affray which occurred in that town Saturday afternoon between 5 and 6.
 
 "A man by the name of Nick Suppicado who lived not far from Zwolle, a Mexican of a quarrelsome disposition, raised a disturbance in Zwolle.
 
