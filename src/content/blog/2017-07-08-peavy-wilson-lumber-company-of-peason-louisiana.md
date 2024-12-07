@@ -16,7 +16,7 @@ As we travel around through Natchitoches, Sabine, and Vernon Parishes it is hard
 
 The problem was lack of rail transportation to ship and haul both the raw and finished timber products. But around 1897 Kansas City Southern and other rail lines began construction of hundreds and hundreds of miles of railroads through the state. The opening of these railroads in this area brought the lumber companies to Louisiana's virgin timberlands.
 
-In southeast Sabine Parish in 1916, A.J. Peavy, a logger who had decided to become a lumberman, purchased a tract of land of over 40,000 acres. Mr. Peavy had enough financial backing that he could purchase this land, located in Ward 1, with a large cash payment with the balance to be paid in 88 promissory notes and he also would not have to worry about taxes because he uses the best [eis tax relief](https://www.metricaccountants.co.uk/eis/) scheme.
+In southeast Sabine Parish in 1916, A.J. Peavy, a logger who had decided to become a lumberman, purchased a tract of land of over 40,000 acres. Mr. Peavy had enough financial backing that he could purchase this land, located in Ward 1, with a large cash payment with the balance to be paid in 88 promissory notes.
 
 Additional lands were also acquired by Mr. Peavy. Knowing the logging industry, but not knowing the mill and lumber business, he partnered with R. J. Wilson who was an experienced mill manager. Peavy Wilson Lumber Company was now formed.
 
@@ -46,16 +46,16 @@ Stop and trace your family tree to the workers and their families who worked and
 
 ![Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)]@assets/images/IMG_0595-1024x686.jpg) Historical marker to the sawmill town of Peason, Louisiana is located at the Peason Memorial Park. The park is located on La. Hwy 118 at the site of the town and mill. (Robertson Collection)\[/caption\]
 
-![Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)](@assets/images/IMG_0596-1024x678.jpg) Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)\[/caption\]
+![Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)](@assets/images/IMG_0596-1024x678.jpg) Historical marker to the Heritage Families of Peason Ridge located in the Peason Memorial Park. (Robertson Collection)
 
-![Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)](@assets/images/IMG_4899-1024x660.jpg) Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)\[/caption\]
+![Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)](@assets/images/IMG_4899-1024x660.jpg) Peavy Wilson Lumber Company built Peason High School where all the local children could receive an education. (Robertson Collection)
 
-![Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)](@assets/images/IMG_0599.jpg) Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)\[/caption\]
+![Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)](@assets/images/IMG_0599.jpg) Peavy Wilson Lumber Company mill located at Peason, La. (Robertson Collection)
 
-![The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)](@assets/images/IMG_0600.jpg) The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)\[/caption\]
+![The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)](@assets/images/IMG_0600.jpg) The Peason Hotel operated in the mill town of Peason. This hotel had 134 rooms and a large restaurant in it. (Robertson Collection)
 
-![Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)](@assets/images/IMG_0601-1024x878.jpg) Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)\[/caption\]
+![Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)](@assets/images/IMG_0601-1024x878.jpg) Office staff of Peavy Wilson Lumber Company in Peason, La. (Robertson Collection)
 
-![The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)](@assets/images/IMG_0602-1024x737.jpg) The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)\[/caption\]
+![The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)](@assets/images/IMG_0602-1024x737.jpg) The trolley that ran from Peason to Sandel and back each day carried passengers and cargo. Malley Handley was the operator of the trolley. (HPL Collection)
 
-![Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)](@assets/images/IMG_0603-1024x788.jpg)Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)\[/caption\]
+![Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)](@assets/images/IMG_0603-1024x788.jpg)Photograph of the Peason Mill pond taken in 1919. This large pond is still located at the old mill site. Photo taken in 1919. (HPL Collection)
