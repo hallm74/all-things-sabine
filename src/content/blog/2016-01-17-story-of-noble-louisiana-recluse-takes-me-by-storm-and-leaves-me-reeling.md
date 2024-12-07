@@ -142,20 +142,20 @@ And that will have to suffice.
 
 "Smokey" can be ordered through Amazon by clicking this link:  [http://www.amazon.com/Smokey-Remarkable-Reclusive-Inventor-Herbert/dp/1449993575](http://www.amazon.com/Smokey-Remarkable-Reclusive-Inventor-Herbert/dp/1449993575).
 
-![Patented plans for Herbert Irwin's smoke absorbent meat smoker, one of his later in life projects](@assets/images/ats-smokey3-1024x835.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey3.jpg) Patented plans for Herbert Irwin's smoke absorbent meat smoker, one of his later in life projects
+![Patented plans for Herbert Irwin's smoke absorbent meat smoker, one of his later in life projects](@assets/images/ats-smokey3-1024x835.jpg)Patented plans for Herbert Irwin's smoke absorbent meat smoker, one of his later in life projects
 
-![Above, Herbert Irwin's home some time after his death. Now, (below) the property is immaculately kept. A company in Shreveport owns the land. ](@assets/images/ats-smokey2.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey2.jpg) Above, Herbert Irwin's home some time after his death. Now, (below) the property is immaculately kept. A company in Shreveport owns the land. Photo provided by Jackie Knott.
+![Above, Herbert Irwin's home some time after his death. Now, (below) the property is immaculately kept. A company in Shreveport owns the land. ](@assets/images/ats-smokey2.jpg) Above, Herbert Irwin's home some time after his death. Now, (below) the property is immaculately kept. A company in Shreveport owns the land. Photo provided by Jackie Knott.
 
 ![Smokey house](@assets/images/ats-smokey-house-1024x768.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey-house.jpg)
 
-![Levered windows with metal screens opened and closed along the length of the top of the building to provide air and light and thereby enable Herbert to live at least somewhat comfortably without ever having to subscribe to electricity](@assets/images/ats-smokey-house2-1024x768.jpg)](https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey-house2.jpg) Levered windows with metal screens opened and closed along the length of the top of the building to provide air and light and thereby enable Herbert to live at least somewhat comfortably without ever having to subscribe to electricity
+![Levered windows with metal screens opened and closed along the length of the top of the building to provide air and light and thereby enable Herbert to live at least somewhat comfortably without ever having to subscribe to electricity](@assets/images/ats-smokey-house2-1024x768.jpg) Levered windows with metal screens opened and closed along the length of the top of the building to provide air and light and thereby enable Herbert to live at least somewhat comfortably without ever having to subscribe to electricity
 
-![Fortified](@assets/images/ats-smokey6-768x1024.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey6.jpg) There were only two doors to the giant building... both were deliberately strong and fortified
+![Fortified](@assets/images/ats-smokey6-768x1024.jpg) There were only two doors to the giant building... both were deliberately strong and fortified
 
-![Stenciling](@assets/images/ats-smokey7-1024x944.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey7.jpg) Herbert Irwin himself created and placed stencils about his metal (all the metal for his home was train car metal). The stenciling you see here shows this was metal he had shipped from Texas to Florida in the early 1940s.\[/caption\]
+![Stenciling](@assets/images/ats-smokey7-1024x944.jpg) Herbert Irwin himself created and placed stencils about his metal (all the metal for his home was train car metal). The stenciling you see here shows this was metal he had shipped from Texas to Florida in the early 1940s.
 
-![OCD](@assets/images/ats-smokey9-1024x768.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey9.jpg) All bolts and rivets were evenly and perfectly spaced throughout the entire building
+![OCD](@assets/images/ats-smokey9-1024x768.jpg) All bolts and rivets were evenly and perfectly spaced throughout the entire building
 
-!["Windows"](@assets/images/ats-smokey8-1024x768.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey8.jpg)
+!["Windows"](@assets/images/ats-smokey8-1024x768.jpg)
 
-![An aerial from 1960s or 70s, some time after Herbert Irwin relocated to Noble, Louisiana. Provided by "Smokey" author Jackie Knott, the photo shows: ; #1 is Smokey's building, #2 is the Mayor Knott and family house, #3 the Noble Mercantile.](@assets/images/ats-smokey-1-819x1024.jpg)(https://allthingssabine.com/wp-content/uploads/2016/01/ats-smokey-1.jpg) An aerial from 1960s or 70s, some time after Herbert Irwin relocated to Noble, Louisiana. Provided by "Smokey" author Jackie Knott, the photo shows: ; #1 is Smokey's building, #2 is the Mayor Knott and family house, #3 the Noble Mercantile.
+![An aerial from 1960s or 70s, some time after Herbert Irwin relocated to Noble, Louisiana. Provided by "Smokey" author Jackie Knott, the photo shows: ; #1 is Smokey's building, #2 is the Mayor Knott and family house, #3 the Noble Mercantile.](@assets/images/ats-smokey-1-819x1024.jpg) An aerial from 1960s or 70s, some time after Herbert Irwin relocated to Noble, Louisiana. Provided by "Smokey" author Jackie Knott, the photo shows: ; #1 is Smokey's building, #2 is the Mayor Knott and family house, #3 the Noble Mercantile.
