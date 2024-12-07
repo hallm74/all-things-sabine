@@ -8,7 +8,7 @@ draft: false
 description: "Wild and Wide Open The showboat Harry Lee was once one of the roughest spots on the Sabine River"
 ---
 
-\[caption id="attachment\_711" align="aligncenter" width="840"\]![Photograph of the Steamboat Harry Lee - later to be the Showboat - docked across the Sabine River on old Highway 90. Used as a gambling establishment in the late 1920s. Photo from Portal to Texas History, crediting Heritage House Museum, Orange, Texas. ](images/ats-harry-lee-first-1024x745.jpg) Photograph of the Steamboat Harry Lee - later to be the Showboat - docked across the Sabine River on old Highway 90. Used as a gambling establishment in the late 1920s. Photo from Portal to Texas History, crediting Heritage House Museum, Orange, Texas.\[/caption\]
+![Photograph of the Steamboat Harry Lee - later to be the Showboat - docked across the Sabine River on old Highway 90. Used as a gambling establishment in the late 1920s. Photo from Portal to Texas History, crediting Heritage House Museum, Orange, Texas. ](@assets/images/ats-harry-lee-first-1024x745.jpg) Photograph of the Steamboat Harry Lee - later to be the Showboat - docked across the Sabine River on old Highway 90. Used as a gambling establishment in the late 1920s. Photo from Portal to Texas History, crediting Heritage House Museum, Orange, Texas.
 
 Some people know of it.  Most do not.  _It_ was the Steamboat Harry Lee, a steamboat which once was docked on the Sabine River and was used as a gambling establishment.
 
@@ -64,14 +64,14 @@ Louviere explained in his article that The Showboat was towed to Mississippi and
 
 [Here is the entire article by Louviere on The Record Live](http://therecordlive.com/2015/02/17/across-the-river-back-in-the-day/)
 
-\[caption id="attachment\_717" align="aligncenter" width="840"\][![From University of Wisconsin- LaCrosse](images/ats-harry-lee6-1024x738.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-harry-lee6.jpg) From University of Wisconsin- LaCrosse\[/caption\]
+![From University of Wisconsin- LaCrosse](@assets/images/ats-harry-lee6-1024x738.jpg) From University of Wisconsin- LaCrosse
 
-\[caption id="attachment\_713" align="aligncenter" width="840"\][![](images/ats-harry-lee2-1024x781.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-harry-lee2.jpg) The Harry Lee docked and carrying many passengers on all three decks. Photo from University of Wisconsin-LaCrosse\[/caption\]
+![The Harry Lee](@assets/images/ats-harry-lee2-1024x781.jpg) The Harry Lee docked and carrying many passengers on all three decks. Photo from University of Wisconsin-LaCrosse
 
-\[caption id="attachment\_720" align="aligncenter" width="840"\][![Photo From Lee Line Steamers website](images/ats-lee-line-1024x546.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-lee-line.jpg) Photo From Lee Line Steamers website\[/caption\]
+![Photo From Lee Line Steamers website](@assets/images/ats-lee-line-1024x546.jpg) Photo From Lee Line Steamers website
 
-\[caption id="attachment\_718" align="aligncenter" width="840"\][![Inside the Harry Lee, men sitting around a table eating. Photo from University of Wisconsin-LeCrosse](images/ats-harry-lee7-1024x671.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-harry-lee7.jpg) Inside the Harry Lee, men sitting around a table eating. Photo from University of Wisconsin-LeCrosse\[/caption\]
+![Inside the Harry Lee, men sitting around a table eating. Photo from University of Wisconsin-LeCrosse](@assets/images/ats-harry-lee7-1024x671.jpg) Inside the Harry Lee, men sitting around a table eating. Photo from University of Wisconsin-LeCrosse
 
-\[caption id="attachment\_712" align="aligncenter" width="840"\][![](images/ats-harry-lee-1024x580.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-harry-lee.jpg) From University of Wisconsin - Lacross digital files\[/caption\]
+![The Harry Lee](@assets/images/ats-harry-lee-1024x580.jpg)From University of Wisconsin - Lacross digital files
 
-\[caption id="attachment\_721" align="aligncenter" width="840"\][![From Lee Line Steamers' website](images/ats-harry-new-1024x819.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-harry-new.jpg) From Lee Line Steamers' website\[/caption\]
+![From Lee Line Steamers' website](@assets/images/ats-harry-new-1024x819.jpg) From Lee Line Steamers' website
