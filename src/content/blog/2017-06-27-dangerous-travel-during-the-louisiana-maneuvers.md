@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-06-27T00:00:00
 title: "Dangerous travel during the Louisiana Maneuvers"
 ogImage: "../../assets/images/IMG_0097-1024x765.jpg"
-featured: true
+featured: false
 draft: false
 description: "Dangerous travel during the Louisiana Maneuvers"
 ---
