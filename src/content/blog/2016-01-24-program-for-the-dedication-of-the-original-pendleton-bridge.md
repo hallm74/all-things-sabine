@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2016-01-24T00:00:00
 title: "Program for the dedication of the original Pendleton Bridge"
 ogImage: "../../assets/images/ats-pb1-203x300.jpg"
-featured: true
+featured: false
 draft: false
 description: "Program for the dedication of the original Pendleton Bridge"
 ---
