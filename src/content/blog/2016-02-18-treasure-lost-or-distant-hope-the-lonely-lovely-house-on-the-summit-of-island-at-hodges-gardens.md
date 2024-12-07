@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2016-02-18T00:00:00
 title: "Treasure lost or distant hope  The lonely lovely house on the summit of island at Hodges Gardens"
 ogImage: "../../assets/images/ats-hodgeshouse4-1024x685.jpg"
-featured: true
+featured: false
 draft: false
 description: "Treasure lost or distant hope  The lonely lovely house on the summit of island at Hodges Gardens"
 ---
@@ -20,7 +20,7 @@ This house affects me.  It has for bunches of years affected me.  I realize ho
 
 But what a house it was!
 
-![Architectural model of Hodges house. Note: The pool was never built. Photo from the Hodges Foundation.](@assets/images/ats-house-island-model-1024x690.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/ats-house-island-model.jpg) Architectural model of Hodges house. Note: The pool was never built. Photo from the Hodges Foundation.\[/caption\]
+![Architectural model of Hodges house. Note: The pool was never built. Photo from the Hodges Foundation.](@assets/images/ats-house-island-model-1024x690.jpg) Architectural model of Hodges house. Note: The pool was never built. Photo from the Hodges Foundation.
 
 The house built for Hodges Gardens' founders A. J. and Nona Trigg Hodges, was constructed in the 1950s.  It was built on an 8-acre island (called, appropriately, House Island), with its facing being in significant part rocks and sandstones from a rock quarry on top of which Hodges Gardens Lake itself was built.  Much of the remaining exterior facing of the house is glass... as there are windows and glass doors galore with brilliant views of the once remarkably landscaped island and the lake itself.
 
