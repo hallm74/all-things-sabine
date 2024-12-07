@@ -36,8 +36,6 @@ If this makes any sense, the house kind of blends in with the island.  It looks
 
 From what I understand, after Hodges Gardens was donated to the State of Louisiana to be operated and maintained as a State Park, the state bore the expense of putting a new roof on the house to protect it from further damage.  There was talk that the State would refurbish the house and it would be turned into a visitor's center for the park.
 
-![Hodges Gardens](@assets/images/manassas-ga-foy-hodges-house-photograph-copyright-brian-brown-vanishing-south-georgia-usa-2013.jpg)
-
 If only...
 
 I suppose we can hope.  But there's the matter of the State being broke, or at least our leaders saying we are broke.  So it isn't looking so good for Hodges House to be restored.  At least not at this time.
