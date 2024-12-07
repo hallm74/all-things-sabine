@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2016-02-23T00:00:00
 title: "The Best of the Bass Anglers"
 ogImage: "../../assets/images/image-38-162x300.jpeg"
-featured: true
+featured: false
 draft: false
 description: "The Best of the Bass Anglers"
 ---
