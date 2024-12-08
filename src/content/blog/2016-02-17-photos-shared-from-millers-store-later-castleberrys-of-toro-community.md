@@ -8,7 +8,7 @@ draft: false
 description: "Photos shared from Millers Store later Castleberrys of Toro Community"
 ---
 
-![Castleberry's Store in the 1980s](@assets/images/image-19.jpeg) Castleberry's Store in the 1980s
+![Castleberry's Store in the 1980s](@assets/images/millerimage-19.jpeg) Castleberry's Store in the 1980s
 
 Update to [Miller Store of Toro: If these walls could talk](../2016-02-15-miller-store-of-toro-community-if-these-walls-could-talk/)
 
@@ -20,16 +20,16 @@ These photos are so great, and I know will be appreciated by many.  Thank you f
 
 <!--more-->
 
-![Mrs. Margaret Castleberry](@assets/images/image-12.jpeg) Mrs. Margaret Castleberry
+![Mrs. Margaret Castleberry](@assets/images/millerimage-12.jpeg) Mrs. Margaret Castleberry
 
-![Castleberry's in 1982](@assets/images/image-13.jpeg)Castleberry's in 1982
+![Castleberry's in 1982](@assets/images/millerimage-13.jpeg)Castleberry's in 1982
 
-![Miller's Store](@assets/images/image-15.jpeg)  Interior photo. "It was a great museum," Janell declared
+![Miller's Store](@assets/images/millerimage-15.jpeg)  Interior photo. "It was a great museum," Janell declared
 
 
 
-![Janell Fitts Richards' parents, Homer and Eunice Fitts, and Janell's children](@assets/images/image-14.jpeg) Janell Fitts Richards' parents, Homer and Eunice Fitts, and Janell's children
+![Janell Fitts Richards' parents, Homer and Eunice Fitts, and Janell's children](@assets/images/millerimage-14.jpeg) Janell Fitts Richards' parents, Homer and Eunice Fitts, and Janell's children
 
-![](@assets/images/image-16.jpeg) These 80s photos are fantastic!
+![](@assets/images/millerimage-16.jpeg) These 80s photos are fantastic!
 
-![](@assets/images/image-17.jpeg)![](@assets/images/image-18.jpeg)
+![](@assets/images/millerimage-17.jpeg)![](@assets/images/millerimage-18.jpeg)

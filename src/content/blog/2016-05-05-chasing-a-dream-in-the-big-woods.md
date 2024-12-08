@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2016-05-05T00:00:00
 title: "Chasing a Dream in the Big Woods"
 ogImage: "../../assets/images/bigwoods.jpg"
-featured: true
+featured: false
 draft: false
 description: "Chasing a Dream in the Big Woods"
 ---
 
-[![bigwoods](images/bigwoods.jpg)](https://allthingssabine.com/wp-content/uploads/2016/05/bigwoods.jpg)Okay, so here's the thing (as my son starts just about every sentence)... I'm dingy as heck some times.  A complete nimrod.  Trying to build a tower without having all the materials.<!--more-->
+[![bigwoods](@assets/images/bigwoods.jpg) Okay, so here's the thing (as my son starts just about every sentence)... I'm dingy as heck some times.  A complete nimrod.  Trying to build a tower without having all the materials.<!--more-->
 
 For weeks, I have been watching totally neato videos posted on YouTube by local resident Chase Baker.  He links the videos to All Things Sabine and that is the way I discovered them.  The videos are part of a "blog" which seemed to follow a local murder case from the early 1990s.
 
