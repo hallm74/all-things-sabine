@@ -26,4 +26,4 @@ As the new channel became deeper, the route through Natchitoches became less and
 
 And now, you pretty much aren't going to see a steamboat while you are in downtown Natchitoches.
 
-![From Cammie G. Henry Research Center, steamboat in Natchitoches, on Cane River in front of ](@assets/images/steamboat3-1024x797.jpg) From Cammie G. Henry Research Center, steamboat in Natchitoches, on Cane River in front of\[/caption\]
+![From Cammie G. Henry Research Center, steamboat in Natchitoches, on Cane River in front of ](@assets/images/steamboat3-1024x797.jpg) From Cammie G. Henry Research Center, steamboat in Natchitoches, on Cane River.
