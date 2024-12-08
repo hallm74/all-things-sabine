@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-04-22T00:00:00
 title: "Bitter Waters Round the Bend Tales from 1966 preToledo Bend Lake"
 ogImage: "../../assets/images/moses.jpg"
-featured: true
+featured: false
 draft: false
 description: "Bitter Waters Round the Bend Tales from 1966 preToledo Bend Lake"
 ---
@@ -12,7 +12,7 @@ description: "Bitter Waters Round the Bend Tales from 1966 preToledo Bend Lake"
 
 Following is an article from The Shreveport Times, dated Sun, Jul 3, 1966, and written by Norman Richardson.
 
-[![Bitter Waters](images/bitterwaters.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/bitterwaters.jpg)    [![the_times_sun__jul_3__1966_1](images/The_Times_Sun__Jul_3__1966_1.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jul_3__1966_1.jpg) Moses Speights Morris is a proud man whose family tree roots reach deep into the red clay of Sabine County.
+![Bitter Waters](@assets/images//bitterwaters.jpg)   ![the_times_sun__jul_3__1966_1](@assets/images//The_Times_Sun__Jul_3__1966_1.jpg) Moses Speights Morris is a proud man whose family tree roots reach deep into the red clay of Sabine County.
 
 His father, who is buried just up the road, worked the land, fought in the Confederacy, and built a big farmhouse that still stands today.
 
@@ -24,7 +24,7 @@ He has known no other home in his 81 years and vows he will stay until the water
 
 And they will come.
 
-[![moses](images/moses.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/moses.jpg)Sometime before 1968, the muddy waters of the Sabine River will slip from their banks to create the mammoth Toledo Bend Reservoir which will swallow tip Morris' land and be two feet ever his porch.
+![moses](@assets/images//moses.jpg) Sometime before 1968, the muddy waters of the Sabine River will slip from their banks to create the mammoth Toledo Bend Reservoir which will swallow tip Morris' land and be two feet ever his porch.
 
 "I'm not liking it at all, not a doggone bit," Morris says bitterly of the Toledo Rend project.
 
@@ -42,7 +42,7 @@ The same story holds true a few miles deeper into East Texas and the Sam Rayburn
 
 "I think it's one of the most outrageous things ever was." Morris says, slapping his leg in disgust. "Penalizes all of us upstream to satisfy the thirst of those downstream.  I'm gonna stay here til the waters come. They think i ain't . . but I am, I don't pay 'em no mind."
 
-[![lanetown](images/lanetown.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/lanetown.jpg)The sometimes hard blows of this thing called progress have already been felt in the little community of Concord. As little as six years ago, over 100 citizens here went about their own way of life, working their rich fields, hauling pulp-wood and ritually placing fresh flowers on the graves in a little cemetery established even before Texas won its independence from Mexico.
+![lanetown](@assets/images//lanetown.jpg) The sometimes hard blows of this thing called progress have already been felt in the little community of Concord. As little as six years ago, over 100 citizens here went about their own way of life, working their rich fields, hauling pulp-wood and ritually placing fresh flowers on the graves in a little cemetery established even before Texas won its independence from Mexico.
 
 Life in Concord was built around the old Missionary Baptist Church, fondly called "God's Home in the Wilderness."  Now, there is no life here. no townsite, and it is somewhat of an eerie feel-ing to look out over the waters of Rayburn Reservoir and realize that somewhere underneath tons of water lies the historic old community.
 
@@ -50,7 +50,7 @@ Near Pineland, a finger of the reservoir reaches inward to almost surround a new
 
 The old communities are gone, but in their places will spring hundreds of new homes around both lakes. new boat camps, new stores and lodges and fishing camps, and there are even a few ghost towns, and a retirement mecca for the elderly.
 
-[![mcgown](images/mcgown.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/mcgown.jpg)The lakes have enhanced land values over a wide radius and it has been estimated by the Corps of Engineers that annual benefits of over $4.5 million will result from the Rayburn Reservoir be-cause of flood control, the conservation of water for various municipal and industrial purposes and the generation of hydroelectric power.
+![mcgown](@assets/images//mcgown.jpg) The lakes have enhanced land values over a wide radius and it has been estimated by the Corps of Engineers that annual benefits of over $4.5 million will result from the Rayburn Reservoir be-cause of flood control, the conservation of water for various municipal and industrial purposes and the generation of hydroelectric power.
 
 Those who have moved away from the gso projects were a proud, rural, hard working people for the most part, and many still hold only bitterness even if they reluctantly admit the benefits to be derived from both.
 

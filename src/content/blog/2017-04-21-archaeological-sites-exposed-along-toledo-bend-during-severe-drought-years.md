@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-04-21T00:00:00
 title: "Archaeological sites exposed along Toledo Bend during severe drought years"
 ogImage: "../../assets/images/painting-236x300.jpg"
-featured: true
+featured: false
 draft: false
 description: "Archaeological sites exposed along Toledo Bend during severe drought years"
 ---
@@ -12,9 +12,9 @@ While searching for details on the Indian village discovered near Noble and rese
 
 Following is the article, written by Vickie Welborn.
 
-Archaeological sites exposed at reservoir ■ State warns public against removing artifacts from lakebed.
+Archaeological sites exposed at reservoir - State warns public against removing artifacts from lakebed.
 
-\[caption id="attachment\_1421" align="alignright" width="236"\][![Caddo village scene. Painting by Nola Davis, courtesy Texas Parks and Wildlife Department. ](images/painting-236x300.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/painting.jpg) Caddo village scene. Painting by Nola Davis, courtesy Texas Parks and Wildlife Department.\[/caption\]
+![Caddo village scene. Painting by Nola Davis, courtesy Texas Parks and Wildlife Department. ](@assets/images//painting.jpg) Caddo village scene. Painting by Nola Davis, courtesy Texas Parks and Wildlife Department.
 
 TOLEDO BEND RESERVOIR —The expanding shoreline of the drought-stricken Toledo Bend Reservoir is raising more than just the ire of recreational users frustrated with the limited access and hazardous conditions.
 
@@ -76,4 +76,4 @@ That's why he cautions the weekend artifact hunters to not remove or unearth obj
 
 While it against the law for people to remove items from the lakebed, Pratt admits it is almost impossible for the SRA to enforce it. Pratt asks citizens to contact Girard if they find or have found anything significant.
 
-"We want people to know we won't confiscate their finds. We just want to document them because once it's lost, it's lost," Girard said. Rivet said another concern is the possible disturbance of human remains should the collectors move beyond scraping the surface. "Our main issue is to make the public aware that it is illegal to dig for artifacts." Rivet said. [![the_times_mon__sep_18__2006_1](images/The_Times_Mon__Sep_18__2006_1-544x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Mon__Sep_18__2006_1.jpg) [![the_times_mon__sep_18__2006_](images/The_Times_Mon__Sep_18__2006_.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Mon__Sep_18__2006_.jpg)
+"We want people to know we won't confiscate their finds. We just want to document them because once it's lost, it's lost," Girard said. Rivet said another concern is the possible disturbance of human remains should the collectors move beyond scraping the surface. "Our main issue is to make the public aware that it is illegal to dig for artifacts." Rivet said. ![the_times_mon__sep_18__2006_1](@assets/images//The_Times_Mon__Sep_18__2006_1.jpg) ![the_times_mon__sep_18__2006_](@assets/images//The_Times_Mon__Sep_18__2006_.jpg)

@@ -3,14 +3,14 @@ author: "hallm"
 pubDatetime: 2017-04-19T00:00:00
 title: "Four dams had been planned along the Sabine River"
 ogImage: "../../assets/images/map.jpg"
-featured: true
+featured: false
 draft: false
 description: "Four dams had been planned along the Sabine River"
 ---
 
 ![Cover Image](@assets/images/map.jpg)
 
-[![Proposed dams](images/map-541x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/map.jpg)I came across this article from a February 1964 edition of The Houston Chronicle.  Very interesting... curious as to what happened to the larger scale plans...  As an additional note, I did find other mentions of the dam projects in 1960s newspapers, with particular mentions of the "huge" Bon Wier dam... at least one of the article stated that the dam projects should all be complete by the year 2020... which I'm sure seemed like a life time of years back in the 60s, but now... not so much.
+![Proposed dams](@assets/images//map-541x1024.jpg)I came across this article from a February 1964 edition of The Houston Chronicle.  Very interesting... curious as to what happened to the larger scale plans...  As an additional note, I did find other mentions of the dam projects in 1960s newspapers, with particular mentions of the "huge" Bon Wier dam... at least one of the article stated that the dam projects should all be complete by the year 2020... which I'm sure seemed like a life time of years back in the 60s, but now... not so much.
 
 The following Houston Chronicle article was written by Bob Bowman, Chief of the Chronicle's East Texas Bureau.
 

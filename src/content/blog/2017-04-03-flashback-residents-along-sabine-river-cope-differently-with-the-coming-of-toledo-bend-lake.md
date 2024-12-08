@@ -1,16 +1,15 @@
 ---
-author: "hallm"
+author: "shannon"
 pubDatetime: 2017-04-03T00:00:00
-title: "Flashback  Residents along Sabine River cope differently with the coming of Toledo Bend Lake"
-ogImage: "../../assets/images/IMG_4140.jpg"
-featured: true
+title: "Flashback Residents along Sabine River cope differently with the coming of Toledo Bend Lake"
+featured: false
 draft: false
-description: "Flashback  Residents along Sabine River cope differently with the coming of Toledo Bend Lake"
+description: "Flashback Residents along Sabine River cope differently with the coming of Toledo Bend Lake"
 ---
 
 ![Cover Image](@assets/images/IMG_4140.jpg)
 
-![Toledo Bend Dam](@assets/images//IMG_4141.jpg) Construction of the Toledo Bend Dam, in the 1960s
+![Toledo Bend Dam](@assets/images/IMG_4141.jpg) Construction of the Toledo Bend Dam, in the 1960s
 
 There were so many stories to be told as construction of the Toledo Bend Dam got underway and residents living in the areas which would be soon inundated by Toledo Bend Reservoir prepared themselves for the inevitable.
 

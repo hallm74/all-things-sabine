@@ -3,14 +3,14 @@ author: "hallm"
 pubDatetime: 2017-04-21T00:00:00
 title: "Caddo Indian Village site on Sabine River studied before creation of Toledo Bend"
 ogImage: "../../assets/images/indian3.jpg"
-featured: true
+featured: false
 draft: false
 description: "Caddo Indian Village site on Sabine River studied before creation of Toledo Bend"
 ---
 
 ![Cover Image](@assets/images/indian3.jpg)
 
-[![indian](images/indian.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/indian.jpg)
+![indian](@assets/images//indian.jpg)
 
 One of the readers of All Things Sabine, from Leesville, La., messaged me this morning, asking if I could find something on "an Indian burial site that was excavated back in 1966 or 67."  The reader said he recalled going to the site, which was referred to as "Bison's Homeplace" and watching the excavations.  I found this quite interesting article, which was published in The Sabine Index, Spring of 1966, and written by Index journalist Mary Calcote.  The article follows, along with pictures that were published with it:
 
@@ -38,7 +38,7 @@ Then came the creation of the gigantic Toledo Bend Reservoir, and Bison was amon
 
 In 1963, working under a grant given by the National Science Foundation, a survey was made of Indian Village sites in the Toledo Bend Reservoir area.  This initial survey was made by Dan Skarlock of the University of Texas at Austin.  He mapped this and other sites in Sabine Parish.  Dr. Ed Jelks, a professor of Anthropology at the University of Texas, worked on the project.  He later moved to Southern Methodist University.
 
-[![indian5](images/indian5.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/indian5.jpg)
+![indian5](@assets/images//indian5.jpg)
 
 **Digging Starts**
 
@@ -48,7 +48,7 @@ This was the third site in Sabine Parish to be explored and other sites in upper
 
 When I arrived at the scene Friday afternoon, May 6, the rain was slowly falling, but archeologists were busy under a tent that had made from a parachute.
 
-[![indian1](images/indian1.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/indian1.jpg)
+![indian1](@assets/images//indian1.jpg)
 
 I introduced myself to Dave Brown, who served as assistant in charge, while Wodall was in Reno, Nevada to give a speech.  Assisting Brown was Hiram Gregory, professor of Anthropology at Northwestern State College in Natchitoches, and several of his students.
 
@@ -62,7 +62,7 @@ When I was there, four burials had been found. Three had grave goods which consi
 
 To find a lead as to where the graves might be located, the archeologists dig trenches with back hoes.  Gregory said these Indians were buried from five to six feet deep.  When the archeologists get near the skeleton, they are very careful not to disturb it or any of the grave goods.  They carefully use bamboo knives, trowels, and paint brushes as wisk brooms to uncover their finds.
 
-[![indian2](images/indian2.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/indian2.jpg)
+![indian2](@assets/images//indian2.jpg)
 
 **Skeleton Uncovered**
 
@@ -72,7 +72,7 @@ Brown told me the digging at this site would definitely go on until Friday, May 
 
 Brown told me the digging at this site would definitely go on until Friday, May 13. He said that if other things of significance were uncov-ered, the exploration may go on longer.
 
-[![indian1](images/indian1.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/indian1.jpg)
+![indian1](@assets/images//indian1.jpg)
 
 As I left, I looked at Mr. Bison's old barn still standing a few feet from the grave sites, and wondered if someday archaeologists would be uncovering it. You see, in just a few months it will be covered by about twelve feet of water when the Toledo Bend Reservoir fills.
 

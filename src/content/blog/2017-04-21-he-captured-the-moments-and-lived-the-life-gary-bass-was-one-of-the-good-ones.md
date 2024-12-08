@@ -3,14 +3,12 @@ author: "hallm"
 pubDatetime: 2017-04-21T00:00:00
 title: "He captured the moments and lived the life  Gary Bass was one of the good ones"
 ogImage: "../../assets/images/garybass.jpg"
-featured: true
+featured: false
 draft: false
 description: "He captured the moments and lived the life  Gary Bass was one of the good ones"
 ---
 
-![Cover Image](@assets/images/garybass.jpg)
-
-\[caption id="attachment\_1382" align="alignright" width="720"\][![Gary Bass, 1953-2017](images/garybass.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/garybass.jpg) Gary Bass, 1953-2017\[/caption\]
+![Gary Bass, 1953-2017](@assets/images//garybass.jpg) Gary Bass, 1953-2017
 
 Words often come very easily for me.  Until life happens in a way so unexpected and so difficult to comprehend that my usually trustworthy word-producing mind lets me down, finding a void where words should be plentiful.
 

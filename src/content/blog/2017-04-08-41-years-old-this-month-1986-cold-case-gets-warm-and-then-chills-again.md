@@ -2,15 +2,13 @@
 author: "hallm"
 pubDatetime: 2017-04-08T00:00:00
 title: "31 years old this month  1986 cold case gets warm and then chills again"
-ogImage: "../../assets/images/FullSizeRender-226x300.jpg"
-featured: true
+ogImage: "../../assets/images/FullSizeRender.jpg"
+featured: false
 draft: false
 description: "31 years old this month  1986 cold case gets warm and then chills again"
 ---
 
 Ah, the intrigue of a cold case... as the case is, simply the words "cold case" can be a bit chilling.  Add TV show-like details to the cold case... body found in a water well, remains remain unidentified 30 years later, composite sketch created, additional remains sought from water well for DNA testing...  the intrigue multiples many times over.
-
-<!--more-->
 
 It was in April 1986 that a local farmer, while inspecting his long unused water well for possible use in watering his cattle, discovered a body deep in the well.  This was in Sabine Parish, just off of Hwy. 6 (a bit west of Many and east of the Texas border) on a rural road named Recknor.  Then-Sabine Sheriff Alfice Brumley brought jail inmates to the scene to retrieve the remains.
 
@@ -24,7 +22,7 @@ The victim's remains were kept at a Bossier City pathologist's lab for 30 years,
 
 Manheim's subsequent investigation of the remains concluded the victim was actually younger than previously thought, between ages 30 and 45.
 
-\[caption id="attachment\_1309" align="alignright" width="226"\][![Facial reconstruction of water well victim](images/FullSizeRender-226x300.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/FullSizeRender.jpg) Facial reconstruction of water well victim\[/caption\]
+![Facial reconstruction of water well victim](@assets/images//FullSizeRender.jpg) Facial reconstruction of water well victim
 
 Manheim produced a facial reconstruction of the victim during the course of her work with this case.
 
@@ -36,7 +34,7 @@ Green was described as a white male, around 5'10", about 35 years old, with a sl
 
 The lead seemed to fit the case, at least in terms of timing, description and suspicious nature, but nothing solid truly ever panned out from it.  DeLacerda explored every avenue he could with relation to this Samuel L. Green, but ran into dead ends from all directions.
 
-\[caption id="attachment\_1310" align="alignright" width="200"\][![Lester J. Rome, missing since 1984](images/IMG_4165-200x300.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/IMG_4165.jpg) Lester J. Rome, missing since 1984\[/caption\]
+![Lester J. Rome, missing since 1984](@assets/images//IMG_4165.jpg) Lester J. Rome, missing since 1984
 
 Manheim's investigation uncovered another possible identify of the victim, specifically Lester J. Rome, who had been missing since January 1984.  He was from Grand Isle (Jefferson Parish), Louisiana and is described in the Louisiana Repository for Unidentified and Missing People as being a 5'10" Caucasian male, with "Brown hair, brown eyes. Rome has a gunshot wound scar on his abdomen. He wears a toupee."  The report lists the following under the "Details of Disappearance" section for Rome:  "Rome was last seen in Grand Isle, Louisiana on January 9, 1984. He has never been heard from again. He may have traveled to Las Vegas, Nevada after his disappearance. Few details are available in his case."
 
