@@ -10,7 +10,7 @@ description: "Flashback  Residents along Sabine River cope differently with the 
 
 ![Cover Image](@assets/images/IMG_4140.jpg)
 
-\[caption id="attachment\_1278" align="aligncenter" width="450"\][![Toledo Bend Dam](images/IMG_4141.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/IMG_4141.jpg) Construction of the Toledo Bend Dam, in the 1960s\[/caption\]
+![Toledo Bend Dam](@assets/images//IMG_4141.jpg) Construction of the Toledo Bend Dam, in the 1960s
 
 There were so many stories to be told as construction of the Toledo Bend Dam got underway and residents living in the areas which would be soon inundated by Toledo Bend Reservoir prepared themselves for the inevitable.
 
@@ -20,15 +20,13 @@ MANY, La (AP) An almost forgotten historic site near this west Louisiana town is
 
 It will die slowly as it gives way to progress and surrenders to the waters of the giant Toledo Bend Reservoir.
 
-<!--more-->
-
 The Sabine Breastworks, most extensive and best-preserved line of military breastworks on the Sabine River, will cease to exist by 1966.
 
 A little further north, a 66-year-old woman has already moved out of the old home she has known for 48 years in the Sulphur Springs community.
 
-Just across the river, ibn East Teas, the owner of a grocery store / service station-- operated before him by his father nad grandfather since 1927-- must face that fact that within four years, his store will be under water.
+Just across the river, in East Teas, the owner of a grocery store / service station-- operated before him by his father nad grandfather since 1927-- must face that fact that within four years, his store will be under water.
 
-TOWN REBORN
+## TOWN REBORN
 
 A few miles away, however, there is a new murmor of life in old Sabinetown, now filled mostly with deserted homes standing ghostly against a backdrop of rapidly enclosing forestland.  Dormant since the early 1900s, the old town now faces a new rebirth with the planned relocation of strategic highways through the site.
 
@@ -48,7 +46,7 @@ C. N. McGown, 62, has spent most of his life near the Sabine River in East Texas
 
 "You take a man my age... I'm not really able to work but I can do something like this.  I can't make any money here, but I can live off what I take in."  His store will be under 25 feet of water.
 
-SOME WANT TO MOVE
+## SOME WANT TO MOVE
 
 Then there are many in the old communities and homes overlooking the river who have the same enthusiasm about new quarters as did Miss Sadie Paddie, 68.
 
@@ -62,7 +60,7 @@ Resettled in Zwolle, next door to her sister, Mrs. Mary McDonald, Miss Sadie has
 
 John F. Foster, 78, wants to move from the Toro Community where he has lived for 54 years because he wants to be nearer to a doctor.  Many of the elderly feel the same way.  Some want to be near families, and a few just want to get away from the land which was once rich and fertile but now, for the most part, is completely uncultivated.
 
-STAY ON LAKE
+## STAY ON LAKE
 
 "We don't know what we are going to do, but we'd like to stay on the lake," said Robert Bison, whose home sits on a high embankment overlooking the river.
 
@@ -84,7 +82,7 @@ Sabinetown was the hone of the first Texas seated in Congress, David Kaufman.  
 
 The Yankees were defeated at Mansfield, however, and the battle at Sabinetown was never fought.
 
-HEAVILY WOODED
+## HEAVILY WOODED
 
 The areas to be flooded by the dam and reservoir are heavily wooded and sparsely settled.  There are no towns and no major improvements on land to be flooded, but there are some farm homes, churches, small stores, a state highway, one section of the El Camino Real, 25 cemeteries, and several pipelines.
 
