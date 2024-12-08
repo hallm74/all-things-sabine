@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2016-02-24T00:00:00
 title: "On this site stood a female college"
 ogImage: "../../assets/images/image-85-1024x576.jpeg"
-featured: true
+featured: false
 draft: false
 description: "On this site stood a female college"
 ---
