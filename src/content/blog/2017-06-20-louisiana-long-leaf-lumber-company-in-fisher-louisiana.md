@@ -5,6 +5,8 @@ title: "Louisiana Long Leaf Lumber Company in Fisher Louisiana"
 ogImage: "../../assets/images/fisher-mill-copy-1024x193.jpg"
 featured: false
 draft: false
+tags:
+    - Fisher
 description: "Louisiana Long Leaf Lumber Company in Fisher Louisiana"
 ---
 
@@ -12,4 +14,4 @@ description: "Louisiana Long Leaf Lumber Company in Fisher Louisiana"
 
 Fisher is located in Central Sabine Parish, between the Village of Florien and Town of Many, on Hwy. 171.  This panorama photograph was taken of the 4L mill in the early 1900s.  The subsequent photos here are closeups of sections of the larger pano photograph.
 
-![fishermill4](@assets/images/fishermill4-1024x657.jpg)] ![fishermill3](@assets/images/fishermill3-1024x967.jpg)] ![fishermill2](@assets/images/fishermill2-1024x775.jpg)] ![fishermill1](@assets/images/fishermill1-1024x727.jpg)
+![fishermill4](@assets/images/fishermill4-1024x657.jpg) ![fishermill3](@assets/images/fishermill3-1024x967.jpg) ![fishermill2](@assets/images/fishermill2-1024x775.jpg) ![fishermill1](@assets/images/fishermill1-1024x727.jpg)

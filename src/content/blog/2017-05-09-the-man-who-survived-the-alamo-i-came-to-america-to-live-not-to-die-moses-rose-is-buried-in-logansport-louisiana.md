@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2017-05-09T00:00:00
 title: "The man who survived the Alamo  I came to America to live not to die Moses Rose is buried in Logansport Louisiana"
 ogImage: "../../assets/images/moses1.jpg"
-featured: true
+featured: false
 draft: false
 description: "The man who survived the Alamo  I came to America to live not to die Moses Rose is buried in Logansport Louisiana"
 ---
 
-\[caption id="attachment\_1595" align="aligncenter" width="480"\][![Gravesite of Moses Rose](images/moses1.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/moses1.jpg) Gravesite of Moses Rose\[/caption\]
+![Gravesite of Moses Rose](@assets/images//moses1.jpg) Gravesite of Moses Rose
 
 Seeing the gravesite of Moses Rose, tucked away in Logansport, Lousiana, was truly fascinating. The legend of Moses Rose is full of intrigue, mystery, and rushes to judgment. Often called the Coward of the Alamo, to know his story is to know this title could well be both unfitting and unfair.
 
@@ -24,7 +24,7 @@ There are even stories that Rose, who some say was a Frenchman, was an officer i
 
 Whatever the case, it does seem he had lived a pretty much heroic life before the Alamo.  By 1827, he had settled in Nacogdoches, Texas. When the Texas Revolution began, he dedicated himself to the cause. He sold or mortgaged all his possessions to fight in the Fredonian Rebellion and the Battle of Nacogdoches. He fought in the siege of Bexar and he followed his friend Jim Bowie to the Alamo.
 
-\[caption id="attachment\_1600" align="aligncenter" width="403"\][![Moses Rose](images/moses4.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/moses4.jpg) Moses Rose\[/caption\]
+![Moses Rose](@assets/images//moses4.jpg) Moses Rose
 
 After quietly escaping the nightmarish situation in San Antonio, Moses Rose lived out his last years in East Texas and along the Sabine River. Such an interesting character.
 
@@ -48,4 +48,4 @@ The info on the website continues, "He very likely crossed into Louisiana on the
 
 I found Rose's gravesite in remote DeSoto Parish. When I saw remote, I mean remote, as in it took us quite a while to find it, and it was pretty close to Panola County, I think. There is little fanfare marking his site, what you see is what is there, though he did get a nice new granite marker somewhat recently.
 
-[![moses2](images/moses2.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/moses2.jpg)
+![moses2](@assets/images//moses2.jpg)

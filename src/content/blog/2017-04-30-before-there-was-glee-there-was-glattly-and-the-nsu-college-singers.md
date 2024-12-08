@@ -3,14 +3,16 @@ author: "hallm"
 pubDatetime: 2017-04-30T00:00:00
 title: "Before there was Glee there was Donald Glattly and the NSU College Singers"
 ogImage: "../../assets/images/The_Times_Sun__Apr_11__1954_-1024x491.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Natchitoches
 description: "Before there was Glee there was Donald Glattly and the NSU College Singers"
 ---
 
 From _The Shreveport Times_, April 1954, written by John Merrill and entitled, "Sing from the heart."
 
-\[caption id="attachment\_1538" align="aligncenter" width="840"\][![Photos by Guillet Studios in Natchitoches, Louisiana, from The Shreveport Times, 1954](images/The_Times_Sun__Apr_11__1954_-1024x491.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Apr_11__1954_.jpg) Photos by Guillet Studios in Natchitoches, Louisiana, from The Shreveport Times, 1954\[/caption\]
+![Photos by Guillet Studios in Natchitoches, Louisiana, from The Shreveport Times, 1954](@assets/images//The_Times_Sun__Apr_11__1954_-1024x491.jpg) Photos by Guillet Studios in Natchitoches, Louisiana, from The Shreveport Times, 1954
 
 "The inside of you has got to sing."
 

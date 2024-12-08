@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2017-05-03T00:00:00
 title: "Hypnotic search for gold"
 ogImage: "../../assets/images/The_Times_Sun__Mar_18__1956_1-1024x990.jpg"
-featured: true
+featured: false
 draft: false
 description: "Hypnotic search for gold"
 ---
 
-\[caption id="attachment\_1586" align="aligncenter" width="840"\][![Caption from The Times:  Two subjects describe the gold vault like this. ](images/The_Times_Sun__Mar_18__1956_1-1024x990.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/The_Times_Sun__Mar_18__1956_1.jpg) Caption from The Times: Two subjects describe the gold vault like this.\[/caption\]
+![Caption from The Times:  Two subjects describe the gold vault like this. ](@assets/images//The_Times_Sun__Mar_18__1956_1-1024x990.jpg) Caption from The Times: Two subjects describe the gold vault like this.
 
 This article was referred to us by an All Things Sabine reader, who said he recalled a hypnotist helping search for some buried treasure of John Murrell and his clan of bandits who roamed the today areas of Natchitoches, Sabine and Vernon parishes back in the 19th century.  Murrell was a notorious thief who it has been long believed that had buried or otherwise hidden much of his contraband in rural Natchitoches, Sabine and Vernon parishes.
 
@@ -92,4 +92,4 @@ So there it was. I had heard the fantastic story twice and had heard it again fr
 
 I'm not from Missouri, but I've got to see it before I believe it.
 
-[![the_times_sun__mar_18__1956_](images/The_Times_Sun__Mar_18__1956_-1024x837.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/The_Times_Sun__Mar_18__1956_.jpg)
+![the_times_sun__mar_18__1956_](@assets/images//The_Times_Sun__Mar_18__1956_-1024x837.jpg)

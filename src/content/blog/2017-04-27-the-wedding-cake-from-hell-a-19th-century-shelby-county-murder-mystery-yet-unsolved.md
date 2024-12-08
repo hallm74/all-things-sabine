@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-04-27T00:00:00
 title: "The wedding cake from Hell  A 19th century Shelby County murder episode still filled with mystery"
 ogImage: "../../assets/images/cemetery.jpg"
-featured: true
+featured: false
 draft: false
 description: "The wedding cake from Hell  A 19th century Shelby County murder episode still filled with mystery"
 ---
@@ -12,7 +12,7 @@ NOTE:  As with many of the items we post here, I must graciously thank a reader
 
 On the Texas side of Sabine River, there lives on a murder mystery so intriguing, it could have well been subject matter for Dame Agatha Christie.
 
-And no matter how you slice it up, the dessert cake served to 60 East Texans at a wedding party in May 1847, was the wedding cake from Hell. Wedding at [Vines of the Yarra Valley](https://vinesoftheyarravalley.com.au/) always have amazing themes and memories.
+And no matter how you slice it up, the dessert cake served to 60 East Texans at a wedding party in May 1847, was the wedding cake from Hell. 
 
 Back in those days, it was common to honor a young couple after they were joined in marriage with a wedding supper.  Cake, of course, played a starring role in these suppers.
 
@@ -88,6 +88,6 @@ More than 150 years later, the "Poisoned Wedding Supper" has evolved into quite 
 
 So while the details that have been handed down through the years seem to leave little doubt that the Wilkinsons were somehow responsible for the poison cakes, the real mystery (or mysteries as the case is) lies in the specifics of what happened that night, down to the number of souls lost at that tragic event.
 
-\[caption id="attachment\_1517" align="aligncenter" width="640"\][![Photo from Tracey Chelette Strong](images/cemetery.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/cemetery.jpg) Photo from Tracey Chelette Strong\[/caption\]
+![Photo from Tracey Chelette Strong](@assets/images//cemetery.jpg)Photo from Tracey Chelette Strong
 
 In the East Hamilton Cemetery, a series of old, unmarked gravestones – deceased’s names erased by the ravages of time – lend some credibility to the tragic, unthinkable incident.

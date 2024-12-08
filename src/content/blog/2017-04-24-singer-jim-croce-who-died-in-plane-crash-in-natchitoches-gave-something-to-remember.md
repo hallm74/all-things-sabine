@@ -3,16 +3,16 @@ author: "hallm"
 pubDatetime: 2017-04-24T00:00:00
 title: "Singer Jim Croce who died in plane crash in Natchitoches gave something to remember"
 ogImage: "../../assets/images/The_Times_Sat__Sep_22__1973_.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Natchitoches
 description: "Singer Jim Croce who died in plane crash in Natchitoches gave something to remember"
 ---
 
-![Cover Image](@assets/images/The_Times_Sat__Sep_22__1973_.jpg)
+![From The Shreveport Times, Natchitoches News Bureau, Sept. 22, 1973](@assets/images//The_Times_Sat__Sep_22__1973_.jpg) From The Shreveport Times, Natchitoches News Bureau, Sept. 22, 1973
 
-\[caption id="attachment\_1409" align="aligncenter" width="4722"\][![From The Shreveport Times, Natchitoches News Bureau, Sept. 22, 1973](images/The_Times_Sat__Sep_22__1973_.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sat__Sep_22__1973_.jpg) From The Shreveport Times, Natchitoches News Bureau, Sept. 22, 1973\[/caption\]
-
-On Sept. 21, 1973, singer Jim Croce who had an outstanding [diction](https://www.k12reader.com/term/diction/), along with an entourage of five people, were killed after their chartered twin-engine Beechcraft plane crashed near the Natchitoches Municipal Airport.
+On Sept. 21, 1973, singer Jim Croce, along with an entourage of five people, were killed after their chartered twin-engine Beechcraft plane crashed near the Natchitoches Municipal Airport.
 
 Croce, who was just 30, had just one hour and 10 minutes earlier finished a concert at Northwestern State University and was headed out to perform next in Dallas.
 

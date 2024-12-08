@@ -3,12 +3,12 @@ author: "hallm"
 pubDatetime: 2017-05-18T00:00:00
 title: "From 1930  Converse bank funds taken by three bandits"
 ogImage: "../../assets/images/The_Greenwood_Commonwealth_Thu__Oct_9__1930_-897x1024.jpg"
-featured: true
+featured: false
 draft: false
 description: "From 1930  Converse bank funds taken by three bandits"
 ---
 
-\[caption id="attachment\_1606" align="aligncenter" width="840"\][![From The Greenwood, Mississippi Commonwealth](images/The_Greenwood_Commonwealth_Thu__Oct_9__1930_-897x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/The_Greenwood_Commonwealth_Thu__Oct_9__1930_.jpg) From The Greenwood, Mississippi Commonwealth\[/caption\]
+![From The Greenwood, Mississippi Commonwealth](@assets/images//The_Greenwood_Commonwealth_Thu__Oct_9__1930_-897x1024.jpg) From The Greenwood, Mississippi Commonwealth\[/caption\]
 
 The following article was carried by the Associated Press on Oct. 9, 1930.
 
@@ -16,7 +16,7 @@ CONVERSE BANK FUNDS TAKEN BY THREE BANDITS
 
 Hold Up Men Armed With Pistols Make Way with $3,000 Cash
 
-\-----
+---
 
 Two men arrested near Myrick's Ferry on the Sabine River ten miles west of here after an exchange a shots with their captors were identified as the robbers of the Bank of Converse who a little earlier stole between $2,500 and $3,000. The captives at first refused to give their names.
 
@@ -24,7 +24,7 @@ The men were overtaken by E. N. Nolan of Benson and Goodwin Harris, of Mansfield
 
 The money had not been recovered.
 
-\----
+---
 
 Converse, La, (A) — Three bandits today robbed the bank of Converse of Between $2,500 and $3,000 in cash, after having forced Cashier R. D. Darnell, and his wife, into the bank's vault.
 
