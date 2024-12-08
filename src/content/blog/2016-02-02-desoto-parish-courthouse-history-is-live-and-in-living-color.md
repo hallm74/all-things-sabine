@@ -5,6 +5,8 @@ title: "DeSoto Parish Courthouse history is live and in living color"
 ogImage: "../../assets/images/ats-desoto-courthousefront-300x223.jpg"
 featured: false
 draft: false
+tags:
+    - DeSoto Parish
 description: "DeSoto Parish Courthouse history is live and in living color"
 ---
 

@@ -5,6 +5,8 @@ title: "A home of historic value and great area interest"
 ogImage: "../../assets/images/image-210.jpeg"
 featured: false
 draft: false
+tags:
+    - DeSoto Parish
 description: "A home of historic value and great area interest"
 ---
 

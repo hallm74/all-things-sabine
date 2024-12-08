@@ -5,6 +5,8 @@ title: "1920s historic downtown Natchitoches Louisiana"
 ogImage: "../../assets/images/old-natchitoches-775x1024.jpg"
 featured: false
 draft: false
+tags: 
+    - Natchitoches
 description: "1920s historic downtown Natchitoches Louisiana"
 ---
 

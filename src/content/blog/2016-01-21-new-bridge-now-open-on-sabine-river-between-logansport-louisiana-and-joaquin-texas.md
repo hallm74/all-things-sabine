@@ -5,6 +5,8 @@ title: "New bridge now open over Sabine River between Logansport Louisiana and J
 ogImage: "../../assets/images/bridges-1024x878.jpg"
 featured: false
 draft: false
+tags:
+    - Logansport
 description: "New bridge now open over Sabine River between Logansport Louisiana and Joaquin Texas"
 ---
 

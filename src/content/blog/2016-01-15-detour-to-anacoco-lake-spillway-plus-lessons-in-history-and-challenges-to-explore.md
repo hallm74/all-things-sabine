@@ -5,6 +5,8 @@ title: "Fun detour to Anacoco Lake Spillway plus lessons in history and challeng
 ogImage: "../../assets/images/Screenshot-2016-01-14-22.07.39.png"
 featured: false
 draft: false
+tags: 
+    - Anacoco
 description: "Fun detour to Anacoco Lake Spillway plus lessons in history and challenges to explore more"
 ---
 

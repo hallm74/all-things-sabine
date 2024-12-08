@@ -5,6 +5,8 @@ title: "Story of Noble Louisiana brilliant recluse takes me by storm and leaves 
 ogImage: "../../assets/images/ats-smokey4.jpg"
 featured: false
 draft: false
+tags:
+    - Noble
 description: "Story of Noble Louisiana brilliant recluse takes me by storm and leaves me reeling"
 ---
 

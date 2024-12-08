@@ -5,6 +5,8 @@ title: "Revisiting a towering monument and remembering to not forget"
 ogImage: "../../assets/images/ats-nl-monument-1024x768.jpg"
 featured: false
 draft: false
+tags: 
+    - New London Texas
 description: "Revisiting a towering monument and remembering to not forget"
 ---
 

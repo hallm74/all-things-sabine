@@ -5,6 +5,8 @@ title: "Miller Store of Toro Community  If these walls could talk"
 ogImage: "../../assets/images/YUN00001-1024x576.jpg"
 featured: false
 draft: false
+tags: 
+    - Toro
 description: "Miller Store of Toro Community  If these walls could talk"
 ---
 

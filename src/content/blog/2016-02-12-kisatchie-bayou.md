@@ -5,6 +5,8 @@ title: "Kisatchie Bayou"
 ogImage: "../../assets/images/DJI_0032-1024x768.jpg"
 featured: false
 draft: false
+tags:
+    - Kisatchie
 description: "Kisatchie Bayou"
 ---
 

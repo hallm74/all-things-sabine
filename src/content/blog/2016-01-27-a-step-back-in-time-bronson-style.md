@@ -5,6 +5,8 @@ title: "A step back in time Bronsonstyle"
 ogImage: "../../assets/images/ats-bronson2-1024x683.jpg"
 featured: false
 draft: false
+tags:
+    - Bronson Texas
 description: "A step back in time Bronsonstyle"
 ---
 

@@ -5,6 +5,8 @@ title: "Rock Chapel built by monks of the Carmelite Order stands with honor in D
 ogImage: "../../assets/images/ats-rockchap-1024x498.jpg"
 featured: false
 draft: false
+tags:
+    - DeSoto Parish
 description: "Rock Chapel built by monks of the Carmelite Order stands with honor in DeSoto Parish"
 ---
 

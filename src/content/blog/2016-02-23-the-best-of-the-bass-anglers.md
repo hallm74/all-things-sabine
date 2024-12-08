@@ -5,6 +5,8 @@ title: "The Best of the Bass Anglers"
 ogImage: "../../assets/images/image-38-162x300.jpeg"
 featured: false
 draft: false
+tags:
+    - Toledo Bend
 description: "The Best of the Bass Anglers"
 ---
 

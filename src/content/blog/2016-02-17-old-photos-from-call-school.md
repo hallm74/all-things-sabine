@@ -5,6 +5,8 @@ title: "Old photos from Call School"
 ogImage: "../../assets/images/ats-call-school-1024x802.jpg"
 featured: false
 draft: false
+tags: 
+    - Newton County, Texas
 description: "Old photos from Call School"
 ---
 

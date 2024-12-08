@@ -5,6 +5,8 @@ title: "Wild and Wide Open The showboat Harry Lee was once one of the roughest s
 ogImage: "../../assets/images/ats-harry-lee-first-1024x745.jpg"
 featured: false
 draft: false
+tags: 
+    - Sabine River
 description: "Wild and Wide Open The showboat Harry Lee was once one of the roughest spots on the Sabine River"
 ---
 

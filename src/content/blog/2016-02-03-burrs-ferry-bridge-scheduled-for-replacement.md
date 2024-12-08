@@ -5,6 +5,8 @@ title: "Burrs Ferry Bridge over Sabine River scheduled for replacement"
 ogImage: "../../assets/images/YUN00006-1024x576.jpg"
 featured: false
 draft: false
+tags: 
+    - Burrs Ferry
 description: "Burrs Ferry Bridge over Sabine River scheduled for replacement"
 ---
 

@@ -5,6 +5,8 @@ title: "From charming and nostalgic to a far lesser place and so often the futur
 ogImage: "../../assets/images/image-171-682x1024.jpeg"
 featured: false
 draft: false
+tags:
+    - Florien
 description: "From charming and nostalgic to a far lesser place and so often the future of an old home is a tough call to make"
 ---
 

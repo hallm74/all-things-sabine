@@ -4,6 +4,8 @@ pubDatetime: 2016-02-14T00:00:00
 title: "Releases cease from Toledo Bend  What a difference a month makes"
 ogImage: "../../assets/images/changes1-1024x371.jpg"
 featured: false
+tags:
+    - Toledo Bend
 description: "Releases cease from Toledo Bend  What a difference a month makes"
 ---
 

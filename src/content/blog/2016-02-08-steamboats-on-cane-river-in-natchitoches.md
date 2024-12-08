@@ -5,6 +5,8 @@ title: "Steamboats on Cane River in Natchitoches"
 ogImage: "../../assets/images/steamboat2-1024x744.jpg"
 featured: false
 draft: false
+tags:
+    - Natchitoches
 description: "Steamboats on Cane River in Natchitoches"
 ---
 

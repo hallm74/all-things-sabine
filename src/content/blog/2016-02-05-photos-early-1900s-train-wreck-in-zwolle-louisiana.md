@@ -5,6 +5,8 @@ title: "Photos  Early 1900s train wreck in Zwolle Louisiana"
 ogImage: "../../assets/images/train-wreck-on-logging-spur-from-zwolle-to-Blue-Lake165-1024x618.jpg"
 featured: false
 draft: false
+tags: 
+    - Zwolle
 description: "Photos  Early 1900s train wreck in Zwolle Louisiana"
 ---
 

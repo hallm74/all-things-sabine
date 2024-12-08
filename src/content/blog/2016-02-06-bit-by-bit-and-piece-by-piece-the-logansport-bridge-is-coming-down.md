@@ -5,6 +5,8 @@ title: "Bit by bit and piece by piece the Logansport bridge is coming down"
 ogImage: "../../assets/images/DJI_0022-1024x768.jpg"
 featured: false
 draft: false
+tags:
+    - Logansport
 description: "Bit by bit and piece by piece the Logansport bridge is coming down"
 ---
 

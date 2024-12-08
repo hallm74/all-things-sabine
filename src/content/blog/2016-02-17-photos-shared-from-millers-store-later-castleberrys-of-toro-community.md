@@ -5,6 +5,8 @@ title: "Photos shared from Millers Store later Castleberrys of Toro Community"
 ogImage: "../../assets/images/image-19.jpeg"
 featured: false
 draft: false
+tags:
+    - Toro
 description: "Photos shared from Millers Store later Castleberrys of Toro Community"
 ---
 

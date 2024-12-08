@@ -5,6 +5,8 @@ title: "Kirbyville Fire Department in Jasper County Texas"
 ogImage: "../../assets/images/ats-kirbyville-fire-1024x799.jpg"
 featured: false
 draft: false
+tags:
+    - Kirbyville
 description: "Kirbyville Fire Department in Jasper County Texas"
 ---
 

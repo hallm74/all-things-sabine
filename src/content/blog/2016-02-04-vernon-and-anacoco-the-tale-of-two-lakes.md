@@ -5,6 +5,8 @@ title: "Vernon and Anacoco  The tale of two lakes"
 ogImage: "../../assets/images/lakes-1024x363.jpg"
 featured: false
 draft: false
+tags: 
+    - Anacoco
 description: "Vernon and Anacoco  The tale of two lakes"
 ---
 

@@ -5,6 +5,8 @@ title: "Kisatchie School  From a bygone area a piece of rural culture and a remn
 ogImage: "../../assets/images/ats-kisatchienew-copy-1024x768.jpg"
 featured: false
 draft: false
+tags:
+    - Kisatchie
 description: "Kisatchie School  From a bygone area a piece of rural culture and a remnant of days gone by"
 ---
 

@@ -5,6 +5,8 @@ title: "Then and Now  Logansport Louisiana"
 ogImage: "../../assets/images/thenandnow-logansport.jpg"
 featured: false
 draft: false
+tags:
+    - Logansport
 description: "Then and Now  Logansport Louisiana"
 ---
 

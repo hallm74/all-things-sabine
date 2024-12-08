@@ -5,6 +5,8 @@ title: "Recreation on Toledo Bend"
 ogImage: "../../assets/images/DJI_0016-1024x768.jpg"
 featured: false
 draft: false
+tags:
+    - Toledo Bend
 description: "Recreation on Toledo Bend"
 ---
 

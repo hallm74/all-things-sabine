@@ -5,6 +5,8 @@ title: "Keatchie College later became public grade school for area"
 ogImage: "../../assets/images/image-34.jpeg"
 featured: false
 draft: false
+tags:
+    - Keatchie
 description: "Keatchie College later became public grade school for area"
 ---
 

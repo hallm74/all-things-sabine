@@ -5,6 +5,8 @@ title: "A bridge being dismantled"
 ogImage: "../../assets/images/logansport-bridgenew4-1024x768.jpg"
 featured: false
 draft: false
+tags:
+    - Logansport
 description: "A bridge being dismantled"
 ---
 

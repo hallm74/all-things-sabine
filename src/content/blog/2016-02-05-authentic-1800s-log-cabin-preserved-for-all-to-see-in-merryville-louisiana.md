@@ -5,6 +5,8 @@ title: "Authentic 1800s log cabin preserved for all to see in Merryville Louisia
 ogImage: "../../assets/images/burk2-1024x576.jpg"
 featured: false
 draft: false
+tags:
+    - Merryville
 description: "Authentic 1800s log cabin preserved for all to see in Merryville Louisiana"
 ---
 

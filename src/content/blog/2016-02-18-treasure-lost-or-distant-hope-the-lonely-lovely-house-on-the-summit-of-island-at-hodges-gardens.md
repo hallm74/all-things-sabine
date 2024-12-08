@@ -5,6 +5,8 @@ title: "Treasure lost or distant hope  The lonely lovely house on the summit of 
 ogImage: "../../assets/images/ats-hodgeshouse4-1024x685.jpg"
 featured: false
 draft: false
+tags:  
+    - Hodges Gardens
 description: "Treasure lost or distant hope  The lonely lovely house on the summit of island at Hodges Gardens"
 ---
 

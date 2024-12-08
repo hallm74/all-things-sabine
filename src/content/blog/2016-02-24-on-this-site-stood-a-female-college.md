@@ -5,6 +5,8 @@ title: "On this site stood a female college"
 ogImage: "../../assets/images/image-85-1024x576.jpeg"
 featured: false
 draft: false
+tags:
+    - Keachie
 description: "On this site stood a female college"
 ---
 

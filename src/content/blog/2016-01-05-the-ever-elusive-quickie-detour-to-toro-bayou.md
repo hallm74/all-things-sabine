@@ -4,6 +4,8 @@ pubDatetime: 2016-01-05T00:00:00
 title: "The everelusive quickie detour to Toro Bayou"
 featured: false
 draft: false
+tags:
+    - Toro Creek
 description: "The everelusive quickie detour to Toro Bayou"
 ---
 

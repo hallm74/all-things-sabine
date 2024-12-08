@@ -5,6 +5,8 @@ title: "Program for the dedication of the original Pendleton Bridge"
 ogImage: "../../assets/images/ats-pb1-203x300.jpg"
 featured: false
 draft: false
+tags: 
+    - Toledo Bend
 description: "Program for the dedication of the original Pendleton Bridge"
 ---
 

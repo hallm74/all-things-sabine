@@ -5,6 +5,8 @@ title: "A bridge going bye and directional disorientation adventure in Loganspor
 ogImage: "../../assets/images/DJI_0028-1024x768.jpg"
 featured: false
 draft: false
+tags: 
+    - Logansport
 description: "A bridge going bye and directional disorientation adventure in Logansport Louisiana"
 ---
 
