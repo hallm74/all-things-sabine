@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      
+      <h1>Discover Sabine’s Stories and Treasures</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -45,20 +45,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <div>
           <img src="/assets/cropped-fullmoontrainnew.jpg" alt="Many Louisiana Sabine Parish">
         </div>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Welcome to All Things Sabine, a journey into the rich history, culture, and beauty of Sabine Parish, Louisiana. From forgotten communities to local legends, explore the stories that shaped our past and continue to inspire today. Dive in and connect with the heart of Sabine!
       </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+      
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (

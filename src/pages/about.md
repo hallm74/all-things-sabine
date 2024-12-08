@@ -3,34 +3,14 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+At All Things Sabine, we are passionate about preserving and sharing the unique history, culture, and charm of Sabine Parish, Louisiana. Our mission is to highlight the stories, places, and people that have shaped this extraordinary region, creating a space where past and present come together.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Whether it’s uncovering the legacy of forgotten communities, celebrating the beauty of natural landmarks, or exploring the lives of the individuals who called Sabine home, our blog is a tribute to everything that makes this parish special.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+We believe that history is more than just dates and events; it’s the shared experiences that connect us to one another. Through articles, photos, and personal reflections, we aim to keep these stories alive for generations to come.
+
+All Things Sabine is for locals and visitors alike—anyone with a love for history, culture, and the unique spirit of Louisiana. Thank you for joining us in celebrating Sabine Parish. Together, let’s keep its rich heritage thriving.
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/woman-doing-remote-work-sideways.svg" class="sm:w-1/2 mx-auto" alt="Shannon writing news">
 </div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
