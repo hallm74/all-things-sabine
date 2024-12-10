@@ -13,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/all-things-sabine/edit/main/src/content/blog",
+    url: "https://github.com/hallm74/all-things-sabine/blob/master/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
