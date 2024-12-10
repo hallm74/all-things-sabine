@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://allthingssabine.netlify.app/", // replace this with your deployed domain
+  website: "https://allthingssabine.com/", // replace this with your deployed domain
   author: "Shannon Hall",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  profile: "https://allthingssabine.com/about/",
+  desc: "All Things Sabine is a blog dedicated to preserving and sharing the rich history, culture, and stories of Sabine Parish, Louisiana.",
   title: "All Things Sabine",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
