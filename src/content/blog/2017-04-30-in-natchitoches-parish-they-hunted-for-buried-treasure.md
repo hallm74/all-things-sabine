@@ -3,14 +3,16 @@ author: "hallm"
 pubDatetime: 2017-04-30T00:00:00
 title: "In 1950s Natchitoches Parish  They hunted for buried treasure"
 ogImage: "../../assets/images/The_Times_Sun__Jan_22__1956_1-1024x775.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Natchitoches
 description: "In 1950s Natchitoches Parish  They hunted for buried treasure"
 ---
 
 I found this treasure of an article published in _The Shreveport Times_, in January 1956, and detailing hunts for long lost treasure in Natchitoches Parish.  The article was written by John Merrill, which sounds neatly similar to the bandit whose hidden gold treasure hunters sought... John Murrell.
 
-[![the_times_sun__jan_22__1956_1](images/The_Times_Sun__Jan_22__1956_1-1024x775.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jan_22__1956_1.jpg)
+![the_times_sun__jan_22__1956_1](@assets/images//The_Times_Sun__Jan_22__1956_1-1024x775.jpg)
 
 "Thar's gold in them thar hills!"
 
@@ -24,13 +26,13 @@ Treasure-seekers (and the woods are full of 'em) have been digging for years in 
 
 And these days are far from over.
 
-\[caption id="attachment\_1532" align="aligncenter" width="840"\][![Photo by Guillet Studio, Natchitoches. Treasure hunting expedition.](images/The_Times_Sun__Jan_22__1956_3-1024x880.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jan_22__1956_3.jpg) Photo by Guillet Studio, Natchitoches. Treasure hunting expedition.\[/caption\]
+![Photo by Guillet Studio, Natchitoches. Treasure hunting expedition.](@assets/images//The_Times_Sun__Jan_22__1956_3-1024x880.jpg) Photo by Guillet Studio, Natchitoches. Treasure hunting expedition.
 
 People still dig in the old cave where the famed Natchez Trace-San Antonio Trail outlaw John A. Murrell is said to have hidden out. Holes in a deep ravine —dug only this month—show that the treasure-fever has not subsided.
 
 The "treasure area" lies in thick woods where only an occasional timberman or hunter passes; but even they keep to the dirt and sandy roads and seldom wander into the steep gullies and thickets where once the "bushwackers" hid to rest and count their money.
 
-\-------
+---
 
 Back before the Mexican War, Ulysses S. Grant (then a lieutenant), wrote of the area in 1844: "I found my regiment camping out in small linen tents on the top of a high sandy ridge and in the midst of a pine forest. The great elevation of our situation and the fact that one of the best springs of water in the state puts out here are the only recom-mendations the place has."
 
@@ -40,7 +42,7 @@ Stories and legends that abound in the area have it that after the Civil War the
 
 Not only Murrell and his bushwackers frequented the hideaway, say the stories, but also other well-known outlaws—including Frank and Jesse James. Reputedly, Murrell and his gang buried most of their loot in the area and never had a chance to return for it.
 
-\-------
+---
 
 Hopeful diggers have come to the area after having been given or sold "secret" maps, old waybills. or letters written during the Reconstruction period by persons "in the know" about the disposition of the outlaws' treasure. Some of the treasure-seekers claim they can "read" the old carvings in the bark of trees of the vicinity.
 
@@ -56,11 +58,11 @@ The old fellow obviously loves these hills and woods and is generally ready to g
 
 Then he takes you down into the deepest ravine where ice-cold water trickles from the side of a hill and points out the biggest hole of them all.
 
-\[caption id="attachment\_1529" align="aligncenter" width="817"\][![Straight down for 75 feet.](images/The_Times_Sun__Jan_22__1956_2-817x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jan_22__1956_2.jpg) Straight down for 75 feet.\[/caption\]
+![Straight down for 75 feet.](@assets/images//The_Times_Sun__Jan_22__1956_2-817x1024.jpg) Straight down for 75 feet.
 
 "This one was dug in 1950." he says. "Boy, was that some diggin'. Went straight down 75 feet. Had to dig for weeks. About four of 'em diggin' Folks came from all over to watch. You'd be surprised if you knew some of them big shots, bankers and all from Shreveport and other places that came to take a look."
 
-\-----
+---
 
 What Burke was pointing to was a hole about six feet in diameter and now filled with water. It was here in the spring and summer of 1950 that a group, led by a man who claimed a "building" containing from 9 to 30 million dollars was located about 75 feet beneath this spot, undertook the mammoth "dig."
 
@@ -70,10 +72,10 @@ It took the group several months but they dug 75 feel down through cement-hard s
 
 After weeks of digging and pumping water from the hole, the group gave up the venture. However, it was quite obvious at the time that they were still convinced the treasure was there.
 
-\-----
+---
 
 There have been no more large-scale diggings since 1950, but numerous persons hoping to find something of value in this scenic area still pock with holes the hill-sides and ravines.
 
 If outlaw Murrell and others did hide their loot near old Camp Salubrity, they hid it well. Treasure hunters, however, are a persistent lot and the digging is likely to continue for at least another 100 years.
 
-[![the_times_sun__jan_22__1956_](images/The_Times_Sun__Jan_22__1956_-812x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jan_22__1956_.jpg)
+![the_times_sun__jan_22__1956_](@assets/images//The_Times_Sun__Jan_22__1956_-812x1024.jpg)

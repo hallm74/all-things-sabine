@@ -8,7 +8,7 @@ draft: false
 description: "Where there were bandits perhaps there is gold"
 ---
 
-[![the_times_sun__jun_20__1965_](images/The_Times_Sun__Jun_20__1965_.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jun_20__1965_.jpg)
+![the_times_sun__jun_20__1965_](@assets/images//The_Times_Sun__Jun_20__1965_.jpg)
 
 In June 1965, _The Shreveport Times_ featured an articled titled, "Where the gold is... maybe."
 
@@ -24,9 +24,9 @@ All through the state's history fabulous fortunes vanished almost overnight, nev
 
 When the Civil War came, the planters latched on to the idea and began burying their valuables so the Yankees wouldn't get anything. A lot of these people apparently died in the war and others left their homes and simply never returned, so who can say what lies under the spots where these homes once stood and how much it is worth.
 
-[![the_times_sun__jun_20__1965_1](images/The_Times_Sun__Jun_20__1965_1.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Times_Sun__Jun_20__1965_1.jpg)
+![the_times_sun__jun_20__1965_1](@assets/images//The_Times_Sun__Jun_20__1965_1.jpg)
 
-Even the ordinary people were forced into the act of burying things since banks catered only to the wealthy as little as 150 years ago. Take all this, plus the occasional finding of an old map allegedly pointing out treasure spots or parts of trinkets and treasures, and you have proof enough—at least for the treasure hunters—that Louisiana is a paradise for fortune seekers. It is true, the banks in those days were very different from today, that is why if you are short of cash you can access [personal loans no credit check](https://www.mercurynews.com/2022/02/04/2022s-best-no-credit-check-loan-online-lenders-with-guaranteed-approval/), to do whatever you want.
+Even the ordinary people were forced into the act of burying things since banks catered only to the wealthy as little as 150 years ago. Take all this, plus the occasional finding of an old map allegedly pointing out treasure spots or parts of trinkets and treasures, and you have proof enough—at least for the treasure hunters—that Louisiana is a paradise for fortune seekers. 
 
 Take the men, for example, who excavated a dry bed of the Calcasieu River back in 1929 and came up with the richest strike in Louisiana history... 175,000 in gold coins buried just a few yards from the shoreline possibly by some of Lafitte's cronies or maybe the man himself.
 
