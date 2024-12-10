@@ -3,8 +3,10 @@ author: "hallm"
 pubDatetime: 2016-02-10T00:00:00
 title: "Natchitoches promotional brochure from the 1950s or 60s"
 ogImage: "../../assets/images/Good015-1200x2692.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Natchitoches
 description: "Natchitoches promotional brochure from the 1950s or 60s"
 ---
 
