@@ -30,7 +30,7 @@ Furthermore, I'm pretty sure now that I would not have found a shark's tooth if 
 
 I would, however, recognize gold bars if I saw them. I'm pretty sure.  I think.
 
-![I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.](@assets/images//gold.jpg) I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.\[/caption\]
+![I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.](@assets/images//gold.jpg) I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.
 
 Basically, I am impatient and I become bored way too easily... and because of that, I have no opals, no sharks' teeth, no arrow heads, and no gold bars to call my own.  Nothing.  Na da.
 
