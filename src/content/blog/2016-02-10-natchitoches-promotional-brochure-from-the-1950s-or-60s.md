@@ -10,7 +10,7 @@ tags:
 description: "Natchitoches promotional brochure from the 1950s or 60s"
 ---
 
-From 1950s or maybe 60s (I am unsure of the date it was published), promotional folding brochure for Natchitoches, Louisiana.  Click to enlarge the images.
+From 1950s or maybe 60s (I am unsure of the date it was published), promotional folding brochure for Natchitoches, Louisiana.
 
 ![Natchitoches Promotional Brochure from the 1950s or 1960s](@assets/images/Good015-1200x2692.jpg) Water skiing on Cane River
 ![Natchitoches Promotional Brochure from the 1950s or 1960s](@assets/images/Good001-1200x2816.jpg) Sports
