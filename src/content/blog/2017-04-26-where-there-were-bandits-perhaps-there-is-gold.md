@@ -3,7 +3,7 @@ author: "hallm"
 pubDatetime: 2017-04-26T00:00:00
 title: "Where there were bandits perhaps there is gold"
 ogImage: "../../assets/images/The_Times_Sun__Jun_20__1965_.jpg"
-featured: true
+featured: false
 draft: false
 description: "Where there were bandits perhaps there is gold"
 ---
