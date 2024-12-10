@@ -2,21 +2,21 @@
 author: "hallm"
 pubDatetime: 2017-05-02T00:00:00
 title: "Efforts to save Hodges Gardens State Park from closure continue"
-ogImage: "../../assets/images/signees-574x1024.jpg"
-featured: true
+ogImage: "../../assets/images/signees.jpg"
+featured: false
 draft: false
+tags:
+    - Hodges Gardens
 description: "Efforts to save Hodges Gardens State Park from closure continue"
 ---
 
-\[caption id="attachment\_1569" align="aligncenter" width="574"\][![Locations of signees of "Save Hodges Gardens" petiton, up through May 1, 2017](images/signees-574x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/05/signees.jpg) Locations of signees of "Save Hodges Gardens" petiton, up through May 1, 2017\[/caption\]
+![Locations of signees of "Save Hodges Gardens" petiton, up through May 1, 2017](@assets/images/signees.jpg) Locations of signees of "Save Hodges Gardens" petiton, up through May 1, 2017
 
 To date, 2,758 people have added their names to a petition created by All Things Sabine which aims to show support for Hodges Gardens State Park.  Our goal is plain and simple:  to convince the State of Louisiana that Hodges Gardens is worth keeping open and that the State should fund the park as is needed to keep it open.
 
-The petition is still active and interested persons are encouraged to add their names.  Remember, strength often comes from numbers, so the more signatures, the better.  To sign the petition, follow this link:
+The petition is still active and interested persons are encouraged to add their names.  Remember, strength often comes from numbers, so the more signatures, the better.  
 
-https://allthingssabine.com/keep-hodges-gardens-state-park-open/
-
-A bit of abbreviated backstory on Hodges Gardens State Park:  Hodges Gardens was created in the 1950s by area businessman A. J. Hodges (an oilman, if you will) and his wife, Nona Triggs Hodges (an all-around lover of nature and avid horticulturist), as a way of giving back to their community and of preserving almost 5,000 thousand acres of land and home to a lot of [squash trellis](https://www.hortomallas.com/en/chayote-squash-trellis-net/) for everyone to see, and to create a unique arboretum attraction.
+A bit of abbreviated backstory on Hodges Gardens State Park:  Hodges Gardens was created in the 1950s by area businessman A. J. Hodges (an oilman, if you will) and his wife, Nona Triggs Hodges (an all-around lover of nature and avid horticulturist), as a way of giving back to their community and of preserving almost 5,000 thousand acres of land for everyone to see, and to create a unique arboretum attraction.
 
 Basically, and I think I am safe to say this, the Hodges' were true conservationists before the dawning of the age of conservation.  They wanted this land protected, beautiful and available for the enjoyment of the public, and they clearly wanted this for their time and for the future long after they were gone.
 

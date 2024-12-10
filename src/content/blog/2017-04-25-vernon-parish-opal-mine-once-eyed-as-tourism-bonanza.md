@@ -3,8 +3,10 @@ author: "hallm"
 pubDatetime: 2017-04-25T00:00:00
 title: "Vernon Parish opal mine once eyed as tourism bonanza"
 ogImage: "../../assets/images/opal.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Vernon
 description: "Vernon Parish opal mine once eyed as tourism bonanza"
 ---
 
@@ -12,15 +14,15 @@ I like to think of myself as a treasure hunter.  In my dreams.
 
 In reality... unfortunately for me... I am about as far from a treasure hunter as one could be.
 
-\[caption id="attachment\_1468" align="aligncenter" width="1000"\][![I did not find this on my search for opal. :(](images/opal.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/opal.jpg) I did not find this on my search for opal. :(\[/caption\]
+![I did not find this on my search for opal. :(](@assets/images//opal.jpg) I did not find this on my search for opal. :(
 
 Back in the 1990s, I had heard people were finding opal in Vernon Parish, south of Toro and a bit northwest of Anacoco.  Intrigued and tempted, I searched _a bit_ in the area... _a bit_ being about an hour or less.  And with only limited knowledge of exactly where to search, I covered, say, 200 yards in my very cursory search.  I thought it would be easy.  Not hot, boring, tedious and extremely vague.  Well, actually, it was not tedious, for I looked about the way I look for a lost this or that at my house... just glancing around.
 
-\[caption id="attachment\_1471" align="alignright" width="300"\][![My arrowheads did not look so much like this. I was told they looked like "plain, pointy rocks." (No names mentioned, Ranay!) What a buzz kill.](images/arrowhead-300x251.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/arrowhead.jpg) My arrowheads did not look so much like this. I was told they looked like "plain, pointy rocks." (No names mentioned, Ranay!) What a buzz kill.\[/caption\]
+![My arrowheads did not look so much like this. I was told they looked like "plain, pointy rocks." (No names mentioned, Ranay!) What a buzz kill.](@assets/images//arrowhead.jpg) My arrowheads did not look so much like this. I was told they looked like "plain, pointy rocks." (No names mentioned, Ranay!) What a buzz kill.
 
 And so, like my earlier quests for arrowheads and later for prehistoric shark teeth along the southeastern banks of Toledo Bend, I came up empty handed in my search for precious opal.  Also, by the way, I never was able to find any gold bars believed to have been buried or hidden in our area by bandits in the 1800s.  In all, I figure I've spent a good five hours of my life (seven or so if you add the drive time) searching for treasures of any sort whatsoever in our treasure-rich geographic area.
 
-\[caption id="attachment\_1472" align="alignright" width="236"\][![I found this photo on Pinterest... And I realized I was way off on my idea of the size of a prehistoric Megalodon shark tooth... I think my eyes were on the quest for something about, oh, one-ten-thousandth the size of this.](images/shark.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/shark.jpg) I found this photo on Pinterest... And I realized I was way off on my idea of the size of a prehistoric Megalodon shark tooth... I think my eyes were on the quest for something about, oh, one-ten-thousandth the size of this.\[/caption\]
+![I found this photo on Pinterest... And I realized I was way off on my idea of the size of a prehistoric Megalodon shark tooth... I think my eyes were on the quest for something about, oh, one-ten-thousandth the size of this.](@assets/images//shark.jpg) I found this photo on Pinterest... And I realized I was way off on my idea of the size of a prehistoric Megalodon shark tooth... I think my eyes were on the quest for something about, oh, one-ten-thousandth the size of this.
 
 I concluded I probably would not know an opal if I found one.  Nor would I know an arrowhead (I must have retrieved 30 or more things that _looked like_ they _could be_ arrowheads, but I was told by people _supposedly_ more knowledgeable than me... who shall remain nameless due to their cruel buzz-kill thrills' nature...  that I was pretty far off from having actually found an arrowhead and had only collected a few "basic, pointy rocks").
 
@@ -28,7 +30,7 @@ Furthermore, I'm pretty sure now that I would not have found a shark's tooth if 
 
 I would, however, recognize gold bars if I saw them. I'm pretty sure.  I think.
 
-\[caption id="attachment\_1473" align="aligncenter" width="852"\][![I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.](images/gold.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/gold.jpg) I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.\[/caption\]
+![I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.](@assets/images//gold.jpg) I would have settled happily for finding just one of these bars. it could even have been filthy dirty and scratched up a bit. Or even broken... yes, I would have accepted broken.\[/caption\]
 
 Basically, I am impatient and I become bored way too easily... and because of that, I have no opals, no sharks' teeth, no arrow heads, and no gold bars to call my own.  Nothing.  Na da.
 
@@ -44,7 +46,7 @@ They are digging in a hillside along a creek bottom about a quarter of a mile fr
 
 Griffin, who leases about 50 acres from Boise Cascade Corp., named it the Hidden Fire Opal Mine. He plans on surrounding it with campgrounds and gem washes, turning it into a mecca for lapidary hobbyists, known to one another as rockhounds.
 
-[![the_town_talk_sun__nov_18__1990_](images/The_Town_Talk_Sun__Nov_18__1990_-621x1024.jpg)](https://allthingssabine.com/wp-content/uploads/2017/04/The_Town_Talk_Sun__Nov_18__1990_.jpg)
+![the_town_talk_sun__nov_18__1990_](@assets/images//The_Town_Talk_Sun__Nov_18__1990_.jpg)
 
 "There is no opal mine in the United States that can claim they dig up 100 percent cutable material. We can claim that," he said, showing the site to state Rep. John Smith, D-Leesville, and a delegation from the Vernon Parish Tourism and Recreation Commission.
 
