@@ -3,22 +3,26 @@ author: "hallm"
 pubDatetime: 2016-02-12T00:00:00
 title: "Big fun at Big Cow Creek Just as one would expect from a creek named Big Cow"
 ogImage: "../../assets/images/bigcow3-copy.jpg"
-featured: true
+featured: false
 draft: false
+tags:
+    - Newton County Texas
 description: "Big fun at Big Cow Creek Just as one would expect from a creek named Big Cow"
 ---
 
 ![Cover Image](@assets/images/bigcow3-copy.jpg)
 
-\[caption id="attachment\_586" align="aligncenter" width="840"\][![Big Cow Creek ... at Texas Hwy. 363 bridge which crosses it](images/YUN00047-1024x576.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/YUN00047.jpg) Big Cow Creek ... at Texas Hwy. 363 bridge which crosses it\[/caption\]
+![Big Cow Creek ... at Texas Hwy. 363 bridge which crosses it](@assets/images//YUN00047-1024x576.jpg) Big Cow Creek ... at Texas Hwy. 363 bridge which crosses it
 
-\[caption id="attachment\_1322" align="alignright" width="840"\][![Big Cow Creek, horshoeing along its merry way](images/bigcow3-copy-1024x576.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/bigcow3-copy.jpg) Big Cow Creek, horshoeing along its merry way\[/caption\]
+![Big Cow Creek, horshoeing along its merry way](@assets/images//bigcow3-copy-1024x576.jpg) Big Cow Creek, horshoeing along its merry way
 
 Back in December, I had shared a few photos and details of waterway called Big Cow Creek.  I did not expect the response I got... nearly 150 likes, some 30 comments and almost 50 shares.  People commented about how special the creek was to them, referring to fond memories and happy times on the creek... fishing, swimming, playing, picnicking, even being baptized in the creek's cold waters.
 
-\[wpdevart\_youtube\]ac6G2TFxWlA\[/wpdevart\_youtube\]
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ac6G2TFxWlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!--more-->Big Cow Creek:  Part 1
+## Table of Contents
+
+## Big Cow Creek:  Part 1
 
 Here is the bit I shared about our initial, rather unintentional, trip to Big Cow Creek, in late December 2015:
 
@@ -34,9 +38,9 @@ Big Cow Creek rises eight miles southeast of Browndell in northwestern Newton Co
 
 Neat how you can find treasure around every corner and bend... My daughter, on the other hand, finds the creek a bit yucky. For me, however, I am pretty sure any time I hear of Big Cow Creek or traverse it, I will fondly remember the experience. And I've no doubt my daughter will too... Eventually !
 
-\[caption id="attachment\_587" align="aligncenter" width="840"\][![Big Cow Creek](images/YUN00050-1024x576.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/YUN00050.jpg) Big Cow Creek\[/caption\]
+![Big Cow Creek](@assets/images//YUN00050-1024x576.jpg) Big Cow Creek
 
-Big Cow Creek:  Part 2
+## Big Cow Creek:  Part 2
 
 In January, while traveling again through East Texas, I decided I wanted more footage on Big Cow Creek, since our post had gotten such nice response and I figured there was more to see than the little section we had seen by the bridge at Jesse Lee Park west of Bon Weir.  The kids were up for it, which surprised me a bit because I figured Siarah would still be angry with the creek.  She had celebrated her 16th birthday in late December, just a few days after we were at the creek last, and bragged to me that she had grown up since the last trip and I needn't worry about any incidents with her this time.
 
@@ -44,9 +48,9 @@ We pulled up into the park, got our camera equipment out and prepared to get mor
 
 My other daughter and I tried to get a drone in the air to get more footage.  But we concluded the wind was too heavy to keep the drone up any more than a few seconds... and since Siarah was pouting in the car, we gave up and vowed to return.
 
-\[caption id="attachment\_588" align="aligncenter" width="840"\][![](images/YUN00052-1024x576.jpg)](https://allthingssabine.com/wp-content/uploads/2016/02/YUN00052.jpg) Big Cow Creek\[/caption\]
+![](@assets/images//YUN00052-1024x576.jpg) Big Cow Creek
 
-Big Cow Creek:  Part 3
+## Big Cow Creek:  Part 3
 
 We returned to Big Cow Creek later in the month, this time determined to get more footage.  Again, it was a beautiful day, and the winds weren't so heavy, plus Siarah was in a good mood so it seemed like it would all work out.
 
