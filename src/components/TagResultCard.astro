@@ -1,0 +1,34 @@
+---
+import Datetime from "./Datetime";
+import type { TaggableItem } from "@utils/getTaggableItems";
+
+export interface Props {
+  item: TaggableItem;
+}
+
+const { item } = Astro.props;
+---
+
+<li class="my-6">
+  <div class="mb-1 flex items-center gap-3">
+    <span class="source-label">
+      {item.kind === "blog" ? "Article" : "Facebook Archive"}
+    </span>
+    <Datetime pubDatetime={item.publishedAt} />
+  </div>
+  <a
+    href={item.href}
+    class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+  >
+    <h2 class="text-lg font-medium decoration-dashed hover:underline">
+      {item.title}
+    </h2>
+  </a>
+  <p>{item.description}</p>
+</li>
+
+<style>
+  .source-label {
+    @apply rounded border border-skin-line px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wider opacity-80;
+  }
+</style>

@@ -1,0 +1,55 @@
+---
+import FacebookArchiveListing from "@components/FacebookArchiveListing.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const storiesPerPage = 24;
+  const stories = await getCollection(
+    "facebookArchive",
+    ({ data }) => !data.draft
+  ).then(entries =>
+    entries.sort(
+      (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+    )
+  );
+  const pageCount = Math.ceil(stories.length / storiesPerPage);
+
+  return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => {
+    const currentPage = index + 2;
+    const start = (currentPage - 1) * storiesPerPage;
+    return {
+      params: { page: String(currentPage) },
+      props: {
+        stories: stories.slice(start, start + storiesPerPage),
+        currentPage,
+        pageCount,
+      },
+    };
+  });
+}
+
+const { stories, currentPage, pageCount } = Astro.props;
+---
+
+<Layout
+  title={`Facebook Archive, Page ${currentPage} | ${SITE.title}`}
+  description="Stories, photographs, and clippings preserved from the All Things Sabine Facebook Page."
+>
+  <Header activeNav="facebookArchive" />
+  <Main
+    pageTitle="Facebook Archive"
+    pageDesc="Stories, photographs, and clippings preserved from the All Things Sabine Facebook Page."
+  >
+    <FacebookArchiveListing
+      stories={stories}
+      currentPage={currentPage}
+      pageCount={pageCount}
+    />
+  </Main>
+  <Footer />
+</Layout>

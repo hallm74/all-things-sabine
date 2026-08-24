@@ -30,3 +30,6 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+# Local source archives and extracted data from the Facebook Page export
+data/facebook-import/

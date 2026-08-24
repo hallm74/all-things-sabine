@@ -5,19 +5,23 @@ import Footer from "@components/Footer.astro";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Tag from "@components/Tag.astro";
-import getUniqueTags from "@utils/getUniqueTags";
+import {
+  getTaggableItems,
+  getUniqueTagsFromItems,
+} from "@utils/getTaggableItems";
 import { SITE } from "@config";
 
 const posts = await getCollection("blog");
+const stories = await getCollection("facebookArchive");
 
-let tags = getUniqueTags(posts);
+const tags = getUniqueTagsFromItems(getTaggableItems(posts, stories));
 ---
 
 <Layout title={`Tags | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
     <ul>
-      {tags.map(({ tag }) => <Tag {tag} size="lg" />)}
+      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
     </ul>
   </Main>
   <Footer />

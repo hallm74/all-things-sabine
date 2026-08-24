@@ -3,14 +3,14 @@ import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import Card from "@components/Card";
+import TagResultCard from "@components/TagResultCard.astro";
 import Pagination from "@components/Pagination.astro";
 import { SITE } from "@config";
 import type { Page } from "astro";
-import type { CollectionEntry } from "astro:content";
+import type { TaggableItem } from "@utils/getTaggableItems";
 
 export interface Props {
-  page: Page<CollectionEntry<"blog">>;
+  page: Page<TaggableItem>;
   tag: string;
   tagName: string;
 }
@@ -23,15 +23,11 @@ const { page, tag, tagName } = Astro.props;
   <Main
     pageTitle={[`Tag:`, `${tagName}`]}
     titleTransition={tag}
-    pageDesc={`All the articles with the tag "${tagName}".`}
+    pageDesc={`All articles and Facebook Archive stories with the tag "${tagName}".`}
   >
     <h1 slot="title" transition:name={tag}>{`Tag:${tag}`}</h1>
     <ul>
-      {
-        page.data.map(({ data, slug }) => (
-          <Card href={`/posts/${slug}/`} frontmatter={data} />
-        ))
-      }
+      {page.data.map(item => <TagResultCard {item} />)}
     </ul>
   </Main>
 

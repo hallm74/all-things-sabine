@@ -1,0 +1,206 @@
+---
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import { getCollection } from "astro:content";
+
+if (!import.meta.env.DEV) {
+  return Astro.redirect("/404");
+}
+
+const stories = await getCollection(
+  "facebookArchive",
+  ({ data }) => data.draft && data.media.length === 0
+).then(entries =>
+  entries.sort(
+    (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+  )
+);
+const standaloneCount = stories.filter(
+  story => story.data.facebookActivityType === "status"
+).length;
+const sharedLinkCount = stories.filter(
+  story => story.data.facebookActivityType === "shared-link"
+).length;
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "America/Chicago",
+  }).format(date);
+---
+
+<Layout
+  title={`Local Text-Only Facebook Drafts | ${SITE.title}`}
+  description="Local-only review list of text-only Facebook Archive drafts."
+>
+  <Header activeNav="facebookArchive" />
+  <Main
+    pageTitle="Text-Only Facebook Drafts"
+    pageDesc={`${sharedLinkCount} remaining shared-link drafts with usable destination URLs. This page exists only on the local development server.`}
+  >
+    <div class="review-notice">
+      <strong>Local only:</strong> none of these text posts are published.
+    </div>
+    <label for="text-draft-search">Search titles and opening text</label>
+    <input
+      id="text-draft-search"
+      type="search"
+      placeholder="Search the remaining text drafts…"
+      autocomplete="off"
+    />
+    <label class="type-label" for="type-filter">Post type</label>
+    <select id="type-filter">
+      <option value="status">Standalone statuses ({standaloneCount})</option>
+      <option value="shared-link" selected>
+        Preserved shared links ({sharedLinkCount})
+      </option>
+      <option value="shared-post">Missing shared posts</option>
+      <option value="all">All text drafts</option>
+    </select>
+    <p id="result-count" aria-live="polite">
+      Showing {sharedLinkCount} shared-link drafts
+    </p>
+    <ol id="text-draft-list" class="text-draft-list">
+      {
+        stories.map(story => {
+          const slug = story.id.replace(/\.md$/, "");
+          const date = formatDate(story.data.publishedAt);
+          const searchText =
+            `${story.data.title} ${story.data.description} ${date}`.toLowerCase();
+          return (
+            <li
+              data-search={searchText}
+              data-type={story.data.facebookActivityType ?? "status"}
+            >
+              <article>
+                <time datetime={story.data.publishedAt.toISOString()}>
+                  {date}
+                </time>
+                <h2>
+                  <a href={`/facebook-archive/${slug}/`}>{story.data.title}</a>
+                </h2>
+                {story.data.facebookActivityType === "status" && (
+                  <span class="source-type">Standalone Facebook status</span>
+                )}
+                {story.data.sharedUrl && (
+                  <a
+                    class="shared-link"
+                    href={story.data.sharedUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open preserved shared link ↗
+                  </a>
+                )}
+                {story.data.sharedAttachmentUnavailable && (
+                  <span class="missing-link">
+                    Shared-post destination was not included in the Facebook
+                    export
+                  </span>
+                )}
+                <p>{story.data.description}</p>
+                <a class="draft-link" href={`/facebook-archive/${slug}/`}>
+                  Open complete draft →
+                </a>
+              </article>
+            </li>
+          );
+        })
+      }
+    </ol>
+  </Main>
+  <Footer />
+</Layout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>("#text-draft-search");
+  const items = Array.from(
+    document.querySelectorAll<HTMLElement>("#text-draft-list > li")
+  );
+  const count = document.querySelector<HTMLElement>("#result-count");
+  const typeFilter = document.querySelector<HTMLSelectElement>("#type-filter");
+
+  const filterItems = () => {
+    const query = search?.value.trim().toLowerCase() ?? "";
+    const selectedType = typeFilter?.value ?? "shared-link";
+    let visible = 0;
+    for (const item of items) {
+      const matchesSearch = !query || item.dataset.search?.includes(query);
+      const matchesType =
+        selectedType === "all" || item.dataset.type === selectedType;
+      const matches = matchesSearch && matchesType;
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    }
+    if (count)
+      count.textContent = `Showing ${visible} ${
+        selectedType === "status"
+          ? "standalone text posts"
+          : selectedType === "shared-link"
+            ? "shared-link drafts"
+            : "text drafts"
+      }`;
+  };
+
+  search?.addEventListener("input", filterItems);
+  typeFilter?.addEventListener("change", filterItems);
+  filterItems();
+</script>
+
+<style>
+  .review-notice {
+    @apply mb-6 rounded border border-skin-accent bg-skin-card/30 px-4 py-3 text-sm;
+  }
+  label {
+    @apply mb-2 block text-sm font-semibold;
+  }
+  #text-draft-search {
+    @apply w-full rounded border border-skin-line bg-skin-fill px-4 py-3 text-skin-base outline-none focus:border-skin-accent;
+  }
+  .type-label {
+    @apply mt-4;
+  }
+  #type-filter {
+    @apply rounded border border-skin-line bg-skin-fill px-3 py-2 text-skin-base;
+  }
+  #result-count {
+    @apply mt-3 text-sm opacity-70;
+  }
+  .text-draft-list {
+    @apply mt-6 list-none space-y-5 p-0;
+  }
+  .text-draft-list li[hidden] {
+    display: none;
+  }
+  .text-draft-list article {
+    @apply block rounded-lg border border-skin-line bg-skin-card/25 p-5 hover:border-skin-accent;
+  }
+  time {
+    @apply text-xs uppercase tracking-wide opacity-60;
+  }
+  h2 {
+    @apply mb-2 mt-2 text-xl font-semibold leading-snug text-skin-accent;
+  }
+  .source-type,
+  .missing-link,
+  .shared-link {
+    @apply mb-3 inline-block rounded border border-skin-line px-2 py-1 text-xs font-semibold;
+  }
+  .missing-link {
+    @apply border-skin-accent;
+  }
+  .shared-link {
+    @apply border-skin-accent text-skin-accent;
+  }
+  .text-draft-list p {
+    @apply mb-3 line-clamp-3 text-sm not-italic leading-relaxed opacity-80;
+  }
+  .draft-link {
+    @apply text-sm font-semibold text-skin-accent;
+  }
+</style>

@@ -33,4 +33,59 @@ const blog = defineCollection({
     }),
 });
 
-export const collections = { blog };
+const facebookArchive = defineCollection({
+  type: "content_layer",
+  loader: glob({ pattern: "**/*.md", base: "./content/facebook-archive" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    publishedAt: z.date(),
+    historicalDate: z.string().optional(),
+    historicalDatePrecision: z
+      .enum(["day", "month", "year", "decade", "unknown"])
+      .default("unknown"),
+    source: z.literal("facebook"),
+    sourceTimestamp: z.number().int(),
+    sourcePostIndex: z.number().int().optional(),
+    facebookPostId: z.string().optional(),
+    facebookPermalink: z.string().url().optional(),
+    facebookTitle: z.string().optional(),
+    facebookActivityType: z
+      .enum(["status", "shared-link", "shared-post", "video"])
+      .optional(),
+    sharedUrl: z.string().url().optional(),
+    sharedAttachmentUnavailable: z.boolean().optional(),
+    album: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    draft: z.boolean().default(true),
+    reviewStatus: z.enum(["pending", "reviewed"]).default("pending"),
+    mediaReviewStatus: z.enum(["pending", "reviewed"]).default("pending"),
+    commentImportStatus: z
+      .enum(["pending", "partial", "complete", "unavailable"])
+      .default("pending"),
+    media: z.array(
+      z.object({
+        src: z.string(),
+        sourceId: z.string(),
+        width: z.number().int().positive(),
+        height: z.number().int().positive(),
+        alt: z.string(),
+        caption: z.string().optional(),
+      })
+    ),
+    video: z
+      .object({
+        src: z.string().url(),
+        sourceId: z.string(),
+        mimeType: z.literal("video/mp4"),
+        bytes: z.number().int().positive(),
+        width: z.number().int().positive(),
+        height: z.number().int().positive(),
+        durationSeconds: z.number().positive(),
+        hasAudio: z.boolean(),
+      })
+      .optional(),
+  }),
+});
+
+export const collections = { blog, facebookArchive };

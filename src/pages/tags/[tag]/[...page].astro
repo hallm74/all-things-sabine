@@ -1,17 +1,22 @@
 ---
 import { getCollection } from "astro:content";
 import TagPosts from "@layouts/TagPosts.astro";
-import getUniqueTags from "@utils/getUniqueTags";
-import getPostsByTag from "@utils/getPostsByTag";
+import {
+  getItemsByTag,
+  getTaggableItems,
+  getUniqueTagsFromItems,
+} from "@utils/getTaggableItems";
 import type { GetStaticPathsOptions } from "astro";
 import { SITE } from "@config";
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   const posts = await getCollection("blog");
-  const tags = getUniqueTags(posts);
+  const stories = await getCollection("facebookArchive");
+  const items = getTaggableItems(posts, stories);
+  const tags = getUniqueTagsFromItems(items);
 
   return tags.flatMap(({ tag, tagName }) => {
-    const tagPosts = getPostsByTag(posts, tag);
+    const tagPosts = getItemsByTag(items, tag);
 
     return paginate(tagPosts, {
       params: { tag },

@@ -1,0 +1,255 @@
+---
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Tag from "@components/Tag.astro";
+import Layout from "@layouts/Layout.astro";
+import { SITE } from "@config";
+import {
+  type CollectionEntry,
+  getCollection,
+  getEntry,
+  render,
+} from "astro:content";
+import { slugifyStr } from "@utils/slugify";
+
+export interface Props {
+  story: CollectionEntry<"facebookArchive">;
+}
+
+export async function getStaticPaths() {
+  const stories = await getCollection(
+    "facebookArchive",
+    ({ data }) => import.meta.env.DEV || !data.draft
+  );
+  return stories.map(story => ({
+    params: { slug: story.id.replace(/\.md$/, "") },
+    props: { story },
+  }));
+}
+
+let { story } = Astro.props;
+if (import.meta.env.DEV) {
+  story = (await getEntry("facebookArchive", story.id)) ?? story;
+}
+const { Content } = await render(story);
+const {
+  title,
+  description,
+  publishedAt,
+  historicalDate,
+  media,
+  tags,
+  commentImportStatus,
+  draft,
+  facebookActivityType,
+  sharedUrl,
+  sharedAttachmentUnavailable,
+  video,
+} = story.data;
+
+const publishedLabel = new Intl.DateTimeFormat("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  hour: "numeric",
+  minute: "2-digit",
+  timeZone: "America/Chicago",
+  timeZoneName: "short",
+}).format(publishedAt);
+---
+
+<Layout
+  title={`${title} | ${SITE.title}`}
+  description={description}
+  pubDatetime={publishedAt}
+  ogImage={media[0]?.src}
+  scrollSmooth={true}
+>
+  <Header activeNav="facebookArchive" />
+  <main id="main-content">
+    <a
+      href={draft ? "/facebook-archive/review/" : "/facebook-archive/"}
+      class="back-link"
+    >
+      ← {draft ? "Local draft review" : "Facebook Archive"}
+    </a>
+    <header class="story-header">
+      <span class="eyebrow">
+        Facebook Archive{draft && " · Local draft preview"}
+      </span>
+      <h1>{title}</h1>
+      <p class="deck">{description}</p>
+      <dl class="story-dates">
+        <div>
+          <dt>Originally published</dt>
+          <dd>
+            <time datetime={publishedAt.toISOString()}>{publishedLabel}</time>
+          </dd>
+        </div>
+        {
+          historicalDate && (
+            <div>
+              <dt>Historical date</dt>
+              <dd>{historicalDate}</dd>
+            </div>
+          )
+        }
+      </dl>
+    </header>
+    {
+      facebookActivityType === "shared-link" && sharedUrl && (
+        <aside class="shared-context">
+          <strong>Link shared with the original Facebook post</strong>
+          <a href={sharedUrl} target="_blank" rel="noopener noreferrer">
+            {sharedUrl}
+          </a>
+        </aside>
+      )
+    }
+    {
+      sharedAttachmentUnavailable && (
+        <aside class="shared-context missing">
+          <strong>Shared-post destination unavailable</strong>
+          <span>
+            Facebook preserved the introductory text and an attachment marker,
+            but the export did not include the shared post or its destination
+            URL.
+          </span>
+        </aside>
+      )
+    }
+    {
+      video && (
+        <section class="video-player" aria-label="Archived Facebook video">
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            width={video.width}
+            height={video.height}
+          >
+            <source src={video.src} type={video.mimeType} />
+            Your browser cannot play this archived video.
+          </video>
+        </section>
+      )
+    }
+    <section class="gallery" aria-label="Story photographs">
+      {
+        media.map((image, index) => (
+          <figure>
+            <a
+              href={image.src}
+              aria-label={`Open full-size image ${index + 1}`}
+            >
+              <img
+                src={image.src}
+                width={image.width}
+                height={image.height}
+                alt={image.alt}
+                loading={index === 0 ? "eager" : "lazy"}
+                fetchpriority={index === 0 ? "high" : "auto"}
+              />
+            </a>
+            {image.caption && <figcaption>{image.caption}</figcaption>}
+          </figure>
+        ))
+      }
+    </section>
+    <article class="facebook-text prose">
+      <div class="source-label">Original Facebook post</div>
+      <Content />
+    </article>
+    <ul class="tag-list" aria-label="Tags">
+      {tags.map(tagName => <Tag tag={slugifyStr(tagName)} {tagName} />)}
+    </ul>
+    {
+      commentImportStatus === "pending" && (
+        <aside class="comments-status">
+          <strong>Comments are not yet archived.</strong>
+          <span>
+            This test preserves space for comments that may be imported from
+            Facebook later.
+          </span>
+        </aside>
+      )
+    }
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    @apply mx-auto w-full max-w-4xl px-4 pb-12;
+  }
+  .back-link {
+    @apply mb-8 mt-8 inline-flex text-sm hover:text-skin-accent;
+  }
+  .story-header {
+    @apply mx-auto max-w-3xl;
+  }
+  .eyebrow,
+  .source-label {
+    @apply text-xs font-bold uppercase tracking-[0.18em] text-skin-accent;
+  }
+  h1 {
+    @apply mt-3 text-3xl font-semibold leading-tight text-skin-accent sm:text-5xl;
+  }
+  .deck {
+    @apply mt-5 text-lg leading-relaxed opacity-80;
+  }
+  .story-dates {
+    @apply mt-7 grid gap-4 border-y border-dashed border-skin-line py-4 text-sm sm:grid-cols-2;
+  }
+  .story-dates dt {
+    @apply text-xs uppercase tracking-wider opacity-60;
+  }
+  .story-dates dd {
+    @apply mt-1 font-semibold;
+  }
+  .gallery {
+    @apply my-10;
+  }
+  .video-player {
+    @apply my-10 overflow-hidden rounded-sm border border-skin-line bg-black;
+  }
+  .video-player video {
+    @apply block h-auto max-h-[80vh] w-full;
+  }
+  .shared-context {
+    @apply mx-auto my-8 flex max-w-3xl flex-col gap-2 border-l-4 border-skin-accent bg-skin-card/30 px-5 py-4 text-sm;
+  }
+  .shared-context a {
+    @apply break-all text-skin-accent underline;
+  }
+  .shared-context.missing {
+    @apply border-skin-line;
+  }
+  .gallery figure {
+    @apply m-0;
+  }
+  .gallery a {
+    @apply block overflow-hidden rounded-sm border border-skin-line bg-black;
+  }
+  .gallery img {
+    @apply h-auto w-full;
+  }
+  .gallery figcaption {
+    @apply mx-auto mt-3 max-w-3xl text-sm leading-relaxed opacity-70;
+  }
+  .facebook-text {
+    @apply mx-auto mt-12 max-w-3xl rounded-lg border border-skin-line bg-skin-card/25 p-5 sm:p-8;
+  }
+  .source-label {
+    @apply mb-4;
+  }
+  .tag-list {
+    @apply mx-auto mt-8 flex max-w-3xl list-none flex-wrap gap-2 p-0;
+  }
+  .tag-list li {
+    @apply rounded-full border border-skin-line px-3 py-1 text-xs;
+  }
+  .comments-status {
+    @apply mx-auto mt-10 flex max-w-3xl flex-col gap-1 border-l-4 border-skin-accent bg-skin-card/30 px-5 py-4 text-sm;
+  }
+</style>

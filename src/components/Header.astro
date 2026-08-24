@@ -4,7 +4,13 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "archives" | "tags" | "about" | "search";
+  activeNav?:
+    | "posts"
+    | "facebookArchive"
+    | "archives"
+    | "tags"
+    | "about"
+    | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -58,6 +64,14 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
+            </a>
+          </li>
+          <li>
+            <a
+              href="/facebook-archive/"
+              class={activeNav === "facebookArchive" ? "active" : ""}
+            >
+              FB Archive
             </a>
           </li>
           <li>

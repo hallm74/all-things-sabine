@@ -1,0 +1,224 @@
+---
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import { SITE } from "@config";
+import { getCollection } from "astro:content";
+import fs from "node:fs";
+import path from "node:path";
+
+if (!import.meta.env.DEV) {
+  return Astro.redirect("/404");
+}
+
+const stories = await getCollection(
+  "facebookArchive",
+  ({ data }) => data.draft && data.media.length > 0
+).then(entries =>
+  entries.sort(
+    (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+  )
+);
+
+const reviewReportPath = path.join(
+  process.cwd(),
+  "data/facebook-import/codex-pre-review.json"
+);
+const reviewReport = fs.existsSync(reviewReportPath)
+  ? JSON.parse(fs.readFileSync(reviewReportPath, "utf8"))
+  : { summary: {}, posts: [] };
+type ReviewPost = { sourcePostIndex: number; priority: string };
+const reviewByIndex = new Map(
+  reviewReport.posts.map((post: ReviewPost) => [post.sourcePostIndex, post])
+);
+const priorityCounts = stories.reduce(
+  (counts, story) => {
+    const priority =
+      reviewByIndex.get(story.data.sourcePostIndex)?.priority ?? "unreviewed";
+    counts[priority] = (counts[priority] ?? 0) + 1;
+    return counts;
+  },
+  {} as Record<string, number>
+);
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "America/Chicago",
+  }).format(date);
+---
+
+<Layout
+  title={`Local Facebook Draft Review | ${SITE.title}`}
+  description="Local-only review queue for imported Facebook Archive drafts."
+>
+  <Header activeNav="facebookArchive" />
+  <Main
+    pageTitle="Local Facebook Draft Review"
+    pageDesc={`${stories.length.toLocaleString()} picture drafts shown as thumbnails. The 45 text-only drafts are excluded. This page exists only on the local development server.`}
+  >
+    <div class="review-notice">
+      <strong>Local only:</strong> these drafts have not been published or deployed.
+      <a href="/facebook-archive/review/text-only/">
+        Review the 45 text-only drafts →
+      </a>
+    </div>
+    <div class="review-summary" aria-label="Codex pre-review summary">
+      <span><strong>{priorityCounts.blocking ?? 0}</strong> blocking</span>
+      <span><strong>{priorityCounts.high ?? 0}</strong> high priority</span>
+      <span><strong>{priorityCounts.medium ?? 0}</strong> medium</span>
+      <span><strong>{priorityCounts.low ?? 0}</strong> low</span>
+    </div>
+    <label class="search-label" for="draft-search">Search draft posts</label>
+    <input
+      id="draft-search"
+      type="search"
+      placeholder="Search title, description, date, or tag…"
+      autocomplete="off"
+    />
+    <label class="search-label filter-label" for="priority-filter">
+      Codex review priority
+    </label>
+    <select id="priority-filter">
+      <option value="all">All priorities</option>
+      <option value="blocking">Blocking</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+    <p id="result-count" aria-live="polite">
+      Showing {stories.length.toLocaleString()} drafts
+    </p>
+    <ol id="draft-list" class="draft-list">
+      {
+        stories.map(story => {
+          const slug = story.id.replace(/\.md$/, "");
+          const date = formatDate(story.data.publishedAt);
+          const searchText = [
+            story.data.title,
+            story.data.description,
+            date,
+            ...story.data.tags,
+          ]
+            .join(" ")
+            .toLowerCase();
+          const review = reviewByIndex.get(story.data.sourcePostIndex);
+          const priority = review?.priority ?? "unreviewed";
+          const image = story.data.media[0];
+          return (
+            <li data-search={searchText} data-priority={priority}>
+              <a href={`/facebook-archive/${slug}/`}>
+                <img
+                  src={image.src}
+                  width={image.width}
+                  height={image.height}
+                  alt={image.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="draft-copy">
+                  <span class="draft-title">{story.data.title}</span>
+                  <span class="draft-meta">
+                    {date} · {story.data.media.length} image
+                    {story.data.media.length === 1 ? "" : "s"} · Codex{" "}
+                    {priority}
+                  </span>
+                  <span class="draft-description">
+                    {story.data.description}
+                  </span>
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ol>
+  </Main>
+  <Footer />
+</Layout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>("#draft-search");
+  const items = Array.from(
+    document.querySelectorAll<HTMLElement>("#draft-list > li")
+  );
+  const count = document.querySelector<HTMLElement>("#result-count");
+  const priority =
+    document.querySelector<HTMLSelectElement>("#priority-filter");
+
+  const filterItems = () => {
+    const query = search?.value.trim().toLowerCase() ?? "";
+    const selectedPriority = priority?.value ?? "all";
+    let visible = 0;
+    for (const item of items) {
+      const matchesSearch = !query || item.dataset.search?.includes(query);
+      const matchesPriority =
+        selectedPriority === "all" ||
+        item.dataset.priority === selectedPriority;
+      const matches = matchesSearch && matchesPriority;
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    }
+    if (count) count.textContent = `Showing ${visible.toLocaleString()} drafts`;
+  };
+
+  search?.addEventListener("input", filterItems);
+  priority?.addEventListener("change", filterItems);
+</script>
+
+<style>
+  .review-notice {
+    @apply mb-6 rounded border border-skin-accent bg-skin-card/30 px-4 py-3 text-sm;
+  }
+  .review-notice a {
+    @apply ml-2 font-semibold text-skin-accent underline-offset-4 hover:underline;
+  }
+  .search-label {
+    @apply mb-2 block text-sm font-semibold;
+  }
+  .filter-label {
+    @apply mt-4;
+  }
+  #draft-search {
+    @apply w-full rounded border border-skin-line bg-skin-fill px-4 py-3 text-skin-base outline-none focus:border-skin-accent;
+  }
+  #priority-filter {
+    @apply rounded border border-skin-line bg-skin-fill px-3 py-2 text-skin-base;
+  }
+  .review-summary {
+    @apply mb-6 grid grid-cols-2 gap-2 text-sm sm:grid-cols-4;
+  }
+  .review-summary span {
+    @apply rounded border border-skin-line px-3 py-2;
+  }
+  #result-count {
+    @apply mt-3 text-sm opacity-70;
+  }
+  .draft-list {
+    @apply mt-6 grid list-none gap-5 p-0 sm:grid-cols-2;
+  }
+  .draft-list li[hidden] {
+    display: none;
+  }
+  .draft-list a {
+    @apply flex h-full flex-col overflow-hidden rounded-lg border border-skin-line bg-skin-card/25 hover:border-skin-accent hover:text-skin-accent;
+  }
+  .draft-list img {
+    @apply aspect-[4/3] w-full bg-black object-cover;
+  }
+  .draft-copy {
+    @apply flex flex-1 flex-col gap-2 p-4;
+  }
+  .draft-title {
+    @apply text-lg font-semibold leading-snug;
+  }
+  .draft-meta {
+    @apply text-xs uppercase leading-relaxed tracking-wide opacity-60;
+  }
+  .draft-description {
+    @apply line-clamp-2 text-sm opacity-80;
+  }
+</style>

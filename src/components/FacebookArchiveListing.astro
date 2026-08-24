@@ -1,0 +1,119 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  stories: CollectionEntry<"facebookArchive">[];
+  currentPage: number;
+  pageCount: number;
+}
+
+const { stories, currentPage, pageCount } = Astro.props;
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "America/Chicago",
+  }).format(date);
+
+const getStorySlug = (id: string) => id.replace(/\.md$/, "");
+const pageHref = (page: number) =>
+  page === 1 ? "/facebook-archive/" : `/facebook-archive/page/${page}/`;
+---
+
+<ol class="archive-grid">
+  {
+    stories.map(story => {
+      const image = story.data.media[0];
+      return (
+        <li>
+          <a
+            href={`/facebook-archive/${getStorySlug(story.id)}/`}
+            class="story-card"
+          >
+            {image && (
+              <img
+                src={image.src}
+                width={image.width}
+                height={image.height}
+                alt={image.alt}
+                loading="lazy"
+              />
+            )}
+            <div class="story-copy">
+              <span class="eyebrow">Facebook Archive</span>
+              {story.data.video && (
+                <span class="video-label">▶ Video story</span>
+              )}
+              <h2>{story.data.title}</h2>
+              <time datetime={story.data.publishedAt.toISOString()}>
+                Published {formatDate(story.data.publishedAt)}
+              </time>
+              <p>{story.data.description}</p>
+            </div>
+          </a>
+        </li>
+      );
+    })
+  }
+</ol>
+
+{
+  pageCount > 1 && (
+    <nav class="pagination" aria-label="Facebook archive pages">
+      {currentPage > 1 && (
+        <a href={pageHref(currentPage - 1)} rel="prev">
+          ← Newer
+        </a>
+      )}
+      <span>
+        Page {currentPage} of {pageCount}
+      </span>
+      {currentPage < pageCount && (
+        <a href={pageHref(currentPage + 1)} rel="next">
+          Older →
+        </a>
+      )}
+    </nav>
+  )
+}
+
+<style>
+  .archive-grid {
+    @apply mt-8 list-none space-y-8 p-0;
+  }
+  .story-card {
+    @apply grid overflow-hidden rounded-lg border border-skin-line bg-skin-card/30 transition hover:border-skin-accent hover:bg-skin-card/50 sm:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)];
+  }
+  .story-card img {
+    @apply h-full min-h-56 w-full object-cover grayscale;
+  }
+  .story-copy {
+    @apply p-5 sm:p-7;
+  }
+  .eyebrow {
+    @apply text-xs font-bold uppercase tracking-[0.18em] text-skin-accent;
+  }
+  .video-label {
+    @apply ml-3 text-xs font-semibold uppercase tracking-wider opacity-70;
+  }
+  h2 {
+    @apply mb-2 mt-2 text-xl font-semibold leading-tight;
+  }
+  time {
+    @apply text-sm opacity-70;
+  }
+  .story-copy p {
+    @apply mb-0 mt-4 not-italic;
+  }
+  .pagination {
+    @apply mt-10 flex items-center justify-between gap-4 border-t border-skin-line pt-6 text-sm;
+  }
+  .pagination a {
+    @apply font-semibold text-skin-accent underline-offset-4 hover:underline;
+  }
+  .pagination span {
+    @apply opacity-70;
+  }
+</style>
