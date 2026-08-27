@@ -135,15 +135,18 @@ const structuredData = {
 
     <!-- Google Analytics -->
     <script
+      data-cfasync="false"
       async
       src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
     ></script>
-    <script is:inline define:vars={{ googleAnalyticsId }}>
+    <script data-cfasync="false" is:inline define:vars={{ googleAnalyticsId }}>
       window.dataLayer = window.dataLayer || [];
       window.gtag =
         window.gtag ||
-        function (...args) {
-          window.dataLayer.push(args);
+        function () {
+          // Google requires each command to be queued as an Arguments object.
+          // eslint-disable-next-line prefer-rest-params
+          window.dataLayer.push(arguments);
         };
 
       if (!window.allThingsSabineGaInitialized) {
