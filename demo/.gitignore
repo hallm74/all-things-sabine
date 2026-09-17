@@ -1,0 +1,7 @@
+node_modules/
+.astro/
+dist/
+src/data/content.json
+public/data/
+public/images/stories/
+.netlify/

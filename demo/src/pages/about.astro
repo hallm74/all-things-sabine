@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { isProduction } from "../lib/site";
+---
+
+<Layout title="Our story"
+  ><main id="main-content" class="wrap">
+    <section class="page-intro">
+      <span class="eyebrow">The story behind the stories</span><h1>
+        Every place has a story.<br /><em>This one is ours.</em>
+      </h1><p>
+        All Things Sabine is a journey through the history, culture, and beauty
+        of Sabine Parish, Louisiana, and the places connected to it.
+      </p>
+    </section><article class="about-prose">
+      <img
+        src="/images/stories/cropped-fullmoontrainnew.webp"
+        alt="The depot and railroad tracks in Many, Louisiana, under a moonlit sky"
+        width="1200"
+        height="280"
+      /><p>
+        From forgotten communities and country stores to familiar roads and
+        remarkable people, these stories preserve a little of what makes this
+        corner of Louisiana home.
+      </p><h2>A past worth keeping.</h2><p>
+        The original story collection brings together writing and photographs by
+        Shannon Hall. The Time Capsule preserves posts, photographs, and
+        memories from the All Things Sabine Facebook page, with their original
+        posting dates.
+      </p><h2>A community still making history.</h2><p>
+        Today, All Things Sabine also connects you with local restaurant menus,
+        businesses, community organizations, and festivals. Each project adds
+        another way to discover the people and places around us.
+      </p><h2>A new chapter.</h2><p>
+        {
+          isProduction
+            ? "Welcome to a new chapter of All Things Sabine."
+            : "You’re visiting a working design preview of the next All Things Sabine."
+        }
+        Explore the collection, open a memory, and see how our local projects can
+        come together under one roof.
+      </p><a class="text-link" href="/stories/">Find your first story →</a>
+    </article>
+  </main></Layout
+>

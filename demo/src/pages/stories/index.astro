@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Library from "../../components/Library";
+import { stories } from "../../lib/content";
+const initial = stories.slice(0, 24).map(({ html, ...item }) => item);
+---
+
+<Layout title="Our stories"
+  ><main id="main-content">
+    <section class="page-intro wrap">
+      <span class="eyebrow">The All Things Sabine story collection</span><h1>
+        The places. The people.<br /><em>The stories that stay.</em>
+      </h1><p>
+        Take a back road, meet a local character, or uncover a piece of history.
+        Explore the original All Things Sabine stories from Sabine Parish and
+        our neighbors beyond.
+      </p>
+    </section><section class="collection wrap" id="browse">
+      <Library
+        initialItems={initial}
+        total={stories.length}
+        kind="stories"
+        client:load
+      />
+    </section>
+  </main></Layout
+>

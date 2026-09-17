@@ -1,0 +1,1606 @@
+{
+  "menus": [
+    {
+      "name": "Hickman's BBQ",
+      "slug": "hickmans-bbq",
+      "tagline": "Follow the smoke",
+      "description": "Classic barbecue, plates, family packs and homestyle sides.",
+      "location": "1050 W. Louisiana Ave, Many, LA",
+      "phone": "318-332-4339",
+      "phoneUrl": "tel:+13183324339",
+      "imageUrl": "/menu-images/hickmans-bbq-menu.jpg",
+      "imageUrls": [
+        "/menu-images/hickmans-bbq-menu.jpg"
+      ],
+      "facebookUrl": "https://www.facebook.com/leonard.hickmanjr",
+      "serviceStyle": "fixed",
+      "serviceStyleLabel": "Restaurant",
+      "scheduleNote": "",
+      "schedule": [],
+      "hours": [
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "11:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "11:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "11:00",
+          "closesAt": "15:00"
+        }
+      ],
+      "sourceNote": "Transcribed from the restaurant menu photographed August 28, 2026. Prices are subject to sales tax.",
+      "updatedAt": "2026-08-28T18:40:13.969641+00:00"
+    },
+    {
+      "name": "Country Boy Restaurant",
+      "slug": "country-boy-restaurant",
+      "tagline": "Country cooking and seafood",
+      "description": "Catfish, seafood, fried chicken, country dinners, and homestyle sides.",
+      "location": "105 N Highland Dr, Many, LA 71449",
+      "phone": "318-256-3953",
+      "phoneUrl": "tel:+13182563953",
+      "imageUrl": "/country-boy-logo.webp",
+      "imageUrls": [
+        "/menu-images/country-boy-menu-chicken.webp",
+        "/menu-images/country-boy-menu-seafood.webp"
+      ],
+      "facebookUrl": "https://www.facebook.com/countryboymanyla/",
+      "serviceStyle": "fixed",
+      "serviceStyleLabel": "Restaurant",
+      "scheduleNote": "",
+      "schedule": [],
+      "hours": [
+        {
+          "day": 1,
+          "dayName": "Tuesday",
+          "opensAt": "10:00",
+          "closesAt": "20:00"
+        },
+        {
+          "day": 2,
+          "dayName": "Wednesday",
+          "opensAt": "10:00",
+          "closesAt": "20:00"
+        },
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "10:00",
+          "closesAt": "20:00"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "10:00",
+          "closesAt": "21:00"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "10:00",
+          "closesAt": "21:00"
+        },
+        {
+          "day": 6,
+          "dayName": "Sunday",
+          "opensAt": "10:00",
+          "closesAt": "15:00"
+        }
+      ],
+      "sourceNote": "Transcribed from the restaurant menu photographed August 29, 2026.",
+      "updatedAt": "2026-08-29T19:50:46.853532+00:00"
+    },
+    {
+      "name": "Big Bass Marina",
+      "slug": "big-bass-marina",
+      "tagline": "Restaurant, store, and marina on Toledo Bend",
+      "description": "Burgers, pizza, seafood platters, kids meals, sides, and marina favorites.",
+      "location": "363 Big Bass Ln, Many, LA",
+      "phone": "318-354-7008",
+      "phoneUrl": "tel:+13183547008",
+      "imageUrl": "/big-bass-marina-logo.webp",
+      "imageUrls": [
+        "/menu-images/big-bass-marina-menu.webp"
+      ],
+      "facebookUrl": "https://www.facebook.com/bigbassmarinaontoledobend",
+      "serviceStyle": "fixed",
+      "serviceStyleLabel": "Restaurant",
+      "scheduleNote": "",
+      "schedule": [],
+      "hours": [
+        {
+          "day": 0,
+          "dayName": "Monday",
+          "opensAt": "11:00",
+          "closesAt": "19:00"
+        },
+        {
+          "day": 1,
+          "dayName": "Tuesday",
+          "opensAt": "11:00",
+          "closesAt": "19:00"
+        },
+        {
+          "day": 2,
+          "dayName": "Wednesday",
+          "opensAt": "11:00",
+          "closesAt": "19:00"
+        },
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "11:00",
+          "closesAt": "19:00"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "11:00",
+          "closesAt": "20:00"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "11:00",
+          "closesAt": "20:00"
+        }
+      ],
+      "sourceNote": "Menu and restaurant hours transcribed from the provided menu photo; address and contact details verified against the official Facebook page on August 29, 2026.",
+      "updatedAt": "2026-08-30T00:26:49.958643+00:00"
+    },
+    {
+      "name": "Chick-fil-A Many Pop-Up",
+      "slug": "chick-fil-a-many-popup",
+      "tagline": "Chick-fil-A favorites in Many",
+      "description": "A monthly Chick-fil-A pop-up with sandwiches, nuggets, treats, drinks, and chips.",
+      "location": "Many, LA",
+      "phone": "",
+      "phoneUrl": "",
+      "imageUrl": "/menu-images/chick-fil-a-many-popup-menu.webp",
+      "imageUrls": [
+        "/menu-images/chick-fil-a-many-popup-menu.webp"
+      ],
+      "facebookUrl": "https://www.facebook.com/cfamanywinnfieldla",
+      "serviceStyle": "popup",
+      "serviceStyleLabel": "Pop-up",
+      "scheduleNote": "First Wednesday of each month at 11:30 AM. Dates are subject to change.",
+      "schedule": [
+        {
+          "id": 2,
+          "startsAt": "2026-10-07T16:30:00+00:00",
+          "endsAt": null,
+          "locationName": "Many Depot",
+          "location": "750 W Georgia Ave, Many, LA 71449",
+          "note": "Across from BOM Bank.",
+          "status": "scheduled",
+          "sourceUrl": "https://www.facebook.com/cfamanywinnfieldla"
+        },
+        {
+          "id": 3,
+          "startsAt": "2026-11-04T17:30:00+00:00",
+          "endsAt": null,
+          "locationName": "Many Depot",
+          "location": "750 W Georgia Ave, Many, LA 71449",
+          "note": "Across from BOM Bank.",
+          "status": "scheduled",
+          "sourceUrl": "https://www.facebook.com/cfamanywinnfieldla"
+        }
+      ],
+      "hours": [],
+      "sourceNote": "Menu transcribed from the provided pop-up menu photo; schedule and venue verified against the official Facebook page, with the Many Depot street address checked separately on September 2, 2026.",
+      "updatedAt": "2026-09-02T18:02:02.644145+00:00"
+    }
+  ],
+  "listings": [
+    {
+      "name": "Guys & Dolls Hair Design",
+      "slug": "guys-and-dolls-hair-design",
+      "category": {
+        "name": "Hair Salons",
+        "slug": "hair-salons"
+      },
+      "tagline": "Local style, close to home.",
+      "description": "A local hair salon in Many, Louisiana.",
+      "location": "Many, LA",
+      "address": "1080 W Mississippi Ave, Many, LA 71449",
+      "phone": "318-256-5021",
+      "phoneUrl": "tel:+13182565021",
+      "websiteUrl": "",
+      "facebookUrl": "",
+      "bookingUrl": "",
+      "imageUrl": "https://listings.allthingssabine.com/guys-and-dolls-sign.webp",
+      "hours": [
+        {
+          "day": 0,
+          "dayName": "Monday",
+          "opensAt": "08:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 1,
+          "dayName": "Tuesday",
+          "opensAt": "08:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 2,
+          "dayName": "Wednesday",
+          "opensAt": "08:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "08:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "08:00",
+          "closesAt": "17:00"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "08:00",
+          "closesAt": "13:00"
+        }
+      ],
+      "updatedAt": "2026-08-29T19:22:19.648896+00:00"
+    },
+    {
+      "name": "Curtis Family Pharmacy",
+      "slug": "curtis-family-pharmacy",
+      "category": {
+        "name": "Pharmacies",
+        "slug": "pharmacies"
+      },
+      "tagline": "It's all about you.",
+      "description": "An independent local pharmacy offering prescription medications, personal service, over-the-counter vitamins and supplements, and a gift shop.",
+      "location": "Many, LA",
+      "address": "536 Highway 171 Bypass, Many, LA 71449",
+      "phone": "318-273-2650",
+      "phoneUrl": "tel:+13182732650",
+      "websiteUrl": "https://www.curtisfamilypharmacy.com/",
+      "facebookUrl": "",
+      "bookingUrl": "https://www.curtisfamilypharmacy.com/refill-rx",
+      "imageUrl": "https://listings.allthingssabine.com/curtis-family-pharmacy.webp",
+      "hours": [
+        {
+          "day": 0,
+          "dayName": "Monday",
+          "opensAt": "08:00",
+          "closesAt": "17:30"
+        },
+        {
+          "day": 1,
+          "dayName": "Tuesday",
+          "opensAt": "08:00",
+          "closesAt": "17:30"
+        },
+        {
+          "day": 2,
+          "dayName": "Wednesday",
+          "opensAt": "08:00",
+          "closesAt": "17:30"
+        },
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "08:00",
+          "closesAt": "17:30"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "08:00",
+          "closesAt": "17:30"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "08:00",
+          "closesAt": "15:00"
+        }
+      ],
+      "updatedAt": "2026-08-29T20:18:04.609270+00:00"
+    }
+  ],
+  "community": [
+    {
+      "name": "Sabine Community Connection",
+      "slug": "sabine-community-connection",
+      "category": {
+        "name": "Youth & Family",
+        "slug": "youth-family"
+      },
+      "tagline": "Connecting People. Strengthening Families. Building a Better Community.",
+      "shortDescription": "A volunteer-led nonprofit serving children and families throughout Sabine Parish through learning, mentoring, outreach, and community events.",
+      "city": "Zwolle",
+      "state": "LA",
+      "phoneNumber": "(318) 471-6208",
+      "phoneUrl": "tel:+13184716208",
+      "primaryImageUrl": "https://sabine-community-connection.netlify.app/media/spring-group.jpg",
+      "services": [
+        "Homework assistance",
+        "Tutoring and reading",
+        "STEM and creative learning",
+        "Arts and crafts",
+        "Life skills and leadership",
+        "Recreation and mentoring",
+        "Career and goal exploration",
+        "Community service"
+      ],
+      "isFeatured": true,
+      "lastVerifiedDate": "2026-08-29"
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Sabine Parish Fair & Rodeo",
+      "slug": "sabine-parish-fair",
+      "short_name": "Sabine Fair",
+      "tagline": "Fair days. Rodeo nights. Hometown memories.",
+      "description": "Meet at the midway for four days of rides, livestock shows, hometown talent, and evenings at the arena. The Sabine Festival & Rodeo brings Many together for a fall tradition shared across generations.",
+      "location": "Many, Louisiana",
+      "address": "Sabine Parish Fairgrounds \u00b7 115 Fairgrounds Road, Many, LA 71449",
+      "theme": "fair",
+      "image_path": "/images/fair-poster.jpg",
+      "video_path": "/video/sabine-fair-2026.mp4",
+      "facebook_url": "https://www.facebook.com/profile.php?id=100064809095808",
+      "contact_url": "https://www.sabinefestivalrodeo.com/contact-us.html",
+      "contact_email": "",
+      "source_note": "Schedule transcribed from the supplied 2026 Sabine Festival & Rodeo flyer. Gate prices refer to the stated entry windows; rides and rodeo may have separate charges. The organizer website still displays a 2025 program. Confirm changes with the organizers.",
+      "starts_on": "2026-09-23",
+      "ends_on": "2026-09-26",
+      "verified_on": "2026-09-15",
+      "updated_at": "2026-09-16T17:03:11.621221+00:00",
+      "information": [
+        {
+          "title": "A fair with a theme",
+          "body": "The 2026 theme is \u201cRed, White, Blue Ribbons: Celebrating America\u2019s Best.\u201d Look for community exhibits, youth livestock events, and four evenings of midway fun."
+        },
+        {
+          "title": "Plan your visit",
+          "body": "The main fair runs September 23\u201326 at the Sabine Parish Fairgrounds in Many. Barrel racing takes place at the Benton Johnson Rodeo Arena on the same grounds. The parade lines up at St. Joseph Church in Many at noon on Saturday.\n\nGate admission is free Wednesday evening and during Friday\u2019s 9 AM\u20133 PM educational program. The flyer lists $5 gate entry Thursday, Friday, and Saturday from 6\u201310 PM. Rodeo tickets, carnival rides, and food may cost extra; the flyer does not give those prices."
+        },
+        {
+          "title": "Entering an exhibit?",
+          "body": "Arts, crafts, and 4-H entries are accepted September 18 from 3:30\u20135:45 PM and September 19 from 9\u201311 AM in the Exhibit Building. Those windows also cover decorating 4-H Club bulletin boards. Judging on September 20\u201321 is closed to the public.\n\nUse the lead-up days switch on the calendar to see entry windows and Monday barrel racing."
+        },
+        {
+          "title": "About the film",
+          "body": "The Fair Comes Alive is a 30-second creative promo made by SatCom, combining local footage with AI-assisted scenes and music. It is a visual celebration of the fair, not a recording of the upcoming 2026 event."
+        }
+      ],
+      "days": [
+        {
+          "date": "2026-09-18",
+          "title": "Exhibitor entry afternoon",
+          "admission": "Entry fees not listed",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Arts, crafts & 4-H entries",
+              "starts_at": "15:30",
+              "ends_at": "17:45",
+              "time_label": "",
+              "location": "Exhibit Building",
+              "note": "Enter exhibits and decorate 4-H Club bulletin boards."
+            }
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "title": "Exhibitor entry morning",
+          "admission": "Entry fees not listed",
+          "note": "Bulletin boards are judged September 20\u201321. The exhibit building is closed to the public during judging.",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Arts, crafts & 4-H entries",
+              "starts_at": "09:00",
+              "ends_at": "11:00",
+              "time_label": "",
+              "location": "Exhibit Building",
+              "note": "Enter exhibits and decorate 4-H Club bulletin boards."
+            }
+          ]
+        },
+        {
+          "date": "2026-09-21",
+          "title": "Barrel racing at the arena",
+          "admission": "Admission not listed on the flyer",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Open & Youth 5D Barrel Racing",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Benton Johnson Rodeo Arena",
+              "note": "The flyer lists this overall event window. Confirm individual race and check-in times with the organizers."
+            }
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "title": "Community, Family & Friends Day",
+          "admission": "Free gate entry \u00b7 6\u201310 PM",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Midwest Rides Carnival",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds midway",
+              "note": ""
+            },
+            {
+              "title": "DNA-Audio DJ Live",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "title": "Youth rodeo & a night on the midway",
+          "admission": "$5 gate entry \u00b7 6\u201310 PM",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Pre-K Day & exhibits open",
+              "starts_at": "09:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Poultry arrival",
+              "starts_at": "14:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Rabbit show",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Check-in at 4:30 PM."
+            },
+            {
+              "title": "Midwest Rides Carnival",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Fairgrounds midway",
+              "note": ""
+            },
+            {
+              "title": "DNA-Audio DJ Live",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            },
+            {
+              "title": "Home Town Youth Rodeo",
+              "starts_at": "19:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Benton Johnson Rodeo Arena",
+              "note": "Books open at 5:30 PM."
+            }
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Educational Fair Day & Fair Night",
+          "admission": "Free gate entry 9 AM\u20133 PM \u00b7 $5 gate entry 6\u201310 PM",
+          "note": "The flyer designates the daytime program as No School \u2014 4-H & FFA Educational Fair Day.",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Dog & pet show",
+              "starts_at": "09:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": "Check-in at 8 AM."
+            },
+            {
+              "title": "Midwest Rides Carnival",
+              "starts_at": "10:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Fairgrounds midway",
+              "note": ""
+            },
+            {
+              "title": "Song, yell & talent show",
+              "starts_at": "12:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            },
+            {
+              "title": "Poultry show judging",
+              "starts_at": "15:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Judging is closed to the public. Poultry are released Saturday."
+            },
+            {
+              "title": "Midwest Rides Carnival",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Fairgrounds midway",
+              "note": ""
+            },
+            {
+              "title": "DNA-Audio DJ Live",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            },
+            {
+              "title": "LRCA Rodeo \u00b7 J2 Rodeo",
+              "starts_at": "19:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Benton Johnson Rodeo Arena",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "title": "Parade day. Championship night.",
+          "admission": "$5 gate entry \u00b7 6\u201310 PM",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Sabine Fair & Rodeo Parade",
+              "starts_at": "13:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Lineup: St. Joseph Church, Many",
+              "note": "Parade lineup begins at noon."
+            },
+            {
+              "title": "Visiting Queens\u2019 Social",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "After the parade",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            },
+            {
+              "title": "Cattle show",
+              "starts_at": "16:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Livestock barn",
+              "note": ""
+            },
+            {
+              "title": "Sheep, pigs & goats show",
+              "starts_at": "17:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Livestock barn",
+              "note": ""
+            },
+            {
+              "title": "Midwest Rides Carnival",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds midway",
+              "note": ""
+            },
+            {
+              "title": "DNA-Audio DJ Live",
+              "starts_at": "18:00",
+              "ends_at": "22:00",
+              "time_label": "",
+              "location": "Fairgrounds pavilion",
+              "note": ""
+            },
+            {
+              "title": "Parade of Champions",
+              "starts_at": "19:15",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "LRCA Rodeo \u00b7 J2 Rodeo",
+              "starts_at": "19:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Benton Johnson Rodeo Arena",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zwolle Tamale Fiesta",
+      "slug": "zwolle-tamale-fiesta",
+      "short_name": "Tamale Fiesta",
+      "tagline": "A little town. A whole lot of flavor.",
+      "description": "Follow the music to Zwolle for the 50th annual Tamale Fiesta. Three days of tamales, dancing, a hometown parade, and anniversary fireworks make room for old friends and new faces.",
+      "location": "Zwolle, Louisiana",
+      "address": "Zwolle Festival Grounds \u00b7 1100 S. Main St., Zwolle, LA 71486",
+      "theme": "fiesta",
+      "image_path": "/images/tamale-hero.webp",
+      "video_path": "",
+      "facebook_url": "https://www.facebook.com/zwolletamalefiesta/",
+      "contact_url": "https://zwolletamalefiesta.com/contact-us/",
+      "contact_email": "louperebecca@yahoo.com",
+      "source_note": "Dates, activities, and gate prices checked against the organizer\u2019s published 2026 program on September 15. The daily program supports October 8\u201310; its footer has an inconsistent October 8\u201311 range. Race start times and the tamale eating contest time differ within the published materials. Confirm these with organizers.",
+      "starts_on": "2026-10-08",
+      "ends_on": "2026-10-10",
+      "verified_on": "2026-09-15",
+      "updated_at": "2026-09-16T17:03:11.860526+00:00",
+      "information": [
+        {
+          "title": "Fifty years of coming together",
+          "body": "The Fiesta began with an idea proposed by Rogers P. Loupe in 1975. With help from tourism director Roscoe Carruth, it developed into a nonprofit celebration of Zwolle\u2019s food and Spanish and Indigenous heritage. In 2026, the festival marks its 50th annual gathering."
+        },
+        {
+          "title": "Plan your visit",
+          "body": "Public gates open at 4 PM Thursday and Friday, and 8 AM Saturday. Gate admission is $2 Thursday, $5 Friday, and $10 Saturday. Food, rides, and some activities cost extra. Ask the organizers about child admission, parking, accessibility, and accepted payment methods.\n\nSaturday\u2019s mud bog begins at 2 PM. Its published $25 cooler charge and $40 tent-space charge apply specifically to the mud-bog area; they do not establish festival-wide cooler permission."
+        },
+        {
+          "title": "Run, walk & join the parade crowd",
+          "body": "The program lists Saturday race registration at 7 AM and a 5K start at 8 AM. A separate registration listing gives a different start time, so confirm with organizers. Both the 5K and one-mile entry are listed at $25; the first 75 paid participants are listed as eligible for shirts.\n\nThe 5K registration deadline is September 28 at 11:59 PM Central; the one-mile deadline is October 1 at 11:59 PM Central. The parade begins at 10 AM Saturday."
+        },
+        {
+          "title": "Vendors, sponsors & the pageant",
+          "body": "The organizer reports food and arts-and-crafts spaces as fully booked. Contact the festival for availability changes. The 2026 pageant was held August 22 and is a past event.\n\nSponsorship levels start at $150, with the published sponsorship deadline of October 1. General questions and sponsorship inquiries can go to Chris and Becky Loupe at the email below."
+        }
+      ],
+      "days": [
+        {
+          "date": "2026-10-03",
+          "title": "Trail ride & evening music",
+          "admission": "$10 trail ride",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Trail ride",
+              "starts_at": "14:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Zwolle Festival Grounds",
+              "note": ""
+            },
+            {
+              "title": "Next of Kin Band",
+              "starts_at": "19:00",
+              "ends_at": "23:00",
+              "time_label": "",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "title": "Royal Mass",
+          "admission": "Admission not listed",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Royal Mass",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "St. Joseph Catholic Church, Zwolle",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "title": "A golden beginning.",
+          "admission": "$2 gate admission",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Senior Citizen Day",
+              "starts_at": "10:00",
+              "ends_at": "13:00",
+              "time_label": "",
+              "location": "",
+              "note": "Vendors, bingo, lunch, special recognition & door prizes"
+            },
+            {
+              "title": "Festival gates open",
+              "starts_at": "16:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Let the anniversary weekend begin"
+            },
+            {
+              "title": "Kick-off supper",
+              "starts_at": "18:00",
+              "ends_at": "21:00",
+              "time_label": "",
+              "location": "",
+              "note": "Opening ceremonies begin at 6 PM"
+            },
+            {
+              "title": "Studio B Dance Company",
+              "starts_at": "18:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "50th anniversary special"
+            },
+            {
+              "title": "Special entertainment",
+              "starts_at": "19:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "At the festival grounds"
+            },
+            {
+              "title": "Next of Kin Band",
+              "starts_at": "19:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "An evening of live music"
+            },
+            {
+              "title": "50th anniversary fireworks",
+              "starts_at": "20:45",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "A little sparkle for a big milestone"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Find your dancing shoes.",
+          "admission": "$5 gate admission",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Third Grade Educational Day",
+              "starts_at": "09:00",
+              "ends_at": "14:00",
+              "time_label": "",
+              "location": "",
+              "note": "A day for local students"
+            },
+            {
+              "title": "Festival gates open",
+              "starts_at": "16:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Food, friends & Friday night"
+            },
+            {
+              "title": "Dillion Etheridge and band",
+              "starts_at": "16:00",
+              "ends_at": "17:15",
+              "time_label": "",
+              "location": "",
+              "note": "On the festival stage"
+            },
+            {
+              "title": "Henry Reggans & the Louisiana Side Men",
+              "starts_at": "17:30",
+              "ends_at": "18:45",
+              "time_label": "",
+              "location": "",
+              "note": "Keep the good times going"
+            },
+            {
+              "title": "50th Anniversary Dance Contest",
+              "starts_at": "18:50",
+              "ends_at": "20:00",
+              "time_label": "",
+              "location": "",
+              "note": "Bring your best moves"
+            },
+            {
+              "title": "Horace Trahan and the Ossun Express",
+              "starts_at": "20:00",
+              "ends_at": "23:00",
+              "time_label": "",
+              "location": "",
+              "note": "Close out Friday on the dance floor"
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "title": "Make a whole day of it.",
+          "admission": "$10 gate admission",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "1 Mile & 5K registration",
+              "starts_at": "07:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "The schedule poster lists the 5K start at 8 AM; confirm with race organizers."
+            },
+            {
+              "title": "5K run & festival gates open",
+              "starts_at": "08:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Race timing differs between published sources; confirm with the organizers."
+            },
+            {
+              "title": "Fiesta parade",
+              "starts_at": "10:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Also listed: treasure hunt & main-stage contest registration"
+            },
+            {
+              "title": "Midwest Rides & concessions open",
+              "starts_at": "11:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Time for a little carnival fun"
+            },
+            {
+              "title": "Tamale eating contest",
+              "starts_at": "11:15",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Time as printed on the official schedule; confirm on site."
+            },
+            {
+              "title": "Toledo Cruisers Car Club Show",
+              "starts_at": "11:30",
+              "ends_at": "13:00",
+              "time_label": "",
+              "location": "",
+              "note": "A festival-day gathering of cars"
+            },
+            {
+              "title": "Spanish costume contest",
+              "starts_at": "12:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Main-stage festivities"
+            },
+            {
+              "title": "Arm wrestling contest",
+              "starts_at": "12:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Main-stage festivities"
+            },
+            {
+              "title": "Tamale judging",
+              "starts_at": "13:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "The flavor at the heart of the Fiesta"
+            },
+            {
+              "title": "Mud bog",
+              "starts_at": "14:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "See organizers for separate mud-bog policies and fees."
+            },
+            {
+              "title": "Mark Reeves and Twisted X Band",
+              "starts_at": "14:00",
+              "ends_at": "15:15",
+              "time_label": "",
+              "location": "",
+              "note": "On the festival stage"
+            },
+            {
+              "title": "Kyle Richardson and The Sabine Sound",
+              "starts_at": "15:30",
+              "ends_at": "16:30",
+              "time_label": "",
+              "location": "",
+              "note": "On the festival stage"
+            },
+            {
+              "title": "Bad Moon Rising",
+              "starts_at": "17:00",
+              "ends_at": "18:30",
+              "time_label": "",
+              "location": "",
+              "note": "On the festival stage"
+            },
+            {
+              "title": "One Trick Pony",
+              "starts_at": "18:45",
+              "ends_at": "20:00",
+              "time_label": "",
+              "location": "",
+              "note": "On the festival stage"
+            },
+            {
+              "title": "Nik-L Beer",
+              "starts_at": "20:30",
+              "ends_at": "23:30",
+              "time_label": "",
+              "location": "",
+              "note": "One last night to dance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sabine Freestate Festival",
+      "slug": "sabine-freestate-festival",
+      "short_name": "Freestate Festival",
+      "tagline": "Western history, smoky BBQ, and a weekend in Florien.",
+      "description": "Florien\u2019s 46th annual Sabine Freestate Festival brings together western reenactments, a parade, live music and the No Man\u2019s Land BBQ Championship. Explore three days of community events, with pageant and clue dates leading up to the weekend.",
+      "location": "Florien, Louisiana",
+      "address": "Florien, Louisiana \u00b7 Activities at several local venues; see the schedule",
+      "theme": "freestate",
+      "image_path": "/images/freestate-festival-2026.jpg",
+      "video_path": "",
+      "facebook_url": "",
+      "contact_url": "",
+      "contact_email": "sabineparishfreestate@gmail.com",
+      "source_note": "Schedule transcribed from the organizer\u2019s 2026 festival flyer supplied by the site owner. The official Sabine Freestate Festival website confirms the 46th annual 2026 event and lists the organizer email and contact address. Descriptions are independently written. Admission, most activity locations and lead-up times are not listed on the flyer; check with organizers for those details and schedule changes.",
+      "starts_on": "2026-11-06",
+      "ends_on": "2026-11-08",
+      "verified_on": "2026-09-16",
+      "updated_at": "2026-09-16T18:24:02.531368+00:00",
+      "information": [
+        {
+          "title": "A weekend in Florien",
+          "body": "The festival runs November 6\u20138, 2026. Friday and Saturday list an 11 PM grounds closing time. Sunday\u2019s final advertised activity is movie night at 6 PM; the movie is still to be announced.\n\nThe flyer does not give gate admission or individual activity prices. Ask the organizers about parking, accessibility and exact locations before traveling."
+        },
+        {
+          "title": "No Man\u2019s Land BBQ Championship",
+          "body": "The entry deadline is November 5; no deadline time is printed. Head cooks meet November 6 at 5:30 PM at the Train Depot. Saturday\u2019s turn-in is at 5 PM, with champions announced at 6:45 PM. Email the organizers for entry requirements and fees."
+        },
+        {
+          "title": "Saturday with the family",
+          "body": "The parade starts at 11 AM. Dog shows, dance, stockyard activities and evening bands fill out Saturday\u2019s program. Roller car rides, laser tag, minnow racing, putt-putt, historical demonstrations, Chuckwagon Will Travel and LA Mechanical Bulls are also listed throughout the day."
+        },
+        {
+          "title": "History & the clue trail",
+          "body": "The festival commemorates the area known as No Man\u2019s Land between 1806 and 1821. Staged western shootouts are scheduled all three festival days. The flyer lists ten numbered clues, beginning October 17; rules and prizes are not specified."
+        },
+        {
+          "title": "Contact the organizers",
+          "body": "Email sabineparishfreestate@gmail.com for entries, visitor questions or updates. The official website lists the contact address as 220 W Port Arthur Ave, Florien, LA 71429. This is the organizer\u2019s contact address; individual activities use the venues shown in the schedule."
+        }
+      ],
+      "days": [
+        {
+          "date": "2026-10-17",
+          "title": "Miss Sabine Freestate Pageant",
+          "admission": "",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Miss Sabine Freestate Pageant",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "FHS Auditorium",
+              "note": ""
+            },
+            {
+              "title": "Clue #1",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "title": "Poster auction & grand marshal unveiling",
+          "admission": "",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Official poster unveiling & auction",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "Florien Civic Center",
+              "note": ""
+            },
+            {
+              "title": "Grand marshal unveiling",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "Florien Civic Center",
+              "note": ""
+            },
+            {
+              "title": "Clue #2",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "title": "Clue #3",
+          "admission": "",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Clue #3",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "title": "Clue #4",
+          "admission": "",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "Clue #4",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "title": "BBQ entry deadline & clue",
+          "admission": "",
+          "note": "",
+          "is_leadup": true,
+          "activities": [
+            {
+              "title": "No Man\u2019s Land BBQ cook-off entry deadline",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Deadline time not listed",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Clue #5",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Time not listed",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "title": "Veterans, education & opening night",
+          "admission": "",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Veterans breakfast",
+              "starts_at": "08:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Education Day & veterans program",
+              "starts_at": "09:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Guest speaker from American Warrior Initiative."
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "12:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "16:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "No Man\u2019s Land BBQ head cooks meeting",
+              "starts_at": "17:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Train Depot",
+              "note": ""
+            },
+            {
+              "title": "Shootout #1 / Clue #6",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Staged western shootout."
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "18:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Freestate Bingo",
+              "starts_at": "19:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "FHS Old Gym",
+              "note": ""
+            },
+            {
+              "title": "Block party dance \u2014 DJ Dex",
+              "starts_at": "19:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Festival grounds close",
+              "starts_at": "23:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "title": "Parade, BBQ & a full day of festival fun",
+          "admission": "",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "5th Annual Ben D. Peterson Memorial Trail Ride",
+              "starts_at": "07:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "10:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Parade",
+              "starts_at": "11:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Queens announcement & posting of colors",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Immediately after the parade",
+              "location": "",
+              "note": "Colors posted by Sabine Rifles Camp."
+            },
+            {
+              "title": "Clue #7, Toledo Cruisers car show & Shootout #2",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Immediately after the parade",
+              "location": "",
+              "note": "Includes a staged western shootout."
+            },
+            {
+              "title": "The Wonderdog Show",
+              "starts_at": "13:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Studio B Dance Company",
+              "starts_at": "13:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "FHS Auditorium",
+              "note": ""
+            },
+            {
+              "title": "Skeet shoot tournament",
+              "starts_at": "13:45",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Car show awards / Clue #8",
+              "starts_at": "14:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "14:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "The Wonderdog Show",
+              "starts_at": "15:15",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Acoustic jam session with the Stewart Family",
+              "starts_at": "15:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Shootout #3 / Clue #9",
+              "starts_at": "16:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Staged western shootout."
+            },
+            {
+              "title": "No Man\u2019s Land BBQ championship turn-in",
+              "starts_at": "17:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Bad Bob the Bone Butcher",
+              "starts_at": "17:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Calf dummy roping",
+              "starts_at": "17:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Freestate Stockyards",
+              "note": ""
+            },
+            {
+              "title": "Mutton bustin\u2019",
+              "starts_at": "18:15",
+              "ends_at": null,
+              "time_label": "",
+              "location": "Freestate Stockyards",
+              "note": ""
+            },
+            {
+              "title": "No Man\u2019s Land BBQ champions announcement",
+              "starts_at": "18:45",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Shane Pons Band",
+              "starts_at": "19:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Cypress Royale",
+              "starts_at": "21:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Festival grounds close",
+              "starts_at": "23:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Saturday activities",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Throughout the day",
+              "location": "",
+              "note": "Roller car rides, laser tag, championship minnow racing, putt-putt golf, historical demonstrations, Chuckwagon Will Travel and LA Mechanical Bulls. Individual hours and prices are not listed."
+            }
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Gospel, community & the final clue",
+          "admission": "",
+          "note": "",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Gospel singing",
+              "starts_at": "10:30",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Community church service",
+              "starts_at": "11:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": ""
+            },
+            {
+              "title": "Shootout #4 / Clue #10",
+              "starts_at": "13:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Staged western shootout."
+            },
+            {
+              "title": "Movie night",
+              "starts_at": "18:00",
+              "ends_at": null,
+              "time_label": "",
+              "location": "",
+              "note": "Movie title to be announced."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonlight Madness",
+      "slug": "moonlight-madness",
+      "short_name": "Moonlight Madness",
+      "tagline": "An evening to shop local and linger in town.",
+      "description": "Browse evening sales at participating Many businesses and visit vendors in the Town Square. Moonlight Madness brings local holiday shopping together from 5 to 8 PM.",
+      "location": "Many, Louisiana",
+      "address": "Participating businesses across Many \u00b7 Vendors in Many Town Square",
+      "theme": "moonlight",
+      "image_path": "/images/many-christmas-events-flyer.jpg",
+      "video_path": "",
+      "facebook_url": "",
+      "contact_url": "",
+      "contact_email": "tomclerk@cp-tel.net",
+      "source_note": "Details transcribed from the Town of Many Christmas Events vendor announcement supplied to SatCom on September 16, 2026. The flyer does not print a year; these dates are provisionally listed in the 2026 season. Event descriptions are independently written. Vendor arrangements, admission and the Christmas Festival daily program were not specified.",
+      "starts_on": "2026-12-03",
+      "ends_on": "2026-12-03",
+      "verified_on": "2026-09-16",
+      "updated_at": "2026-09-16T17:41:27.106305+00:00",
+      "information": [
+        {
+          "title": "For shoppers",
+          "body": "The advertised shopping window is 5\u20138 PM on December 3. Sales take place at participating businesses throughout Many; vendors will be in the Many Town Square."
+        },
+        {
+          "title": "Businesses & vendors",
+          "body": "The Town is inviting vendors to participate. Businesses are asked to register to appear on the Moonlight Madness shopping map. Contact Many City Hall for registration details; the flyer does not give fees or a deadline."
+        }
+      ],
+      "days": [
+        {
+          "date": "2026-12-03",
+          "title": "Moonlight Madness",
+          "admission": "",
+          "note": "Business participation and the shopping map are still to be announced.",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Evening sales & Town Square vendors",
+              "starts_at": "17:00",
+              "ends_at": "20:00",
+              "time_label": "",
+              "location": "Participating Many businesses and Many Town Square",
+              "note": "Shop around town and browse the vendor stalls in the square."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Many Christmas Festival",
+      "slug": "many-christmas-festival",
+      "short_name": "Many Christmas Festival",
+      "tagline": "Three December days to gather at the fairgrounds.",
+      "description": "Many\u2019s Christmas Festival is advertised for December 11\u201313 at the Many Fairgrounds. The Town is inviting vendors and seeking entertainment suggestions as the holiday program takes shape.",
+      "location": "Many, Louisiana",
+      "address": "Many Fairgrounds \u00b7 Many, Louisiana",
+      "theme": "christmas",
+      "image_path": "/images/many-christmas-events-flyer.jpg",
+      "video_path": "",
+      "facebook_url": "",
+      "contact_url": "",
+      "contact_email": "tomclerk@cp-tel.net",
+      "source_note": "Details transcribed from the Town of Many Christmas Events vendor announcement supplied to SatCom on September 16, 2026. The flyer does not print a year; these dates are provisionally listed in the 2026 season. Event descriptions are independently written. Vendor arrangements, admission and the Christmas Festival daily program were not specified.",
+      "starts_on": "2026-12-11",
+      "ends_on": "2026-12-13",
+      "verified_on": "2026-09-16",
+      "updated_at": "2026-09-16T17:41:27.226313+00:00",
+      "information": [
+        {
+          "title": "Plan your visit",
+          "body": "The festival is listed for December 11\u201313 at the Many Fairgrounds. Daily opening times, admission prices and individual activities are still to be announced."
+        },
+        {
+          "title": "Vendors wanted",
+          "body": "The Town is inviting vendors to join its Christmas events. Contact Many City Hall about participating; booth prices, registration requirements and deadlines are not listed on the announcement."
+        },
+        {
+          "title": "Entertainment suggestions",
+          "body": "The organizers are seeking band and artist suggestions. No performers are confirmed on this flyer."
+        }
+      ],
+      "days": [
+        {
+          "date": "2026-12-11",
+          "title": "Many Christmas Festival",
+          "admission": "",
+          "note": "The flyer announces the festival dates and location. Daily hours, admission and the detailed program have not been provided.",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Christmas Festival at the fairgrounds",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Hours to be announced",
+              "location": "Many Fairgrounds",
+              "note": "Check back for the daily program as details are announced."
+            }
+          ]
+        },
+        {
+          "date": "2026-12-12",
+          "title": "Many Christmas Festival",
+          "admission": "",
+          "note": "The flyer announces the festival dates and location. Daily hours, admission and the detailed program have not been provided.",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Christmas Festival at the fairgrounds",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Hours to be announced",
+              "location": "Many Fairgrounds",
+              "note": "Check back for the daily program as details are announced."
+            }
+          ]
+        },
+        {
+          "date": "2026-12-13",
+          "title": "Many Christmas Festival",
+          "admission": "",
+          "note": "The flyer announces the festival dates and location. Daily hours, admission and the detailed program have not been provided.",
+          "is_leadup": false,
+          "activities": [
+            {
+              "title": "Christmas Festival at the fairgrounds",
+              "starts_at": null,
+              "ends_at": null,
+              "time_label": "Hours to be announced",
+              "location": "Many Fairgrounds",
+              "note": "Check back for the daily program as details are announced."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

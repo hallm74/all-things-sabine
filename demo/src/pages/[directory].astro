@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro";
+import DirectoryBrowser from "../components/Directory";
+import {
+  directoryInfo,
+  directoryItems,
+  type DirectoryKind,
+} from "../lib/directories";
+export function getStaticPaths() {
+  return Object.keys(directoryInfo).map(directory => ({
+    params: { directory },
+    props: { kind: directory as DirectoryKind },
+  }));
+}
+const { kind } = Astro.props;
+const info = directoryInfo[kind];
+const items = directoryItems(kind);
+---
+
+<Layout title={info.label} description={info.description}
+  ><main id="main-content">
+    <section class="page-intro wrap">
+      <span class="eyebrow">{info.eyebrow}</span><h1>{info.title}</h1><div
+        class="intro-bottom"
+      >
+        <p>{info.description}</p><a
+          class="button"
+          href={`https://${kind}.allthingssabine.com/`}
+          >Open Sabine {info.label} ↗</a
+        >
+      </div>
+    </section><nav class="directory-tabs wrap" aria-label="Explore Sabine">
+      {
+        Object.entries(directoryInfo).map(([key, value]) => (
+          <a
+            href={`/${key}/`}
+            class:list={{ active: key === kind }}
+            aria-current={key === kind ? "page" : undefined}
+          >
+            {value.label}
+          </a>
+        ))
+      }
+    </nav><section class="collection wrap">
+      <DirectoryBrowser {items} {kind} action={info.action} client:load /><p
+        class="directory-note"
+      >
+        Explore published profiles from <a
+          href={`https://${kind}.allthingssabine.com/`}>Sabine {info.label}</a
+        >. Full details{
+          kind === "menus"
+            ? ", menu selections, and sharing"
+            : kind === "festivals"
+              ? " and event schedules"
+              : ""
+        } open on that project. Directory snapshot: September 17, 2026. <a
+          href={`https://${kind}.allthingssabine.com/submit/`}
+          >Suggest an addition ↗</a
+        >
+      </p>
+    </section>
+  </main></Layout
+>

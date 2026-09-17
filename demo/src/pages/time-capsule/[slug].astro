@@ -1,0 +1,76 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { archive, readableDate } from "../../lib/content";
+export function getStaticPaths() {
+  return archive.map(story => ({
+    params: { slug: story.slug },
+    props: { story },
+  }));
+}
+const { story } = Astro.props;
+---
+
+<Layout
+  title={story.title}
+  description={story.description}
+  image={story.image || undefined}
+  ><main id="main-content" class="wrap">
+    <div class="breadcrumb">
+      <a href="/">Home</a> / <a href="/time-capsule/">Time Capsule</a>
+    </div><header class="article-header">
+      <span class="eyebrow">A memory from the Facebook archive</span><h1>
+        {story.title}
+      </h1><div class="article-meta">
+        <time datetime={story.date}
+          >Posted on Facebook {readableDate(story.date)}</time
+        >{
+          story.historicalDate && (
+            <span>Historical date: {story.historicalDate}</span>
+          )
+        }
+      </div>
+    </header>{
+      story.video && (
+        <video
+          class="archive-video"
+          controls
+          preload="metadata"
+          poster={story.image || undefined}
+        >
+          <>
+            <source src={story.video.src} type={story.video.mimeType} />
+            <a href={story.video.src}>Watch archived video</a>
+          </>
+        </video>
+      )
+    }<div class="archive-gallery">
+      {
+        story.media.map((image, index) => (
+          <figure>
+            <a
+              href={image.src}
+              aria-label={`Open full-size photograph ${index + 1}`}
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                loading={index === 0 ? "eager" : "lazy"}
+              />
+            </a>
+            {image.caption && <figcaption>{image.caption}</figcaption>}
+          </figure>
+        ))
+      }
+    </div><section class="archive-original">
+      <span class="eyebrow">The original Facebook post</span><div
+        class="article-body"
+        set:html={story.html}
+      />
+    </section><nav class="article-nav" aria-label="Archive navigation">
+      <a href="/time-capsule/">← Back to the Time Capsule</a><a href="/stories/"
+        >Explore our stories →</a>
+    </nav>
+  </main></Layout
+>

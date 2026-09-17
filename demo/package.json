@@ -1,0 +1,13 @@
+{
+  "name": "allthingssabine-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "node scripts/prepare.mjs",
+    "dev": "astro dev",
+    "build": "astro build && node scripts/finish-build.mjs",
+    "build:production": "SITE_MODE=production astro build && SITE_MODE=production node scripts/finish-build.mjs",
+    "check": "astro check",
+    "preview": "astro preview --host 127.0.0.1 --port 4337"
+  }
+}

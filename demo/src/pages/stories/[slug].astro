@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { stories, readableDate } from "../../lib/content";
+export function getStaticPaths() {
+  return stories.map(story => ({
+    params: { slug: story.slug },
+    props: { story },
+  }));
+}
+const { story } = Astro.props;
+const index = stories.findIndex(s => s.slug === story.slug);
+const next = stories[(index + 1) % stories.length];
+---
+
+<Layout title={story.title} description={story.description} image={story.image}
+  ><main id="main-content" class="wrap">
+    <div class="breadcrumb">
+      <a href="/">Home</a> / <a href="/stories/">Stories</a>
+    </div><header class="article-header">
+      <span class="eyebrow">From the All Things Sabine collection</span><h1>
+        {story.title}
+      </h1><div class="article-meta">
+        <span
+          >By {
+            story.author.toLowerCase() === "shannon"
+              ? "Shannon Hall"
+              : story.author
+          }</span
+        ><time datetime={story.date}
+          >Originally published {readableDate(story.date)}</time>
+      </div>
+    </header><article class="article-body" set:html={story.html} /><nav
+      class="article-nav"
+      aria-label="More stories"
+    >
+      <a href="/stories/">← Back to all stories</a><a href={next.href}
+        >Another story →</a>
+    </nav>
+  </main></Layout
+>

@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm --prefix demo run prepare && npm --prefix demo run build:production",
+    "build:legacy": "astro build",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",

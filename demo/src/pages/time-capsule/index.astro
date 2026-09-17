@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Library from "../../components/Library";
+import { archive } from "../../lib/content";
+const initial = [...archive]
+  .sort(
+    (a, b) =>
+      Number(Boolean(b.image)) - Number(Boolean(a.image)) ||
+      b.date.localeCompare(a.date)
+  )
+  .slice(0, 24)
+  .map(({ html, media, video, ...item }) => item);
+---
+
+<Layout title="The Time Capsule"
+  ><main id="main-content">
+    <div class="archive-intro">
+      <section class="page-intro wrap">
+        <span class="eyebrow">Our people. Our past. Our Sabine.</span><h1>
+          Welcome to<br /><em>the Time Capsule.</em>
+        </h1><p>
+          {archive.length.toLocaleString()} posts preserved from the All Things Sabine
+          Facebook page. Photographs, clippings, videos, and everyday memories, gathered
+          in one place to be discovered all over again.
+        </p>
+      </section>
+    </div><section class="collection wrap" id="browse">
+      <Library
+        initialItems={initial}
+        total={archive.length}
+        kind="archive"
+        client:load
+      />
+    </section>
+  </main></Layout
+>

@@ -1,0 +1,139 @@
+---
+import "../styles/site.css";
+import Icon from "../components/Icon.astro";
+import { isProduction } from "../lib/site";
+const analyticsInit = `window.dataLayer = window.dataLayer || [];
+window.gtag = function () { window.dataLayer.push(arguments); };
+window.gtag('js', new Date());
+window.gtag('config', 'G-B880HYJ0BY');`;
+const {
+  title = "Sabine, then & now",
+  description = "The stories, places, people, and traditions of Sabine Parish, Louisiana. Explore local history, menus, businesses, community resources, and festivals.",
+  image = "/images/stories/YUN00001-1024x576.webp",
+} = Astro.props;
+const links = [
+  ["Stories", "/stories/"],
+  ["Time Capsule", "/time-capsule/"],
+  ["Menus", "/menus/"],
+  ["Listings", "/listings/"],
+  ["Community", "/community/"],
+  ["Festivals", "/festivals/"],
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>{title} · All Things Sabine</title><meta
+      name="description"
+      content={description}
+    />
+    {!isProduction && <meta name="robots" content="noindex, nofollow" />}<meta
+      name="theme-color"
+      content="#173f35"
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta property="og:title" content={`${title} · All Things Sabine`} /><meta
+      property="og:description"
+      content={description}
+    />
+    <meta property="og:image" content={new URL(image, Astro.site)} /><meta
+      property="og:type"
+      content="website"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap"
+      rel="stylesheet"
+    />
+    {
+      isProduction && (
+        <>
+          <script
+            is:inline
+            data-cfasync="false"
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-B880HYJ0BY"
+          />
+          <script is:inline data-cfasync="false" set:html={analyticsInit} />
+        </>
+      )
+    }
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="demo-bar">
+      <span>A new chapter for All Things Sabine</span><span
+        >{isProduction ? "Sabine Parish, Louisiana" : "Design preview"}
+        <span class="preview-dot"></span></span
+      >
+    </div>
+    <header class="site-header">
+      <div class="masthead wrap">
+        <a href="/" class="wordmark" aria-label="All Things Sabine home"
+          >All Things <em>Sabine</em><span
+            >LOUISIANA · OUR STORIES. OUR HOME.</span
+          ></a
+        ><div class="masthead-note">
+          Rooted in the past.<br />Connected to today.
+        </div><a
+          class="search-link"
+          href="/stories/#browse"
+          aria-label="Search stories"><Icon name="search" /></a
+        >
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <div class="wrap nav-inner">
+          <a
+            class:list={["home-link", { active: Astro.url.pathname === "/" }]}
+            href="/">Home</a
+          >{
+            links.map(([label, href]) => (
+              <a
+                href={href}
+                class:list={{ active: Astro.url.pathname.startsWith(href) }}
+                aria-current={
+                  Astro.url.pathname.startsWith(href) ? "page" : undefined
+                }
+              >
+                {label}
+              </a>
+            ))
+          }<a class="about-link" href="/about/"
+            >Our story <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <div>
+          <a href="/" class="wordmark">All Things <em>Sabine</em></a><p>
+            A place for the stories worth keeping.<br />And the community still
+            making them.
+          </p>
+        </div><div class="footer-links">
+          {links.map(([label, href]) => <a href={href}>{label}</a>)}
+        </div><div class="footer-note">
+          <span class="eyebrow">From here, for here</span><p>
+            Sabine Parish, Louisiana<br />and our neighbors along the way.
+          </p><a href="/about/">Get to know All Things Sabine ↗</a>
+        </div>
+      </div><div class="wrap footer-bottom">
+        <span>© {new Date().getFullYear()} All Things Sabine</span><span
+          >Made with local love. Website by SatCom.</span
+        >{!isProduction && <span>Demo edition</span>}
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+---
+const { story, label = "From the story collection" } = Astro.props;
+---
+
+<article class="story-card">
+  <a href={story.href}
+    ><div class="story-image">
+      {
+        story.image ? (
+          <img
+            src={story.image}
+            alt=""
+            loading="lazy"
+            width="800"
+            height="540"
+          />
+        ) : (
+          <div class="image-placeholder">A story worth keeping.</div>
+        )
+      }
+    </div><div class="story-card-copy">
+      <span class="eyebrow">{label}</span><h3>{story.title}</h3><p>
+        {story.description}
+      </p><span class="text-link"
+        >Read the story <span aria-hidden="true">↗</span></span>
+    </div></a>
+</article>
