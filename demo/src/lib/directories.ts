@@ -51,8 +51,11 @@ export const directoryInfo = {
   },
 };
 export function directoryItems(kind: DirectoryKind): DirectoryItem[] {
+  return normalizeDirectoryItems(kind, data[kind]);
+}
+export function normalizeDirectoryItems(kind: DirectoryKind, rows: Record<string, any>[]): DirectoryItem[] {
   const origin = `https://${kind}.allthingssabine.com`;
-  return (data[kind] as unknown as Record<string, any>[])
+  return rows
     .map(item => ({
       name: item.name,
       description:
@@ -75,7 +78,7 @@ export function directoryItems(kind: DirectoryKind): DirectoryItem[] {
           : "",
       href: `${origin}/${directoryInfo[kind].path}/${item.slug}/`,
       date: item.starts_on,
-      endDate: item.ends_on,
+      endDate: item.ends_on || item.starts_on,
       phone: item.phone || item.phoneNumber,
       phoneUrl: item.phoneUrl,
     }))

@@ -1,0 +1,6 @@
+{
+  "menus": { "key": "restaurants", "url": "https://hallm-menus-api.fly.dev/api/restaurants/" },
+  "listings": { "key": "listings", "url": "https://hallm-menus-api.fly.dev/api/listings/" },
+  "community": { "key": "organizations", "url": "https://hallm-menus-api.fly.dev/api/community/organizations/" },
+  "festivals": { "key": "festivals", "url": "https://hallm-menus-api.fly.dev/api/festivals/" }
+}

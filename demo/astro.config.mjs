@@ -3,6 +3,8 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import { fileURLToPath } from "node:url";
 
+import sources from "./src/lib/directory-sources.json";
+
 export default defineConfig({
   site:
     process.env.SITE_MODE === "production"
@@ -15,6 +17,9 @@ export default defineConfig({
   server: { host: "127.0.0.1", port: 4337 },
   vite: {
     ssr: { noExternal: ["@astrojs/react"] },
-    server: { fs: { allow: [fileURLToPath(new URL("..", import.meta.url))] } },
+    server: {
+      fs: { allow: [fileURLToPath(new URL("..", import.meta.url))] },
+      proxy: Object.fromEntries(Object.entries(sources).map(([kind, source]) => [`/api/directories/${kind}`, {target: new URL(source.url).origin, changeOrigin: true, rewrite: (requestPath) => new URL(source.url).pathname + (requestPath.includes("?") ? requestPath.slice(requestPath.indexOf("?")) : "")}]))
+    },
   },
 });

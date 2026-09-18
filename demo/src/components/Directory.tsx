@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { DirectoryItem, DirectoryKind } from "../lib/directories";
+import { useDirectory } from "../lib/useDirectory";
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-US", {
     month: "short",
@@ -9,7 +10,7 @@ const formatDate = (date: string) =>
   }).format(new Date(date + "T12:00:00Z"));
 
 export default function Directory({
-  items,
+  items: initialItems,
   kind,
   action,
 }: {
@@ -17,6 +18,7 @@ export default function Directory({
   kind: DirectoryKind;
   action: string;
 }) {
+  const { items, status } = useDirectory(kind, initialItems);
   const [query, setQuery] = useState(""),
     [category, setCategory] = useState("all"),
     [view, setView] = useState("cards");
@@ -30,6 +32,9 @@ export default function Directory({
   );
   return (
     <div>
+      <p className="directory-note" role="status">
+        {status === "loading" ? "Checking for the latest published profiles…" : status === "live" ? "Showing the latest published profiles." : <>Couldn’t refresh right now. Showing saved profiles. <a href={`https://${kind}.allthingssabine.com/`}>Open the directory for the latest ↗</a></>}
+      </p>
       <div className="browse-tools">
         <label className="field search-field">
           Search {kind}

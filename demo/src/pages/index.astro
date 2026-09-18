@@ -3,7 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Icon from "../components/Icon.astro";
 import StoryCard from "../components/StoryCard.astro";
 import { stories, archive, storyBy } from "../lib/content";
-import { directoryItems, eventDate } from "../lib/directories";
+import { directoryItems } from "../lib/directories";
+import { DirectoryCount, UpcomingFestivals } from "../components/LiveDirectoryHighlights";
 const lead = storyBy("miller-store");
 const side = [storyBy("a-community-lost"), storyBy("rock-chapel")];
 const picks = [
@@ -15,15 +16,7 @@ const archivePicks = ["1987-black-heritage", "old-photos", "zwolle"]
   .map(term => archive.find(s => s.slug.includes(term) && s.image))
   .filter(Boolean);
 const capsuleImage = archivePicks[0] || archive.find(s => s.image)!;
-const festivals = directoryItems("festivals")
-  .filter(
-    f =>
-      f.endDate! >=
-      new Intl.DateTimeFormat("en-CA", { timeZone: "America/Chicago" }).format(
-        new Date()
-      )
-  )
-  .slice(0, 3);
+const festivals = directoryItems("festivals");
 const explore = [
   {
     key: "menus",
@@ -141,7 +134,7 @@ const explore = [
                 </div>
                 <h3>{item.label}</h3>
                 <p>{item.text}</p>
-                <span class="explore-bottom">{item.count}</span>
+                <span class="explore-bottom"><DirectoryCount kind={item.key as "menus" | "listings" | "community" | "festivals"} initialItems={directoryItems(item.key as "menus" | "listings" | "community" | "festivals")} client:load /></span>
               </>
             </a>
           ))
@@ -209,34 +202,7 @@ const explore = [
             </h2>
           </div><a class="text-link" href="/festivals/"
             >Explore festivals <Icon name="arrow" /></a>
-        </div><div class="event-grid">
-          {
-            festivals.map(event => (
-              <a href={event.href} class="event-card">
-                <>
-                  <span class="event-date">
-                    <strong>{eventDate(event.date!).split(" ")[1]}</strong>
-                    {eventDate(event.date!).split(" ")[0]}{" "}
-                    {event.date!.slice(0, 4)}
-                  </span>
-                  <div>
-                    <>
-                      <span class="eyebrow">{event.location}</span>
-                      <h3>{event.name}</h3>
-                      <p>
-                        {eventDate(event.date!)}
-                        {event.endDate !== event.date
-                          ? " – " + eventDate(event.endDate!)
-                          : ""}
-                      </p>
-                      <span class="text-link">See the schedule ↗</span>
-                    </>
-                  </div>
-                </>
-              </a>
-            ))
-          }
-        </div><p class="event-source">
+        </div><UpcomingFestivals initialItems={festivals} client:load /><p class="event-source">
           Dates from Sabine Festivals. Check the full schedule for details and
           organizer updates.
         </p>

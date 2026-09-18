@@ -218,6 +218,8 @@
       "facebookUrl": "",
       "bookingUrl": "",
       "imageUrl": "https://listings.allthingssabine.com/guys-and-dolls-sign.webp",
+      "videoUrl": "",
+      "videoPosterUrl": "",
       "hours": [
         {
           "day": 0,
@@ -275,6 +277,8 @@
       "facebookUrl": "",
       "bookingUrl": "https://www.curtisfamilypharmacy.com/refill-rx",
       "imageUrl": "https://listings.allthingssabine.com/curtis-family-pharmacy.webp",
+      "videoUrl": "",
+      "videoPosterUrl": "",
       "hours": [
         {
           "day": 0,
@@ -314,6 +318,53 @@
         }
       ],
       "updatedAt": "2026-08-29T20:18:04.609270+00:00"
+    },
+    {
+      "name": "Papaw’s Candy Corner",
+      "slug": "papaws-candy-corner",
+      "category": {
+        "name": "Candy & Sweets",
+        "slug": "candy-and-sweets"
+      },
+      "tagline": "Sweet Treats, Happier Days!",
+      "description": "A candy shop in Many with sweet treats, ice cream, and a little old-fashioned fun.",
+      "location": "Many, LA",
+      "address": "",
+      "phone": "",
+      "phoneUrl": "",
+      "websiteUrl": "",
+      "facebookUrl": "",
+      "bookingUrl": "",
+      "imageUrl": "https://listings.allthingssabine.com/papaws-candy-corner-hours.jpg",
+      "videoUrl": "https://listings.allthingssabine.com/video/papaws-sweet-memories.mp4",
+      "videoPosterUrl": "https://listings.allthingssabine.com/video/papaws-poster.jpg",
+      "hours": [
+        {
+          "day": 1,
+          "dayName": "Tuesday",
+          "opensAt": "12:00",
+          "closesAt": "18:00"
+        },
+        {
+          "day": 3,
+          "dayName": "Thursday",
+          "opensAt": "12:00",
+          "closesAt": "18:00"
+        },
+        {
+          "day": 4,
+          "dayName": "Friday",
+          "opensAt": "12:00",
+          "closesAt": "18:00"
+        },
+        {
+          "day": 5,
+          "dayName": "Saturday",
+          "opensAt": "12:00",
+          "closesAt": "19:00"
+        }
+      ],
+      "updatedAt": "2026-09-18T12:00:28.868498+00:00"
     }
   ],
   "community": [
@@ -353,7 +404,7 @@
       "tagline": "Fair days. Rodeo nights. Hometown memories.",
       "description": "Meet at the midway for four days of rides, livestock shows, hometown talent, and evenings at the arena. The Sabine Festival & Rodeo brings Many together for a fall tradition shared across generations.",
       "location": "Many, Louisiana",
-      "address": "Sabine Parish Fairgrounds \u00b7 115 Fairgrounds Road, Many, LA 71449",
+      "address": "Sabine Parish Fairgrounds · 115 Fairgrounds Road, Many, LA 71449",
       "theme": "fair",
       "image_path": "/images/fair-poster.jpg",
       "video_path": "/video/sabine-fair-2026.mp4",
@@ -368,15 +419,15 @@
       "information": [
         {
           "title": "A fair with a theme",
-          "body": "The 2026 theme is \u201cRed, White, Blue Ribbons: Celebrating America\u2019s Best.\u201d Look for community exhibits, youth livestock events, and four evenings of midway fun."
+          "body": "The 2026 theme is “Red, White, Blue Ribbons: Celebrating America’s Best.” Look for community exhibits, youth livestock events, and four evenings of midway fun."
         },
         {
           "title": "Plan your visit",
-          "body": "The main fair runs September 23\u201326 at the Sabine Parish Fairgrounds in Many. Barrel racing takes place at the Benton Johnson Rodeo Arena on the same grounds. The parade lines up at St. Joseph Church in Many at noon on Saturday.\n\nGate admission is free Wednesday evening and during Friday\u2019s 9 AM\u20133 PM educational program. The flyer lists $5 gate entry Thursday, Friday, and Saturday from 6\u201310 PM. Rodeo tickets, carnival rides, and food may cost extra; the flyer does not give those prices."
+          "body": "The main fair runs September 23–26 at the Sabine Parish Fairgrounds in Many. Barrel racing takes place at the Benton Johnson Rodeo Arena on the same grounds. The parade lines up at St. Joseph Church in Many at noon on Saturday.\n\nGate admission is free Wednesday evening and during Friday’s 9 AM–3 PM educational program. The flyer lists $5 gate entry Thursday, Friday, and Saturday from 6–10 PM. Rodeo tickets, carnival rides, and food may cost extra; the flyer does not give those prices."
         },
         {
           "title": "Entering an exhibit?",
-          "body": "Arts, crafts, and 4-H entries are accepted September 18 from 3:30\u20135:45 PM and September 19 from 9\u201311 AM in the Exhibit Building. Those windows also cover decorating 4-H Club bulletin boards. Judging on September 20\u201321 is closed to the public.\n\nUse the lead-up days switch on the calendar to see entry windows and Monday barrel racing."
+          "body": "Arts, crafts, and 4-H entries are accepted September 18 from 3:30–5:45 PM and September 19 from 9–11 AM in the Exhibit Building. Those windows also cover decorating 4-H Club bulletin boards. Judging on September 20–21 is closed to the public.\n\nUse the lead-up days switch on the calendar to see entry windows and Monday barrel racing."
         },
         {
           "title": "About the film",
@@ -405,7 +456,7 @@
           "date": "2026-09-19",
           "title": "Exhibitor entry morning",
           "admission": "Entry fees not listed",
-          "note": "Bulletin boards are judged September 20\u201321. The exhibit building is closed to the public during judging.",
+          "note": "Bulletin boards are judged September 20–21. The exhibit building is closed to the public during judging.",
           "is_leadup": true,
           "activities": [
             {
@@ -438,7 +489,7 @@
         {
           "date": "2026-09-23",
           "title": "Community, Family & Friends Day",
-          "admission": "Free gate entry \u00b7 6\u201310 PM",
+          "admission": "Free gate entry · 6–10 PM",
           "note": "",
           "is_leadup": false,
           "activities": [
@@ -463,7 +514,7 @@
         {
           "date": "2026-09-24",
           "title": "Youth rodeo & a night on the midway",
-          "admission": "$5 gate entry \u00b7 6\u201310 PM",
+          "admission": "$5 gate entry · 6–10 PM",
           "note": "",
           "is_leadup": false,
           "activities": [
@@ -520,8 +571,8 @@
         {
           "date": "2026-09-25",
           "title": "Educational Fair Day & Fair Night",
-          "admission": "Free gate entry 9 AM\u20133 PM \u00b7 $5 gate entry 6\u201310 PM",
-          "note": "The flyer designates the daytime program as No School \u2014 4-H & FFA Educational Fair Day.",
+          "admission": "Free gate entry 9 AM–3 PM · $5 gate entry 6–10 PM",
+          "note": "The flyer designates the daytime program as No School — 4-H & FFA Educational Fair Day.",
           "is_leadup": false,
           "activities": [
             {
@@ -573,7 +624,7 @@
               "note": ""
             },
             {
-              "title": "LRCA Rodeo \u00b7 J2 Rodeo",
+              "title": "LRCA Rodeo · J2 Rodeo",
               "starts_at": "19:30",
               "ends_at": null,
               "time_label": "",
@@ -585,7 +636,7 @@
         {
           "date": "2026-09-26",
           "title": "Parade day. Championship night.",
-          "admission": "$5 gate entry \u00b7 6\u201310 PM",
+          "admission": "$5 gate entry · 6–10 PM",
           "note": "",
           "is_leadup": false,
           "activities": [
@@ -598,7 +649,7 @@
               "note": "Parade lineup begins at noon."
             },
             {
-              "title": "Visiting Queens\u2019 Social",
+              "title": "Visiting Queens’ Social",
               "starts_at": null,
               "ends_at": null,
               "time_label": "After the parade",
@@ -646,7 +697,7 @@
               "note": ""
             },
             {
-              "title": "LRCA Rodeo \u00b7 J2 Rodeo",
+              "title": "LRCA Rodeo · J2 Rodeo",
               "starts_at": "19:30",
               "ends_at": null,
               "time_label": "",
@@ -664,14 +715,14 @@
       "tagline": "A little town. A whole lot of flavor.",
       "description": "Follow the music to Zwolle for the 50th annual Tamale Fiesta. Three days of tamales, dancing, a hometown parade, and anniversary fireworks make room for old friends and new faces.",
       "location": "Zwolle, Louisiana",
-      "address": "Zwolle Festival Grounds \u00b7 1100 S. Main St., Zwolle, LA 71486",
+      "address": "Zwolle Festival Grounds · 1100 S. Main St., Zwolle, LA 71486",
       "theme": "fiesta",
       "image_path": "/images/tamale-hero.webp",
       "video_path": "",
       "facebook_url": "https://www.facebook.com/zwolletamalefiesta/",
       "contact_url": "https://zwolletamalefiesta.com/contact-us/",
       "contact_email": "louperebecca@yahoo.com",
-      "source_note": "Dates, activities, and gate prices checked against the organizer\u2019s published 2026 program on September 15. The daily program supports October 8\u201310; its footer has an inconsistent October 8\u201311 range. Race start times and the tamale eating contest time differ within the published materials. Confirm these with organizers.",
+      "source_note": "Dates, activities, and gate prices checked against the organizer’s published 2026 program on September 15. The daily program supports October 8–10; its footer has an inconsistent October 8–11 range. Race start times and the tamale eating contest time differ within the published materials. Confirm these with organizers.",
       "starts_on": "2026-10-08",
       "ends_on": "2026-10-10",
       "verified_on": "2026-09-15",
@@ -679,11 +730,11 @@
       "information": [
         {
           "title": "Fifty years of coming together",
-          "body": "The Fiesta began with an idea proposed by Rogers P. Loupe in 1975. With help from tourism director Roscoe Carruth, it developed into a nonprofit celebration of Zwolle\u2019s food and Spanish and Indigenous heritage. In 2026, the festival marks its 50th annual gathering."
+          "body": "The Fiesta began with an idea proposed by Rogers P. Loupe in 1975. With help from tourism director Roscoe Carruth, it developed into a nonprofit celebration of Zwolle’s food and Spanish and Indigenous heritage. In 2026, the festival marks its 50th annual gathering."
         },
         {
           "title": "Plan your visit",
-          "body": "Public gates open at 4 PM Thursday and Friday, and 8 AM Saturday. Gate admission is $2 Thursday, $5 Friday, and $10 Saturday. Food, rides, and some activities cost extra. Ask the organizers about child admission, parking, accessibility, and accepted payment methods.\n\nSaturday\u2019s mud bog begins at 2 PM. Its published $25 cooler charge and $40 tent-space charge apply specifically to the mud-bog area; they do not establish festival-wide cooler permission."
+          "body": "Public gates open at 4 PM Thursday and Friday, and 8 AM Saturday. Gate admission is $2 Thursday, $5 Friday, and $10 Saturday. Food, rides, and some activities cost extra. Ask the organizers about child admission, parking, accessibility, and accepted payment methods.\n\nSaturday’s mud bog begins at 2 PM. Its published $25 cooler charge and $40 tent-space charge apply specifically to the mud-bog area; they do not establish festival-wide cooler permission."
         },
         {
           "title": "Run, walk & join the parade crowd",
@@ -995,16 +1046,16 @@
       "slug": "sabine-freestate-festival",
       "short_name": "Freestate Festival",
       "tagline": "Western history, smoky BBQ, and a weekend in Florien.",
-      "description": "Florien\u2019s 46th annual Sabine Freestate Festival brings together western reenactments, a parade, live music and the No Man\u2019s Land BBQ Championship. Explore three days of community events, with pageant and clue dates leading up to the weekend.",
+      "description": "Florien’s 46th annual Sabine Freestate Festival brings together western reenactments, a parade, live music and the No Man’s Land BBQ Championship. Explore three days of community events, with pageant and clue dates leading up to the weekend.",
       "location": "Florien, Louisiana",
-      "address": "Florien, Louisiana \u00b7 Activities at several local venues; see the schedule",
+      "address": "Florien, Louisiana · Activities at several local venues; see the schedule",
       "theme": "freestate",
       "image_path": "/images/freestate-festival-2026.jpg",
       "video_path": "",
       "facebook_url": "",
       "contact_url": "",
       "contact_email": "sabineparishfreestate@gmail.com",
-      "source_note": "Schedule transcribed from the organizer\u2019s 2026 festival flyer supplied by the site owner. The official Sabine Freestate Festival website confirms the 46th annual 2026 event and lists the organizer email and contact address. Descriptions are independently written. Admission, most activity locations and lead-up times are not listed on the flyer; check with organizers for those details and schedule changes.",
+      "source_note": "Schedule transcribed from the organizer’s 2026 festival flyer supplied by the site owner. The official Sabine Freestate Festival website confirms the 46th annual 2026 event and lists the organizer email and contact address. Descriptions are independently written. Admission, most activity locations and lead-up times are not listed on the flyer; check with organizers for those details and schedule changes.",
       "starts_on": "2026-11-06",
       "ends_on": "2026-11-08",
       "verified_on": "2026-09-16",
@@ -1012,23 +1063,23 @@
       "information": [
         {
           "title": "A weekend in Florien",
-          "body": "The festival runs November 6\u20138, 2026. Friday and Saturday list an 11 PM grounds closing time. Sunday\u2019s final advertised activity is movie night at 6 PM; the movie is still to be announced.\n\nThe flyer does not give gate admission or individual activity prices. Ask the organizers about parking, accessibility and exact locations before traveling."
+          "body": "The festival runs November 6–8, 2026. Friday and Saturday list an 11 PM grounds closing time. Sunday’s final advertised activity is movie night at 6 PM; the movie is still to be announced.\n\nThe flyer does not give gate admission or individual activity prices. Ask the organizers about parking, accessibility and exact locations before traveling."
         },
         {
-          "title": "No Man\u2019s Land BBQ Championship",
-          "body": "The entry deadline is November 5; no deadline time is printed. Head cooks meet November 6 at 5:30 PM at the Train Depot. Saturday\u2019s turn-in is at 5 PM, with champions announced at 6:45 PM. Email the organizers for entry requirements and fees."
+          "title": "No Man’s Land BBQ Championship",
+          "body": "The entry deadline is November 5; no deadline time is printed. Head cooks meet November 6 at 5:30 PM at the Train Depot. Saturday’s turn-in is at 5 PM, with champions announced at 6:45 PM. Email the organizers for entry requirements and fees."
         },
         {
           "title": "Saturday with the family",
-          "body": "The parade starts at 11 AM. Dog shows, dance, stockyard activities and evening bands fill out Saturday\u2019s program. Roller car rides, laser tag, minnow racing, putt-putt, historical demonstrations, Chuckwagon Will Travel and LA Mechanical Bulls are also listed throughout the day."
+          "body": "The parade starts at 11 AM. Dog shows, dance, stockyard activities and evening bands fill out Saturday’s program. Roller car rides, laser tag, minnow racing, putt-putt, historical demonstrations, Chuckwagon Will Travel and LA Mechanical Bulls are also listed throughout the day."
         },
         {
           "title": "History & the clue trail",
-          "body": "The festival commemorates the area known as No Man\u2019s Land between 1806 and 1821. Staged western shootouts are scheduled all three festival days. The flyer lists ten numbered clues, beginning October 17; rules and prizes are not specified."
+          "body": "The festival commemorates the area known as No Man’s Land between 1806 and 1821. Staged western shootouts are scheduled all three festival days. The flyer lists ten numbered clues, beginning October 17; rules and prizes are not specified."
         },
         {
           "title": "Contact the organizers",
-          "body": "Email sabineparishfreestate@gmail.com for entries, visitor questions or updates. The official website lists the contact address as 220 W Port Arthur Ave, Florien, LA 71429. This is the organizer\u2019s contact address; individual activities use the venues shown in the schedule."
+          "body": "Email sabineparishfreestate@gmail.com for entries, visitor questions or updates. The official website lists the contact address as 220 W Port Arthur Ave, Florien, LA 71429. This is the organizer’s contact address; individual activities use the venues shown in the schedule."
         }
       ],
       "days": [
@@ -1132,7 +1183,7 @@
           "is_leadup": true,
           "activities": [
             {
-              "title": "No Man\u2019s Land BBQ cook-off entry deadline",
+              "title": "No Man’s Land BBQ cook-off entry deadline",
               "starts_at": null,
               "ends_at": null,
               "time_label": "Deadline time not listed",
@@ -1189,7 +1240,7 @@
               "note": ""
             },
             {
-              "title": "No Man\u2019s Land BBQ head cooks meeting",
+              "title": "No Man’s Land BBQ head cooks meeting",
               "starts_at": "17:30",
               "ends_at": null,
               "time_label": "",
@@ -1221,7 +1272,7 @@
               "note": ""
             },
             {
-              "title": "Block party dance \u2014 DJ Dex",
+              "title": "Block party dance — DJ Dex",
               "starts_at": "19:00",
               "ends_at": null,
               "time_label": "",
@@ -1350,7 +1401,7 @@
               "note": "Staged western shootout."
             },
             {
-              "title": "No Man\u2019s Land BBQ championship turn-in",
+              "title": "No Man’s Land BBQ championship turn-in",
               "starts_at": "17:00",
               "ends_at": null,
               "time_label": "",
@@ -1374,7 +1425,7 @@
               "note": ""
             },
             {
-              "title": "Mutton bustin\u2019",
+              "title": "Mutton bustin’",
               "starts_at": "18:15",
               "ends_at": null,
               "time_label": "",
@@ -1382,7 +1433,7 @@
               "note": ""
             },
             {
-              "title": "No Man\u2019s Land BBQ champions announcement",
+              "title": "No Man’s Land BBQ champions announcement",
               "starts_at": "18:45",
               "ends_at": null,
               "time_label": "",
@@ -1473,7 +1524,7 @@
       "tagline": "An evening to shop local and linger in town.",
       "description": "Browse evening sales at participating Many businesses and visit vendors in the Town Square. Moonlight Madness brings local holiday shopping together from 5 to 8 PM.",
       "location": "Many, Louisiana",
-      "address": "Participating businesses across Many \u00b7 Vendors in Many Town Square",
+      "address": "Participating businesses across Many · Vendors in Many Town Square",
       "theme": "moonlight",
       "image_path": "/images/many-christmas-events-flyer.jpg",
       "video_path": "",
@@ -1488,7 +1539,7 @@
       "information": [
         {
           "title": "For shoppers",
-          "body": "The advertised shopping window is 5\u20138 PM on December 3. Sales take place at participating businesses throughout Many; vendors will be in the Many Town Square."
+          "body": "The advertised shopping window is 5–8 PM on December 3. Sales take place at participating businesses throughout Many; vendors will be in the Many Town Square."
         },
         {
           "title": "Businesses & vendors",
@@ -1520,9 +1571,9 @@
       "slug": "many-christmas-festival",
       "short_name": "Many Christmas Festival",
       "tagline": "Three December days to gather at the fairgrounds.",
-      "description": "Many\u2019s Christmas Festival is advertised for December 11\u201313 at the Many Fairgrounds. The Town is inviting vendors and seeking entertainment suggestions as the holiday program takes shape.",
+      "description": "Many’s Christmas Festival is advertised for December 11–13 at the Many Fairgrounds. The Town is inviting vendors and seeking entertainment suggestions as the holiday program takes shape.",
       "location": "Many, Louisiana",
-      "address": "Many Fairgrounds \u00b7 Many, Louisiana",
+      "address": "Many Fairgrounds · Many, Louisiana",
       "theme": "christmas",
       "image_path": "/images/many-christmas-events-flyer.jpg",
       "video_path": "",
@@ -1537,7 +1588,7 @@
       "information": [
         {
           "title": "Plan your visit",
-          "body": "The festival is listed for December 11\u201313 at the Many Fairgrounds. Daily opening times, admission prices and individual activities are still to be announced."
+          "body": "The festival is listed for December 11–13 at the Many Fairgrounds. Daily opening times, admission prices and individual activities are still to be announced."
         },
         {
           "title": "Vendors wanted",

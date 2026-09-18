@@ -43,5 +43,5 @@ await fs.writeFile(
 );
 await fs.rename(temporary, target);
 console.log(
-  "Public directory snapshots refreshed. Update the displayed snapshot date before rebuilding."
+  "Saved directory fallbacks refreshed. Live pages also refresh from the public feeds."
 );

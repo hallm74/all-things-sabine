@@ -10,7 +10,9 @@ const production = process.env.SITE_MODE === "production";
 const origin = production
   ? "https://allthingssabine.com"
   : "https://demo.allthingssabine.com";
+const sources = JSON.parse(await fs.readFile(new URL("../src/lib/directory-sources.json", import.meta.url), "utf8"));
 const redirects = [
+  ...Object.entries(sources).map(([kind, source]) => `/api/directories/${kind} ${source.url} 200!`),
   ...(production
     ? [
         "https://www.allthingssabine.com/* https://allthingssabine.com/:splat 301!",
