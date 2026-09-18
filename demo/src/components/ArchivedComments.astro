@@ -1,0 +1,40 @@
+---
+import ArchivedComment, { type Comment } from "./ArchivedComment.astro";
+import { readableDate } from "../lib/content";
+interface Props { data: { comments: Comment[]; postUrl: string; archivedAt: string } }
+const { data } = Astro.props;
+const roots = data.comments.filter(comment => !comment.parentId);
+const visible = roots.slice(0, 8);
+const remaining = roots.slice(8);
+---
+<section class="archived-comments" id="comments" aria-labelledby="comments-heading">
+  <span class="eyebrow">The conversation, preserved</span>
+  <h2 id="comments-heading">Memories from the comments</h2>
+  <p class="comments-intro">The memories, questions, and conversations shared beneath this Facebook post.</p>
+  <div class="comments-context">
+    <strong>{data.comments.length} archived comments &amp; replies</strong>
+    <p>Saved {readableDate(data.archivedAt)}. Facebook did not provide most commenters’ names; those comments are labeled “Facebook commenter.” This is a saved conversation and may not include every comment.</p>
+    <a href={data.postUrl} target="_blank" rel="noopener noreferrer">Join the conversation on Facebook ↗</a>
+  </div>
+  <ol class="comment-list" aria-label="Archived Facebook comments">
+    {visible.map(comment => <ArchivedComment comment={comment} comments={data.comments} postUrl={data.postUrl} />)}
+  </ol>
+  {remaining.length > 0 && <details class="more-comments">
+    <summary>Read {remaining.length} more comments and their replies</summary>
+    <ol class="comment-list" aria-label="More archived Facebook comments">
+      {remaining.map(comment => <ArchivedComment comment={comment} comments={data.comments} postUrl={data.postUrl} />)}
+    </ol>
+  </details>}
+</section>
+<style>
+  .archived-comments { max-width: 770px; margin: 55px auto 65px; scroll-margin-top: 24px; }
+  h2 { font-size: clamp(32px, 5vw, 44px); margin: 12px 0; }
+  .comments-intro { color: var(--muted); font-size: 15px; line-height: 1.8; }
+  .comments-context { background: var(--sage); padding: 20px 24px; margin: 24px 0; font-size: 12px; line-height: 1.8; }
+  .comments-context strong { font-size: 13px; }
+  .comments-context p { margin: 8px 0 12px; }
+  .comments-context a { text-decoration: underline; text-underline-offset: 3px; }
+  .comment-list { padding: 0; margin: 0; }
+  summary { cursor: pointer; padding: 18px 20px; background: var(--sage); font-size: 13px; font-weight: 600; }
+  details[open] summary { margin-bottom: 22px; }
+</style>

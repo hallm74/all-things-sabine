@@ -1,6 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { archive, readableDate } from "../../lib/content";
+import ArchivedComments from "../../components/ArchivedComments.astro";
+import elvisComments from "../../data/comments/elvis-shreveport.json";
 export function getStaticPaths() {
   return archive.map(story => ({
     params: { slug: story.slug },
@@ -8,6 +10,7 @@ export function getStaticPaths() {
   }));
 }
 const { story } = Astro.props;
+const comments = story.slug === elvisComments.slug ? elvisComments : null;
 ---
 
 <Layout
@@ -29,6 +32,7 @@ const { story } = Astro.props;
           )
         }
       </div>
+      {comments && <a class="comments-jump" href="#comments">Read {comments.comments.length} archived comments &amp; replies ↓</a>}
     </header>{
       story.video && (
         <video
@@ -68,9 +72,14 @@ const { story } = Astro.props;
         class="article-body"
         set:html={story.html}
       />
-    </section><nav class="article-nav" aria-label="Archive navigation">
+    </section>
+    {comments && <ArchivedComments data={comments} />}
+    <nav class="article-nav" aria-label="Archive navigation">
       <a href="/time-capsule/">← Back to the Time Capsule</a><a href="/stories/"
         >Explore our stories →</a>
     </nav>
   </main></Layout
 >
+<style>
+  .comments-jump { display: inline-block; margin-top: 20px; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
+</style>

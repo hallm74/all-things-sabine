@@ -1,0 +1,49 @@
+---
+export type Comment = {
+  id: string;
+  message: string;
+  createdAt: string;
+  author: string | null;
+  parentId: string | null;
+  attachmentType?: string;
+};
+interface Props { comment: Comment; comments: Comment[]; postUrl: string; depth?: number }
+const { comment, comments, postUrl, depth = 0 } = Astro.props;
+const replies = comments.filter(item => item.parentId === comment.id);
+const date = new Intl.DateTimeFormat("en-US", {
+  month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit",
+  timeZone: "America/Chicago", timeZoneName: "short",
+}).format(new Date(comment.createdAt));
+const originalUrl = new URL(postUrl);
+originalUrl.searchParams.set("comment_id", comment.id.split("_").pop()!);
+---
+<li class="archived-comment" id={`comment-${comment.id}`}>
+  <article>
+    <header>
+      <strong class:list={{ "page-author": comment.author === "All Things Sabine" }}>{comment.author || "Facebook commenter"}</strong>
+      <a href={originalUrl.href} target="_blank" rel="noopener noreferrer" aria-label={`View comment on Facebook, ${date}`}><time datetime={comment.createdAt}>{date}</time> ↗</a>
+    </header>
+    {comment.message && <p>{comment.message}</p>}
+    {comment.attachmentType && <a class="comment-attachment" href={originalUrl.href} target="_blank" rel="noopener noreferrer">View {comment.attachmentType === "share" ? "shared link" : comment.attachmentType} on Facebook ↗</a>}
+  </article>
+  {replies.length > 0 && <ol class:list={["comment-replies", { "deep-replies": depth >= 1 }]} aria-label="Replies">
+    {replies.map(reply => <Astro.self comment={reply} comments={comments} postUrl={postUrl} depth={depth + 1} />)}
+  </ol>}
+</li>
+
+<style>
+  .archived-comment { list-style: none; padding-block: 23px; border-top: 1px solid var(--line); }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 16px; }
+  strong { font-size: 13px; }
+  .page-author { color: var(--rust); }
+  header a { color: var(--muted); font-size: 11px; }
+  p { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 15px; line-height: 1.8; margin: 10px 0 0; }
+  .comment-attachment { display: inline-block; font-size: 12px; text-decoration: underline; margin-top: 12px; }
+  .comment-replies { padding: 0 0 0 20px; margin: 20px 0 0 6px; border-left: 2px solid var(--line); }
+  .comment-replies > :last-child { padding-bottom: 0; }
+  .deep-replies { padding-left: 12px; margin-left: 0; }
+  @media (max-width: 600px) {
+    .comment-replies { padding-left: 12px; margin-left: 0; }
+    .deep-replies { padding-left: 8px; }
+  }
+</style>
