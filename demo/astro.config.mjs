@@ -19,7 +19,7 @@ export default defineConfig({
     ssr: { noExternal: ["@astrojs/react"] },
     server: {
       fs: { allow: [fileURLToPath(new URL("..", import.meta.url))] },
-      proxy: Object.fromEntries(Object.entries(sources).map(([kind, source]) => [`/api/directories/${kind}`, {target: new URL(source.url).origin, changeOrigin: true, rewrite: (requestPath) => new URL(source.url).pathname + (requestPath.includes("?") ? requestPath.slice(requestPath.indexOf("?")) : "")}]))
+      proxy: { "/api/calendar": {target: process.env.PUBLIC_API_ORIGIN || "https://hallm-menus-api.fly.dev", changeOrigin: true}, "/api/submissions": {target: process.env.PUBLIC_API_ORIGIN || "https://hallm-menus-api.fly.dev", changeOrigin: true}, "/api/directory-submissions/events": {target: process.env.PUBLIC_API_ORIGIN || "https://hallm-menus-api.fly.dev", changeOrigin: true}, ...Object.fromEntries(Object.entries(sources).map(([kind, source]) => [`/api/directories/${kind}`, {target: new URL(source.url).origin, changeOrigin: true, rewrite: (requestPath) => new URL(source.url).pathname + (requestPath.includes("?") ? requestPath.slice(requestPath.indexOf("?")) : "")}])) }
     },
   },
 });

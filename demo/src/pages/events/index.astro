@@ -1,0 +1,7 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCalendarSnapshot } from "../../lib/calendar-data";
+import { when, eventHref } from "../../lib/calendar";
+const { events } = await getCalendarSnapshot();
+---
+<Layout title="Community events"><main id="main-content" class="wrap collection"><section class="page-intro"><h1>Meet you there.</h1><p>Reviewed community events in Sabine Parish. <a href="/calendar/">See all dates</a> or <a href="/submit/events/">submit an event</a>.</p></section><div class="directory-grid">{events.map(event => <article class="community-card"><h2><a href={eventHref(event)}>{event.title}</a></h2><p>{when(event)}</p><p>{event.location}</p>{event.status === "cancelled" && <strong>Cancelled</strong>}</article>)}</div>{!events.length && <p>No community events have been published yet. Browse <a href="/calendar/">festival and food truck dates</a>.</p>}</main></Layout>

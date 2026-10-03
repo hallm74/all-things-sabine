@@ -1,0 +1,5 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CommunityCalendar from "../components/Calendar";
+---
+<Layout title="Community calendar" description="Community events, festivals, food trucks and pop-ups across Sabine Parish in one calendar."><main id="main-content" class="wrap collection"><section class="page-intro"><p class="eyebrow">Make a little plan</p><h1>All the good nearby.</h1><p>Community gatherings, festival days and food truck stops, together. All times use Central Time. Check with organizers before heading out.</p><a class="button" href="/submit/events/">Submit an event →</a></section><CommunityCalendar client:load /><noscript><p>Please enable JavaScript to browse and filter the live calendar. You can also <a href="/api/calendar/calendar.ics">download the calendar</a>, <a href="/events/">browse community events</a>, or <a href="https://festivals.allthingssabine.com/#calendar">view festival schedules</a>.</p></noscript></main></Layout>

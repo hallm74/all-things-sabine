@@ -1736,3 +1736,22 @@ select:focus-visible {
     min-width: 140px;
   }
 }
+
+/* Community calendar and prominent intake */
+.central-calendar { margin: 2rem 0 4rem; }
+.calendar-filters { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; padding: 1.5rem; border: 1px solid var(--line,#ddd); border-radius: 12px; }
+.calendar-filters label { display: grid; gap: .4rem; font-weight: 600; }
+.calendar-filters input,.calendar-filters select { width: 100%; padding: .7rem; min-height: 44px; color: #173f35; background: #fff; border: 1px solid #a9b6af; border-radius: 6px; font: inherit; }
+.calendar-filters .check { display:flex; align-items:center; }
+.calendar-filters .check input { width: 20px; min-height:20px; }
+.calendar-date-group { margin-top: 2rem; }
+.calendar-date-group .calendar-event { display: block; padding: 1.5rem; margin-bottom: 1rem; }
+.calendar-event h3 { font-size: 1.6rem; }
+.event-description { white-space: pre-wrap; }
+.directory-submit [hidden] { display: none !important; }
+.directory-submit.events { max-width: 850px; margin: 1rem auto 4rem; }
+@media (max-width: 700px) { .calendar-filters { grid-template-columns: 1fr; padding: 1rem; } .central-calendar .button { width: 100%; } }
+
+.community-card { border: 1px solid var(--line); padding: 22px; }
+.community-card h2 { font-size: 29px; }
+.community-card p { color: var(--muted); margin-top: 9px; }

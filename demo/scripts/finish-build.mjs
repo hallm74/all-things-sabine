@@ -12,6 +12,10 @@ const origin = production
   : "https://demo.allthingssabine.com";
 const sources = JSON.parse(await fs.readFile(new URL("../src/lib/directory-sources.json", import.meta.url), "utf8"));
 const redirects = [
+  "/api/calendar/* https://hallm-menus-api.fly.dev/api/calendar/:splat 200!",
+  "/api/submissions/code/ https://hallm-menus-api.fly.dev/api/submissions/code/ 200!",
+  "/api/submissions/verify/ https://hallm-menus-api.fly.dev/api/submissions/verify/ 200!",
+  "/api/directory-submissions/events/ https://hallm-menus-api.fly.dev/api/directory-submissions/events/ 200!",
   ...Object.entries(sources).map(([kind, source]) => `/api/directories/${kind} ${source.url} 200!`),
   ...(production
     ? [

@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(new URL('../../package.json',import.meta.url));const {build}=require('esbuild');
+const {JSDOM}=require('jsdom');
+const bundle=await build({stdin:{contents:`import Calendar from './src/components/Calendar';import {createRoot} from 'react-dom/client';export const mount=(el)=>{const root=createRoot(el);root.render(<Calendar/>);return ()=>root.unmount();};`,resolveDir:new URL('../',import.meta.url).pathname,sourcefile:'test-calendar.tsx',loader:'tsx'},bundle:true,write:false,platform:'browser',format:'iife',globalName:'CalendarTest',jsx:'automatic',define:{'process.env.NODE_ENV':'"production"'}});
+const dom=new JSDOM('<div id="app"></div>',{url:'http://127.0.0.1:4337/calendar/',runScripts:'outside-only'});
+const row=(id,fields={})=>({id,title:'Fixture concert',kind:'events',category:'Music',location:'Many',startsOn:'2026-10-08',endsOn:'2026-10-08',start:'2026-10-08T19:00:00-05:00',end:'2026-10-08T21:00:00-05:00',allDay:false,status:'scheduled',url:'https://allthingssabine.com/events/fixture/',description:'Fixture details',updatedAt:'2026-10-03T12:00:00Z',leadup:false,associations:[],...fields});
+const rows=[row('concert'),row('concert'),row('fiesta',{kind:'festivals',category:'Festival',title:'Fixture festival',leadup:true,allDay:true,start:null,end:null}),row('stop',{kind:'food',title:'Fixture truck',status:'cancelled',category:'Food truck'})];let fail=true;
+dom.window.fetch=async(url)=>{if(url.includes("profiles/"))return {ok:true,json:async()=>({profiles:[]})};if(fail){fail=false;throw new Error('isolated outage');}return {ok:true,json:async()=>({events:rows})};};
+dom.window.eval(bundle.outputFiles[0].text);const unmount=dom.window.CalendarTest.mount(dom.window.document.querySelector('#app'));const tick=()=>new Promise(done=>setTimeout(done,50));await tick();await tick();const doc=dom.window.document;
+assert.match(doc.querySelector('[role=status]').textContent,/unavailable/);[...doc.querySelectorAll('button')].find(n=>n.textContent==='Try again').click();await tick();await tick();
+assert.equal(doc.querySelectorAll('.calendar-event').length,3);assert.match(doc.querySelector('.calendar-event').textContent,/7:00 PM.*9:00 PM Central/);
+const type=doc.querySelector('select');Object.getOwnPropertyDescriptor(dom.window.HTMLSelectElement.prototype,'value').set.call(type,'food');type.dispatchEvent(new dom.window.Event('change',{bubbles:true}));await tick();
+assert.equal(doc.querySelectorAll('.calendar-event').length,1);assert.match(doc.querySelector('.calendar-event').textContent,/Cancelled/);
+[...doc.querySelectorAll('input[type=checkbox]')][1].click();await tick();assert.equal(doc.querySelectorAll('.calendar-event').length,0);assert.match(doc.querySelector('.central-calendar').textContent,/No events match/);
+assert.match(doc.querySelector('a[href*="calendar.ics"]').href,/kind=food/);assert.match(doc.querySelector('a[href*="calendar.ics"]').href,/cancelled=false/);
+[...doc.querySelectorAll('button')].find(n=>n.textContent==='Clear filters').click();await tick();assert.equal(doc.querySelectorAll('.calendar-event').length,3);
+unmount();dom.window.close();console.log('calendar: outage/retry, source merging, identity dedup, Central Time, filters, cancellations, empty state and filtered ICS link passed.');

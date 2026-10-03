@@ -93,3 +93,44 @@ Live verification: September 17, 2026. Netlify deploy `6aac05d1104bec4ce2baed27`
 reached `ready`; HTTPS is issued and enforced. All 12 checked public routes returned
 200 with the noindex header, and archive keyword search was verified on the live
 domain. The homepage was opened for review.
+
+## Community calendar and submissions
+
+The main navigation and footer now expose **Calendar** and **Submit**. `/submit/`
+offers Events, Businesses, Menus, Festivals and Organizations. The latter four
+retain their sister-site forms; `/submit/events/` uses the same directory-bound
+email-code verification and private review queue for general community events.
+No password, extra account, direct Supabase access or automatic publication is added.
+
+`/calendar/` reads the shared public calendar API on each visit, combines approved
+community events, festival days/activities and mobile restaurant stops, and supports
+dates, types, categories, search, organizer/venue links, lead-up days, cancellations
+and filtered ICS downloads. Association filters may be linked as
+`/calendar/?profile=listings:business-slug` (also `menus` and `community`).
+`/events/` and `/events/{slug}/` are static reviewed event pages. Details check the
+live public API for updates/unpublication. Repeating events use separate reviewed
+occurrences; additional requested dates remain in private review notes.
+
+Builds fetch the public event list from the existing Fly backend, or
+`PUBLIC_API_ORIGIN` for an isolated local API. A failed event snapshot stops the
+build and preserves the last successful deployment. Deploy the additive backend
+calendar API/migrations before building the main release. A new
+`NETLIFY_EVENTS_BUILD_HOOK` points to this existing main site; published event,
+source or relevant profile edits request a batched main rebuild after commit.
+No private intake fields are included in the snapshot or HTML.
+
+The event intake component under `src/lib/submissions/` is a release copy of the
+Menus repository's shared verified-email component. Keep these copies synchronized
+when changing the flow. It ships independently: production never imports a sibling
+checkout. The pinned jsdom dev dependency supports portable calendar tests:
+
+```sh
+npm --prefix demo run check
+npm --prefix demo test
+PUBLIC_API_ORIGIN=http://127.0.0.1:8007 npm --prefix demo run build:production
+```
+
+The local test build includes disposable preview fixtures and must not be deployed.
+Rebuild from the real public API after backend deployment approval. Production
+proxy routes are limited to the public calendar, existing code/verify endpoints,
+and the Events intake endpoint. No new production domain permission is granted.

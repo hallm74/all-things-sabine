@@ -1,0 +1,11 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import EventDetail from "../../components/EventDetail";
+import { getCalendarSnapshot } from "../../lib/calendar-data";
+export async function getStaticPaths() {
+  const { events } = await getCalendarSnapshot();
+  return events.map(event => ({params: {slug: event.slug}, props: {event}}));
+}
+const { event } = Astro.props;
+---
+<Layout title={event.title} description={event.description || "A reviewed community event in Sabine Parish."}><main id="main-content" class="wrap collection"><p><a href="/calendar/">← Community calendar</a></p><EventDetail initial={event} client:load /></main></Layout>

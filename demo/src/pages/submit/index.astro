@@ -1,0 +1,15 @@
+---
+import Layout from "../../layouts/Layout.astro";
+const choices = [
+  ["Events", "Meetings, fundraisers, classes, concerts and community gatherings.", "/submit/events/"],
+  ["Businesses", "Add a local business and its services, contact details and hours.", "https://listings.allthingssabine.com/submit/"],
+  ["Menus", "Send restaurant or food truck menu photos for review.", "https://menus.allthingssabine.com/submit/"],
+  ["Festivals", "Share a festival or community celebration and its dates.", "https://festivals.allthingssabine.com/submit/"],
+  ["Organizations", "Add a nonprofit, church, civic group or community service.", "https://community.allthingssabine.com/submit/"],
+];
+---
+<Layout title="Submit to All Things Sabine" description="Share your event, business, menu, festival or organization with Sabine Parish.">
+<main id="main-content" class="wrap collection"><section class="page-intro"><p class="eyebrow">From here, for here</p><h1>Help your neighbors find it.</h1><p>Choose what you’d like to share. Verify your email with a six-digit code—no password or new account. We check submissions before anything goes public.</p></section>
+<div class="directory-grid">{choices.map(([title, description, href]) => <article class="community-card"><h2><a href={href}>Submit {title.toLowerCase()} →</a></h2><p>{description}</p></article>)}</div>
+<p class="directory-note">Already listed? Use “Suggest a correction” on the existing profile. <a href="/calendar/">See the community calendar →</a></p></main>
+</Layout>

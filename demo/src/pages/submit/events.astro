@@ -1,0 +1,10 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { directorySubmitMarkup } from "../../lib/submissions/directory-submit";
+---
+<Layout title="Submit an event" description="Share a Sabine Parish community event using your email verification code."><main id="main-content" class="wrap"><p><a href="/submit/">← All submission options</a></p><div id="event-submit" set:html={directorySubmitMarkup("events")}></div><noscript><p>Please enable JavaScript to verify your email and submit an event.</p></noscript></main></Layout>
+<script>
+import { bindDirectorySubmit } from "../../lib/submissions/directory-submit";
+const form = document.querySelector<HTMLElement>("#event-submit");
+if (form) bindDirectorySubmit(form, "events", () => {});
+</script>

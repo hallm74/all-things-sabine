@@ -1,0 +1,30 @@
+.directory-submit { --submission-accent: #74324e; max-width: 1000px; margin: auto; padding: 2rem 1.25rem 5rem; color: #29241f; }
+.directory-submit.community { --submission-accent: #244e43; }
+.directory-submit.menus { --submission-accent: #ae3d16; }
+.submission-back { color: inherit; }
+.submission-intro { max-width: 760px; margin: 3rem 0 2rem; }
+.submission-intro h1 { font: 600 clamp(2.7rem,6vw,4.6rem)/1.06 "Fraunces",Georgia,serif; letter-spacing: -.035em; margin: 1rem 0; }
+.submission-intro p, .submission-card p { line-height: 1.65; }
+.submission-card { background: #fffdf7; border: 1px solid #d6cec0; border-radius: 22px; padding: clamp(1.25rem,4vw,3rem); }
+.submission-card h2 { font: 600 clamp(1.6rem,4vw,2.3rem)/1.2 "Fraunces",Georgia,serif; }
+.submission-steps { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; margin: 0 0 2rem; list-style: none; }
+.submission-steps li { padding: .5rem .9rem; border-radius: 999px; background: #e9e4db; font-weight: 600; }
+.submission-steps [aria-current] { background: var(--submission-accent); color: white; }
+.submission-card label { display: block; font-weight: 650; margin-bottom: 1.25rem; }
+.submission-card small { font-weight: 400; color: #665c52; }
+.submission-card input, .submission-card textarea, .submission-card select { display: block; box-sizing: border-box; width: 100%; margin-top: .5rem; padding: .95rem 1rem; border: 1px solid #b6ab9c; border-radius: 10px; background: white; color: #29241f; font: inherit; }
+.submission-card textarea { resize: vertical; }
+.submission-card :focus-visible, .submission-cta:focus-visible, .site-header .submit-link:focus-visible { outline: 3px solid #1679b9; outline-offset: 3px; }
+.submission-card button, .submission-cta, .site-header .submit-link { display: inline-flex; justify-content: center; padding: .9rem 1.2rem; border: 1px solid transparent; border-radius: 10px; background: var(--submission-accent,#244e43); color: white; font: inherit; font-weight: 700; cursor: pointer; text-decoration: none; }
+.submission-card button.secondary { background: transparent; border-color: #b6ab9c; color: #29241f; margin: .5rem 0 .5rem .5rem; }
+.submission-card button:disabled { opacity: .6; cursor: wait; }
+.submission-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.submission-fields .wide { grid-column: 1 / -1; }
+.submission-privacy { font-size: .9rem; color: #665c52; }
+.submission-message { padding: 1rem; margin-top: 1rem; border-radius: 10px; background: #e9efe7; overflow-wrap: anywhere; }
+.submission-message[data-error=true] { background: #fae3dc; color: #812c20; }
+.submission-card [hidden] { display: none !important; }
+.site-header .submission-nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: .8rem; }
+.site-header .submit-link { padding: .6rem .9rem; font-size: .9rem; }
+.coming .submission-cta, .growing .submission-cta { margin-top: 1rem; }
+@media(max-width:620px) { .submission-fields { grid-template-columns: 1fr; } .submission-card button { width: 100%; } .submission-card button.secondary { margin: .6rem 0 0; } .site-header { flex-wrap: wrap; gap: .8rem; } .site-header .submission-nav { gap: .6rem; } }
