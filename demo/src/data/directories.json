@@ -198,6 +198,28 @@
       "hours": [],
       "sourceNote": "Menu transcribed from the provided pop-up menu photo; schedule and venue verified against the official Facebook page, with the Many Depot street address checked separately on September 2, 2026.",
       "updatedAt": "2026-09-02T18:02:02.644145+00:00"
+    },
+    {
+      "name": "Louie’s Pizza",
+      "slug": "louies-pizza",
+      "tagline": "New York inspired, Southern served",
+      "description": "Signature pizzas, build-your-own pizzas, low-carb pizza bowls and extras. Prices shown include the cash-payment discount. Various items contain milk, eggs and wheat; ask a manager for more information.",
+      "location": "Serving Toledo Bend Lake, Sabine, Natchitoches and Vernon parishes and surrounding areas",
+      "phone": "318-581-7004",
+      "phoneUrl": "tel:+13185817004",
+      "imageUrl": "/menu-images/louies-pizza-signature.png",
+      "imageUrls": [
+        "/menu-images/louies-pizza-signature.png",
+        "/menu-images/louies-pizza-options.png"
+      ],
+      "facebookUrl": "",
+      "serviceStyle": "food_truck",
+      "serviceStyleLabel": "Food truck",
+      "scheduleNote": "Check the restaurant’s official website, louiespizzala.com, for its pizza trailer schedule.",
+      "schedule": [],
+      "hours": [],
+      "sourceNote": "Transcribed from two menu pages supplied by Marion; both original pages preserved. Phone and service area checked against louiespizzala.com on October 5, 2026. Prices reflect the printed cash-payment discount.",
+      "updatedAt": "2026-10-05T02:11:19.788599+00:00"
     }
   ],
   "listings": [
