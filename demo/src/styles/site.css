@@ -1758,8 +1758,9 @@ select:focus-visible {
 
 .news-section { padding-block: 28px 48px; }
 .latest-news-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 24px; }
-.latest-news-story { display: grid; grid-template-columns: minmax(120px, 200px) minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--line); padding-top: 24px; }
+.latest-news-story { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--line); padding-top: 24px; }
+.latest-news-story.has-image { grid-template-columns: minmax(120px, 200px) minmax(0, 1fr); }
 .latest-news-image img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
 .latest-news-story h3 { font-size: clamp(23px, 3vw, 32px); margin-block: 8px; }
 .latest-news-story p:not(.eyebrow) { max-width: 75ch; margin-bottom: 14px; }
-@media (max-width: 600px) { .latest-news-story { grid-template-columns: 1fr; gap: 14px; } .latest-news-image { max-width: 320px; } }
+@media (max-width: 600px) { .latest-news-story, .latest-news-story.has-image { grid-template-columns: minmax(0, 1fr); gap: 14px; } .latest-news-image { max-width: 320px; } }
