@@ -14,7 +14,7 @@ const index = stories.findIndex(s => s.slug === story.slug);
 const next = stories[(index + 1) % stories.length];
 ---
 
-<Layout title={story.title} description={story.description} image={story.image}
+<Layout title={story.title} description={story.description} image={story.image} activeSection={isNews ? "/news/" : "/stories/"}
   ><main id="main-content" class="wrap">
     <div class="breadcrumb">
       <a href="/">Home</a> / <a href={isNews ? "/news/" : "/stories/"}>{isNews ? "News" : "Stories"}</a>

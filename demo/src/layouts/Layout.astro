@@ -10,7 +10,9 @@ const {
   title = "Sabine, then & now",
   description = "The stories, places, people, and traditions of Sabine Parish, Louisiana. Explore local history, menus, businesses, community resources, and festivals.",
   image = "/images/stories/YUN00001-1024x576.webp",
+  activeSection,
 } = Astro.props;
+const navigationPath = activeSection ?? Astro.url.pathname;
 const links = [
   ["News", "/news/"],
   ["Calendar", "/calendar/"],
@@ -103,9 +105,9 @@ const links = [
             links.map(([label, href]) => (
               <a
                 href={href}
-                class:list={{ active: Astro.url.pathname.startsWith(href) }}
+                class:list={{ active: navigationPath.startsWith(href) }}
                 aria-current={
-                  Astro.url.pathname.startsWith(href) ? "page" : undefined
+                  navigationPath.startsWith(href) ? "page" : undefined
                 }
               >
                 {label}
