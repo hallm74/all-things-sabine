@@ -11,7 +11,7 @@ description: "Sabine Medical Center is not among the facilities identified in Al
 
 ![Entrance to Sabine Medical Center, with the hospital name above the covered doorway.](@assets/images/sabine-medical-center-news.png)
 
-Sabine Medical Center’s owner, Allegiance Health Management (AHM), announced plans Monday, October 5, to sell four Louisiana hospitals. Sabine Medical Center is not among the facilities identified in the announcement.
+Sabine Medical Center’s owner, Allegiance Health Management (AHM), issued a press release locally today, shared on social media for SMC and its Express Clinics, explaining its intent to sell four Louisiana hospitals.  Sabine Medical Center is not among the facilities identified in the announcement.
 
 The planned sales include:
 
