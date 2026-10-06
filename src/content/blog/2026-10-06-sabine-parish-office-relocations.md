@@ -2,12 +2,15 @@
 author: ""
 pubDatetime: 2026-10-06T20:37:00Z
 title: "Sabine Parish offices to relocate as Police Jury reorganizes courthouse space"
+ogImage: "../../assets/images/sabine-parish-courthouse-relocation.png"
 featured: false
 draft: false
 tags: ["news"]
 description: "The Registrar of Voters, Veterans Affairs, E-911 and other parish offices are slated to move as the Police Jury reorganizes courthouse and nearby building space. No exact relocation date is stated."
 sourceURL: "https://www.facebook.com/allthingssabine/posts/pfbid0HMMbmKku1jf1q3G6Rrc4JLJiNfM3uEmxEdcsGi86YsH5jw8kW6fa78nsdsErzoAnl"
 ---
+
+![Sabine Parish Court House exterior, with a red circle marking a section to the left of the entrance.](@assets/images/sabine-parish-courthouse-relocation.png)
 
 Some parish agency offices will soon have new locations
 
@@ -34,3 +37,8 @@ Other changes include:
 — The Police Jury will establish a Human Resources office in the “hallway office” area of the Courthouse.
 
 The Police Jury approved these relocation recommendations at its August meeting.
+
+<div class="story-photo-gallery">
+  <img src="@assets/images/sabine-office-relocation-building.png" alt="Brick building beside a sidewalk, with a low roof and overhead utility lines." width="1600" height="1200" loading="lazy" decoding="async" />
+  <img src="@assets/images/sabine-office-relocation-entrance.png" alt="Entrance to a brick building with the number 505 beside the door and chairs along the wall." width="1600" height="1200" loading="lazy" decoding="async" />
+</div>

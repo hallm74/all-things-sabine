@@ -102,7 +102,7 @@ for (const file of (
   if (data.draft || new Date(data.pubDatetime) > new Date()) continue;
   let body = content;
   const references = [
-    ...new Set(body.match(/@assets\/images\/[^)\s]+/g) || []),
+    ...new Set(body.match(/@assets\/images\/[^)\s"'<>]+/g) || []),
   ];
   for (const ref of references)
     body = body.replaceAll(ref, await imageFor(ref));
