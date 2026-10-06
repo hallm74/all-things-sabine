@@ -128,7 +128,7 @@ for (const file of (
     image,
     href: `/stories/${slug}/`,
     html: String(await processor.process(body)),
-    author: data.author || "Shannon Hall",
+    author: data.author ?? "Shannon Hall",
   });
 }
 stories.sort((a, b) => b.date.localeCompare(a.date));
