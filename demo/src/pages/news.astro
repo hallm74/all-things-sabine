@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LatestNews from "../components/LatestNews.astro";
+---
+<Layout title="News" description="The five most recent published stories from All Things Sabine, with their original publication dates.">
+  <main id="main-content" class="wrap collection">
+    <section class="page-intro"><p class="eyebrow">All Things Sabine</p><h1>News &amp; latest stories.</h1><p>The five most recent published stories, newest first. Historical stories retain their original publication dates.</p></section>
+    <LatestNews />
+    <p class="directory-note"><a href="/stories/">Browse all published stories →</a></p>
+  </main>
+</Layout>

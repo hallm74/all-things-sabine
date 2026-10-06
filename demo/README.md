@@ -134,3 +134,9 @@ The local test build includes disposable preview fixtures and must not be deploy
 Rebuild from the real public API after backend deployment approval. Production
 proxy routes are limited to the public calendar, existing code/verify endpoints,
 and the Events intake endpoint. No new production domain permission is granted.
+
+News is at `/news/`, with the same latest-five list on the homepage. It uses the
+existing published Markdown story collection, ordered by publication date, and
+keeps original dates visible for historical entries. Drafts and future entries
+remain excluded. Add approved articles through `src/content/blog`; the next
+normal production build updates both lists. No external news feed is republished.

@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { stories, readableDate } from "../../lib/content";
+import { stories } from "../../lib/content";
+import { newsDate as readableDate } from "../../lib/news";
 export function getStaticPaths() {
   return stories.map(story => ({
     params: { slug: story.slug },

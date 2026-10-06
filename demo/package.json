@@ -9,6 +9,6 @@
     "build:production": "SITE_MODE=production astro build && SITE_MODE=production node scripts/finish-build.mjs",
     "check": "astro check",
     "preview": "astro preview --host 127.0.0.1 --port 4337",
-    "test": "node scripts/test-calendar.mjs"
+    "test": "node scripts/test-calendar.mjs && node --experimental-strip-types scripts/test-news.mjs"
   }
 }
