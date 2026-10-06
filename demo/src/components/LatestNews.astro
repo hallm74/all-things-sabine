@@ -1,12 +1,12 @@
 ---
 import { stories } from "../lib/content";
-import { latestPublished, newsDate } from "../lib/news";
-const latest = latestPublished(stories);
+import { latestNews, newsDate } from "../lib/news";
+const latest = latestNews(stories);
 ---
-<ol class="latest-news-list" aria-label="Five most recent published stories">
+<ol class="latest-news-list" aria-label="Latest news articles">
   {latest.map(story => <li><article class="latest-news-story">
     {story.image && <a href={story.href} class="latest-news-image" tabindex="-1" aria-hidden="true"><img src={story.image} alt="" loading="lazy" width="480" height="320" /></a>}
     <div><p class="eyebrow"><time datetime={story.date}>{newsDate(story.date)}</time></p><h3><a href={story.href}>{story.title}</a></h3><p>{story.description}</p><a class="text-link" href={story.href}>Read the story →</a></div>
   </article></li>)}
 </ol>
-{!latest.length && <p>No stories have been published yet.</p>}
+{!latest.length && <p>No news articles have been published yet.</p>}

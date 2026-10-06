@@ -1,3 +1,7 @@
+export const isNews = (item: {tags: string[]}) => item.tags.some(tag => tag.toLowerCase() === "news");
+export function latestNews<T extends {date: string; href: string; draft?: boolean; tags: string[]}>(items: T[], now = Date.now()): T[] {
+  return latestPublished(items.filter(isNews), now);
+}
 export function latestPublished<T extends {date: string; href: string; draft?: boolean}>(items: T[], now = Date.now()): T[] {
   return items.filter(item => !item.draft && Number.isFinite(Date.parse(item.date)) && Date.parse(item.date) <= now)
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date) || a.href.localeCompare(b.href))

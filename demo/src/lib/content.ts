@@ -1,5 +1,7 @@
+import { isNews } from "./news";
 import content from "../data/content.json";
 export const stories = content.stories;
+export const historicalStories = stories.filter(story => !isNews(story));
 export const archive = content.archive as unknown as ArchiveItem[];
 export const readableDate = (date: string) =>
   new Intl.DateTimeFormat("en-US", {

@@ -10,8 +10,9 @@ export function getStaticPaths() {
 }
 const { story } = Astro.props;
 const isNews = story.tags.some(tag => tag.toLowerCase() === "news");
-const index = stories.findIndex(s => s.slug === story.slug);
-const next = stories[(index + 1) % stories.length];
+const related = stories.filter(s => s.tags.some(tag => tag.toLowerCase() === "news") === isNews);
+const index = related.findIndex(s => s.slug === story.slug);
+const next = related.length > 1 ? related[(index + 1) % related.length] : undefined;
 ---
 
 <Layout title={story.title} description={story.description} image={story.image} activeSection={isNews ? "/news/" : "/stories/"}
@@ -34,8 +35,7 @@ const next = stories[(index + 1) % stories.length];
       class="article-nav"
       aria-label="More stories"
     >
-      <a href={isNews ? "/news/" : "/stories/"}>{isNews ? "← Back to News" : "← Back to all stories"}</a><a href={next.href}
-        >Another story →</a>
+      <a href={isNews ? "/news/" : "/stories/"}>{isNews ? "← Back to News" : "← Back to all stories"}</a>{next && <a href={next.href}>{isNews ? "Another news article →" : "Another story →"}</a>}
     </nav>
   </main></Layout
 >

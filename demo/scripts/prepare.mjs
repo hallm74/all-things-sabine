@@ -165,7 +165,7 @@ await fs.writeFile(
   JSON.stringify({ stories, archive })
 );
 for (const [name, items] of [
-  ["stories", stories],
+  ["stories", stories.filter(story => !story.tags.some(tag => tag.toLowerCase() === "news"))],
   ["archive", archive],
 ]) {
   await fs.writeFile(

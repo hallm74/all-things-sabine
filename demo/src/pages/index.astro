@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Icon from "../components/Icon.astro";
 import StoryCard from "../components/StoryCard.astro";
 import LatestNews from "../components/LatestNews.astro";
-import { stories, archive, storyBy } from "../lib/content";
+import { historicalStories as stories, archive, storyBy } from "../lib/content";
 import { directoryItems } from "../lib/directories";
 import { DirectoryCount, UpcomingFestivals } from "../components/LiveDirectoryHighlights";
 const lead = storyBy("miller-store");
@@ -62,7 +62,7 @@ const explore = [
         </span><span>Discover Sabine, then and now.</span>
       </p>
     </section>
-    <section class="wrap news-section" aria-labelledby="latest-news-heading"><div class="section-heading"><div><p class="eyebrow">Latest published</p><h2 id="latest-news-heading">News &amp; latest stories.</h2></div><a class="text-link" href="/news/">See News →</a></div><LatestNews /></section>
+    <section class="wrap news-section" aria-labelledby="latest-news-heading"><div class="section-heading"><div><p class="eyebrow">Latest news</p><h2 id="latest-news-heading">News.</h2></div><a class="text-link" href="/news/">See News →</a></div><LatestNews /></section>
     <section class="hero-grid wrap" aria-label="Featured stories">
       <a class="lead-story" href={lead.href}
         ><img
