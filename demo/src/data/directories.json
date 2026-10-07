@@ -158,48 +158,6 @@
       "updatedAt": "2026-08-30T00:26:49.958643+00:00"
     },
     {
-      "name": "Chick-fil-A Many Pop-Up",
-      "slug": "chick-fil-a-many-popup",
-      "tagline": "Chick-fil-A favorites in Many",
-      "description": "A monthly Chick-fil-A pop-up with sandwiches, nuggets, treats, drinks, and chips.",
-      "location": "Many, LA",
-      "phone": "",
-      "phoneUrl": "",
-      "imageUrl": "/menu-images/chick-fil-a-many-popup-menu.webp",
-      "imageUrls": [
-        "/menu-images/chick-fil-a-many-popup-menu.webp"
-      ],
-      "facebookUrl": "https://www.facebook.com/cfamanywinnfieldla",
-      "serviceStyle": "popup",
-      "serviceStyleLabel": "Pop-up",
-      "scheduleNote": "First Wednesday of each month at 11:30 AM. Dates are subject to change.",
-      "schedule": [
-        {
-          "id": 2,
-          "startsAt": "2026-10-07T16:30:00+00:00",
-          "endsAt": null,
-          "locationName": "Many Depot",
-          "location": "750 W Georgia Ave, Many, LA 71449",
-          "note": "Across from BOM Bank.",
-          "status": "scheduled",
-          "sourceUrl": "https://www.facebook.com/cfamanywinnfieldla"
-        },
-        {
-          "id": 3,
-          "startsAt": "2026-11-04T17:30:00+00:00",
-          "endsAt": null,
-          "locationName": "Many Depot",
-          "location": "750 W Georgia Ave, Many, LA 71449",
-          "note": "Across from BOM Bank.",
-          "status": "scheduled",
-          "sourceUrl": "https://www.facebook.com/cfamanywinnfieldla"
-        }
-      ],
-      "hours": [],
-      "sourceNote": "Menu transcribed from the provided pop-up menu photo; schedule and venue verified against the official Facebook page, with the Many Depot street address checked separately on September 2, 2026.",
-      "updatedAt": "2026-09-02T18:02:02.644145+00:00"
-    },
-    {
       "name": "Louie’s Pizza",
       "slug": "louies-pizza",
       "tagline": "New York inspired, Southern served",
